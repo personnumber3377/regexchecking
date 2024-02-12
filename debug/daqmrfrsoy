@@ -1,0 +1,4 @@
+AAAAAAAAAA\nA:#{Gem::Requirement::PATTERN_RAW}z
+
+
+/\A(.*):(#{Gem::Requirement::PATTERN_RAW})\z/

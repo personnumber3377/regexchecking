@@ -1,0 +1,6 @@
+/\A_(.*)_\z/
+
+
+
+/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/  this is actually 5th order polynomial!!!! it is in lib/rake/application.rb
+

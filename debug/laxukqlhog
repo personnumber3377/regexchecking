@@ -1,0 +1,4 @@
+#define 2(#define i()\trb_w32_i(#define i()\trb_w32_i(#define i()\trb_w32_i(#define i()\trb_w32_i(#define i()\trb_w32_i(#define i()\trb_w32_i(#define i()\trb_w32_i(#define i()\trb_w32_i(#define i()\trb_w32_i(#define i()\trb_w32_i(#define d()\nrb_w32_f()
+
+
+/^#define (\w+)\((.*?)\)\s+(?:\(void\))?(rb_w32_\w+)\((.*?)\)\s*$/

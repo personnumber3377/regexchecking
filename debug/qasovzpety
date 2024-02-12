@@ -1,0 +1,4 @@
+oo"=>"bar"{oo"=>"bar"{oo"=>"bar"{oo"=>"bar"{oo"=>"bar"{oo"=>"bar"{oo"=>"bar"{oo"=>"bar"{oo"=>"bar"{oo"=>"bar"{oo"=>"bar"}"foo"=>"bar""foo"=>"bar""foo"=>"bar""foo"=>"bar""foo"=>"bar""foo"=>"bar""foo"=>"bar""foo"=>"bar""foo"=>"bar""foo"=>"bar"
+
+
+/\{.*"foo"=>"bar".*\}/
