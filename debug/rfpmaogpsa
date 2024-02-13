@@ -1,0 +1,13 @@
+aaaaaaaaaa\x00
+
+
+/^a*b?a*$/
+
+
+Here is the order: 2nd
+
+
+'a'.repeat(54773) + '\x00'
+
+
+/home/cyberhacker/Asioita/Hakkerointi/Rubydatetime/ruby/.bundle/gems/rbs-3.4.4/core/regexp.rbs

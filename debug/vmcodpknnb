@@ -1,0 +1,13 @@
+ccurredError ccurredError ccurredError ccurredError ccurredError ccurredError ccurredError ccurredError ccurredError ccurredError ccurred
+
+
+/Error .*occurred/
+
+
+Here is the order: 2nd
+
+
+'ccurredError '.repeat(15192) + 'ccurred'
+
+
+/home/cyberhacker/Asioita/Hakkerointi/Rubydatetime/ruby/spec/ruby/core/exception/system_call_error_spec.rb

@@ -1,0 +1,13 @@
+\t\t\t\t\t\t\t\t\t\t\x00Z
+
+
+/\s*\Z/
+
+
+Here is the order: 2nd
+
+
+'\t'.repeat(54773) + '\x00Z'
+
+
+/home/cyberhacker/Asioita/Hakkerointi/Rubydatetime/ruby/lib/rubygems/version.rb

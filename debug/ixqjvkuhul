@@ -1,0 +1,13 @@
+e[e[e[e[e[e[e[e[e[e[\ne[m
+
+
+/\e\[.*m/
+
+
+Here is the order: 2nd
+
+
+'e['.repeat(38730) + '\ne[m'
+
+
+/home/cyberhacker/Asioita/Hakkerointi/Rubydatetime/ruby/tool/lib/colorize.rb

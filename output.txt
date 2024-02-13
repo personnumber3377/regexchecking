@@ -1,23 +1,23 @@
-[2024-02-13T01:20:38.435868] parse: start
-[2024-02-13T01:20:38.440924] parse: finish
-  pattern: /A\s*[a-z]*z/
-[2024-02-13T01:20:38.441434] automaton: EpsNFA construction
-     state size: 24
-  alphabet size: 5
-[2024-02-13T01:20:38.441701] automaton: OrderedNFA construction
+[2024-02-13T02:25:16.882409] parse: start
+[2024-02-13T02:25:16.886981] parse: finish
+  pattern: /\s*[a-z]*/
+[2024-02-13T02:25:16.887250] automaton: EpsNFA construction
+     state size: 20
+  alphabet size: 3
+[2024-02-13T02:25:16.887485] automaton: OrderedNFA construction
      state size: 4
-  alphabet size: 5
-[2024-02-13T01:20:38.441879] automaton: DFA construction
-     state size: 6
-  alphabet size: 5
-[2024-02-13T01:20:38.442909] automaton: NFAwLA construction
-     state size: 24
-  alphabet size: 30
-[2024-02-13T01:20:38.444309] automaton: start
-  scc size: 16
-[2024-02-13T01:20:38.444325] automaton: find EDA
-[2024-02-13T01:20:38.444765] automaton: find IDA
-Input     : /\A\s*[a-z]*\z/
+  alphabet size: 3
+[2024-02-13T02:25:16.887583] automaton: DFA construction
+     state size: 1
+  alphabet size: 3
+[2024-02-13T02:25:16.887735] automaton: NFAwLA construction
+     state size: 4
+  alphabet size: 3
+[2024-02-13T02:25:16.887922] automaton: start
+  scc size: 4
+[2024-02-13T02:25:16.887934] automaton: find EDA
+[2024-02-13T02:25:16.888006] automaton: find IDA
+Input     : /\s*[a-z]*/
 Status    : safe
 Complexity: linear
 Checker   : automaton

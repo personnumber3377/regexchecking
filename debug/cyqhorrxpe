@@ -1,0 +1,13 @@
+\t$\t\t$\t\t$\t\t$\t\t$\t\t$\t\t$\t\t$\t\t$\t\t$\t#
+
+
+/(?!\s*\w+\s*=)[$\w][^#]*:/
+
+
+Here is the order: 2nd
+
+
+'\t$\t'.repeat(31623) + '#'
+
+
+/home/cyberhacker/Asioita/Hakkerointi/Rubydatetime/ruby/lib/mkmf.rb

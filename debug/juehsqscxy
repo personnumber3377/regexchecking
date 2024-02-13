@@ -1,0 +1,13 @@
+oo"=>"bar"{oo"=>"bar"{oo"=>"bar"{oo"=>"bar"{oo"=>"bar"{oo"=>"bar"{oo"=>"bar"{oo"=>"bar"{oo"=>"bar"{oo"=>"bar"{oo"=>"bar"}"foo"=>"bar""foo"=>"bar""foo"=>"bar""foo"=>"bar""foo"=>"bar""foo"=>"bar""foo"=>"bar""foo"=>"bar""foo"=>"bar""foo"=>"bar"
+
+
+/\{.*"foo"=>"bar".*\}/
+
+
+Here is the order: 3rd
+
+
+'oo"=>"bar"{'.repeat(732) + 'oo"=>"bar"}' + '"foo"=>"bar"'.repeat(732)
+
+
+/home/cyberhacker/Asioita/Hakkerointi/Rubydatetime/ruby/spec/ruby/core/env/inspect_spec.rb

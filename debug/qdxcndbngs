@@ -1,4 +1,0 @@
-AA\x00AA\x00AA\x00AA\x00AA\x00AA\x00AA\x00AA\x00AA\x00AA\x00#
-
-
-/\A(?!\s*\w+\s*=)[$\w][^#]*:/

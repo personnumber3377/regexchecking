@@ -1,0 +1,13 @@
+00000000000000Z0:0:0Z
+
+
+/(\d+)-(\d+)-(\d+)\D(\d+):(\d+):(\d+(?:\.\d+)?)\s*(?:Z|([-+]\d\d)(\d\d))/
+
+
+Here is the order: 2nd
+
+
+'0'.repeat(54773) + '0000Z0:0:0Z'
+
+
+/home/cyberhacker/Asioita/Hakkerointi/Rubydatetime/ruby/tool/lib/vcs.rb

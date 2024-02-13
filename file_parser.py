@@ -16,6 +16,7 @@ def debug(string: str) -> None:
 
 
 def find_regex_in_line(line: str): # Returns false if no regex. Returns the regex string if found.
+	debug("Line: "+str(line))
 	if line.count("/") == 2 and "=~" in line:
 		first_slash_ind = line.index("/")
 		rest_of_string = line[first_slash_ind+1:]
@@ -112,7 +113,7 @@ def rand_str(length: int) -> str:
 	alphabet = "abcdefghijklmnopqrstuvxyz"
 	return ''.join([random.choice(alphabet) for _ in range(length)])
 
-def parse_payload(contents, regex_str) -> str:
+def parse_payload(contents, regex_str, debug=False, final_order=None, attack_string=None, filename=None) -> str:
 	if "Attack string: " not in contents:
 		return
 	attack_str = contents[contents.index("Attack string: ")+len("Attack string: "):]
@@ -122,12 +123,20 @@ def parse_payload(contents, regex_str) -> str:
 	if "' '" in attack_str:
 		return
 	payload = exec_str(attack_str)
-	debug_thing = exec_str_debug(attack_str)
-	fh = open("debug/"+str(rand_str(10)), "w")
-	fh.write(debug_thing)
-	fh.write("\n\n\n")
-	fh.write(regex_str)
-	fh.close()
+	if debug:
+
+		debug_thing = exec_str_debug(attack_str)
+		fh = open("debug/"+str(rand_str(10)), "w")
+		fh.write(debug_thing)
+		fh.write("\n\n\n")
+		fh.write(regex_str)
+		fh.write("\n\n\n")
+		fh.write("Here is the order: "+str(final_order))
+		fh.write("\n\n\n")
+		fh.write(attack_str)
+		fh.write("\n\n\n")
+		fh.write(filename)
+		fh.close()
 	# write the string to the file and then pass the regex to this ruby script.
 	fh = open("attack_str.txt", "w")
 	fh.write(payload)
@@ -135,7 +144,7 @@ def parse_payload(contents, regex_str) -> str:
 
 
 
-ORDERS = ["2nd", "3rd", "4th", "5th"]
+ORDERS = ["2nd", "3rd", "4th", "5th", "6th", "7th", "8th"]
 
 def classify_regex(regex_str: str, filename: str) -> None:
 
@@ -152,19 +161,30 @@ def classify_regex(regex_str: str, filename: str) -> None:
 	fh.close()
 	if "safe" in contents:
 		return
+	final_order = None
+	debug_mode = False
 	for order in ORDERS:
 		if order in contents:
 			print(str(order)+" found at here: "+str(regex_str)+" at filename "+str(filename))
+			if order == "2nd" or order == "3rd" or order == "4th" or order == "5th" or order == "6th" or order == "7th" or order == "8th":
+				final_order = order
+				debug_mode = True
 			break
 	#if "4th" in contents:
 	#	print("4th!!!! "+str(filename))
 	print(contents)
 
+
+	string = None
+	#if debug_mode:
+	#	string = contents[contents.index("Attack ")]
+	#	string = string[string.index("\n")]
+
 	# Here get the attack payload.
-	attack_payload = parse_payload(contents, regex_str)
+	attack_payload = parse_payload(contents, regex_str, debug=debug_mode, final_order=final_order, attack_string=string, filename=filename)
 	# Write the actual regex to regex.txt
 	fh = open("regex.txt", "w")
-	fh.write(regex_str)
+	fh.write(regex_str[1:-1]) # 1 and -1 , because we do not need the "/" characters.
 	fh.close()
 
 	redos_command = "ruby shit.rb"
@@ -175,6 +195,19 @@ def classify_regex(regex_str: str, filename: str) -> None:
 	os.system(redos_command)
 
 	return
+
+def sanitize_regex(regex: str) -> str:
+	new_regex = regex
+	if new_regex[1:3] == "\\A":
+		print("poopoo")
+		new_regex = "/"+new_regex[3:]
+	if new_regex[-3:] == "\\z/":
+		new_regex = new_regex[:-3]+"/"
+	print("new_regex == "+str(new_regex))
+	assert new_regex.count("/") == 2
+	assert "\\A" != new_regex[1:3]
+	assert "\\z/" != new_regex[-3:]
+	return new_regex
 
 def get_regexes(filename: str) -> list:
 	# Get's every single regex pattern from a singular file.
@@ -192,11 +225,12 @@ def get_regexes(filename: str) -> list:
 	for line in lines:
 		# Check for two "/" characters.
 		maybe_regex = find_regex_in_line(line)
-
+		debug("Maybe regex: "+str(maybe_regex))
 		if maybe_regex:
 			assert maybe_regex.count("/") == 2
 			debug("Here is a regex which we found: "+str(maybe_regex))
 			# Here maybe check for a bad regex????
+			maybe_regex = sanitize_regex(maybe_regex) # This is to get rid of the "\A" marker for example which recheck thinks is actually an "A" character. same with "\z"
 			classify_regex(maybe_regex, filename)
 
 
@@ -223,7 +257,9 @@ def main() -> int:
 	for subdir, dirs, files in os.walk(rootdir):
 		for file in files:
 			#print(os.path.join(subdir, file))
+
 			filename = os.path.join(subdir, file)
+			debug("Filename : "+str(filename))
 			if any([string in filename for string in BLACKLIST_STRINGS]):
 				#debug("Blacklisted filename: "+str(filename))
 				continue

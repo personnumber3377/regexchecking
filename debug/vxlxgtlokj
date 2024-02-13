@@ -1,0 +1,13 @@
+drb0drb0drb0drb0drb0drb0drb0drb0drb0drb0\x00drbd:
+
+
+/drb([a-z0-9]+):/
+
+
+Here is the order: 2nd
+
+
+'drb0'.repeat(27387) + '\x00drbd:'
+
+
+/home/cyberhacker/Asioita/Hakkerointi/Rubydatetime/ruby/install/lib/ruby/3.3.0+0/drb/drb.rb

@@ -1,0 +1,13 @@
+\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00:00000000000\n:0
+
+
+/(.*?):(\d+).*?$/
+
+
+Here is the order: 3rd
+
+
+'\x00'.repeat(1651) + ':0' + '0'.repeat(1651) + '\n:0'
+
+
+/home/cyberhacker/Asioita/Hakkerointi/Rubydatetime/ruby/lib/rubygems.rb

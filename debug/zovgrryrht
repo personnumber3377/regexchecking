@@ -1,0 +1,13 @@
+specsspecsspecsspecsspecsspecsspecsspecsspecsspecs\n
+
+
+/specs.*\.tt$/
+
+
+Here is the order: 2nd
+
+
+'specs'.repeat(24495) + '\n'
+
+
+/home/cyberhacker/Asioita/Hakkerointi/Rubydatetime/ruby/spec/ruby/library/tempfile/open_spec.rb

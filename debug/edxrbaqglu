@@ -1,0 +1,13 @@
++++++++++++
+
+
+/^([<U0-9a-fA-F>+]+)\s*([\+0-9a-fA-Fx\\]+)\s*\|(\d)/
+
+
+Here is the order: 2nd
+
+
+'+' + '+'.repeat(54773)
+
+
+/home/cyberhacker/Asioita/Hakkerointi/Rubydatetime/ruby/tool/transcode-tblgen.rb

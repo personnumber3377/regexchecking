@@ -1,0 +1,13 @@
+\t\t\t\t\t\t\t\t\t\t\x00z
+
+
+/\s*(\#|\z)/
+
+
+Here is the order: 2nd
+
+
+'\t'.repeat(54773) + '\x00z'
+
+
+/home/cyberhacker/Asioita/Hakkerointi/Rubydatetime/ruby/ext/etc/mkconstants.rb

@@ -1,0 +1,13 @@
+\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\n\x00!
+
+
+/(.+)[\!\?]/
+
+
+Here is the order: 2nd
+
+
+'\x00'.repeat(54773) + '\n\x00!'
+
+
+/home/cyberhacker/Asioita/Hakkerointi/Rubydatetime/ruby/tool/mk_builtin_loader.rb

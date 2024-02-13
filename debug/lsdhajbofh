@@ -1,0 +1,13 @@
+uar\x00undefined methodar\x00undefined methodar\x00undefined methodar\x00undefined methodar\x00undefined methodar\x00undefined methodar\x00undefined methodar\x00undefined methodar\x00undefined methodar\x00undefined methodar
+
+
+/undefined method.+\bbar\b/
+
+
+Here is the order: 2nd
+
+
+'u' + 'ar\x00undefined method'.repeat(12566) + 'ar'
+
+
+/home/cyberhacker/Asioita/Hakkerointi/Rubydatetime/ruby/spec/ruby/core/exception/no_method_error_spec.rb

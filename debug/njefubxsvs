@@ -1,0 +1,13 @@
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n,\t\t\t\t\t\t\t\t\t\t\x00\n
+
+
+/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/
+
+
+Here is the order: 5th
+
+
+'\t'.repeat(136) + '\t'.repeat(136) + '\t'.repeat(136) + '\n,' + '\t'.repeat(136) + '\x00\n'
+
+
+/home/cyberhacker/Asioita/Hakkerointi/Rubydatetime/ruby/.bundle/gems/rake-13.1.0/lib/rake/application.rb

@@ -1,0 +1,13 @@
+\t\t\t\t\t\t\t\t\t\t2#{HEX2}
+
+
+/\s*(#{HEX2}+)\s*/
+
+
+Here is the order: 2nd
+
+
+'\t'.repeat(54773) + '2#{HEX2}'
+
+
+/home/cyberhacker/Asioita/Hakkerointi/Rubydatetime/ruby/tool/transcode-tblgen.rb

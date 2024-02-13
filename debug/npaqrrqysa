@@ -1,0 +1,13 @@
+\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+
+
+/(.+?)\b(.+)/
+
+
+Here is the order: 2nd
+
+
+'\x00'.repeat(54773) + '\x00'
+
+
+/home/cyberhacker/Asioita/Hakkerointi/Rubydatetime/ruby/gems/src/debug/lib/debug/session.rb

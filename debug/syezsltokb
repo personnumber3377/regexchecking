@@ -1,0 +1,13 @@
+NODE_NNODE_NNODE_NNODE_NNODE_NNODE_NNODE_NNODE_NNODE_NNODE_N\nNODE_N,
+
+
+/(NODE_.+),/
+
+
+Here is the order: 2nd
+
+
+'NODE_N'.repeat(22361) + '\nNODE_N,'
+
+
+/home/cyberhacker/Asioita/Hakkerointi/Rubydatetime/ruby/tool/node_name.rb

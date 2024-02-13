@@ -1,0 +1,13 @@
+a2rb:1a2rb:1a2rb:1a2rb:1a2rb:1a2rb:1a2rb:1a2rb:1a2rb:1a2rb:1\na:rb:1barb:2
+
+
+/a.rb:1.*b.rb:2/
+
+
+Here is the order: 2nd
+
+
+'a2rb:1'.repeat(22361) + '\na:rb:1barb:2'
+
+
+/home/cyberhacker/Asioita/Hakkerointi/Rubydatetime/ruby/spec/ruby/core/exception/full_message_spec.rb

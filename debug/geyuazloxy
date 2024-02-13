@@ -1,0 +1,13 @@
+0000000000\t0=#{r}
+
+
+/(?<foo>\w+)\s*=\s*#{r}/
+
+
+Here is the order: 2nd
+
+
+'0'.repeat(54773) + '\t0=#{r}'
+
+
+/home/cyberhacker/Asioita/Hakkerointi/Rubydatetime/ruby/.bundle/gems/rbs-3.4.4/core/regexp.rbs

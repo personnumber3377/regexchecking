@@ -1,0 +1,13 @@
+AAAAAAAAAAA:
+
+
+/^([A-Za-z_]+\w*)(\.|#|::)([^ ]+)/
+
+
+Here is the order: 2nd
+
+
+'A' + 'A'.repeat(54773) + ':'
+
+
+/home/cyberhacker/Asioita/Hakkerointi/Rubydatetime/ruby/spec/mspec/lib/mspec/runner/formatters/method.rb

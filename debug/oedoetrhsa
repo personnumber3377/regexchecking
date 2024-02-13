@@ -1,0 +1,13 @@
+rubyrubyrubyrubyrubyrubyrubyrubyrubyruby\nruby.tar.gz
+
+
+/(ruby.*?\.tar\.gz)/
+
+
+Here is the order: 2nd
+
+
+'ruby'.repeat(27387) + '\nruby.tar.gz'
+
+
+/home/cyberhacker/Asioita/Hakkerointi/Rubydatetime/ruby/sample/pty/expect_sample.rb

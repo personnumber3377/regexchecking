@@ -1,0 +1,13 @@
+git-svn-id: @0 @0 @0 @0 @0 @0 @0 @0 @0 @0 
+
+
+/^ *git-svn-id: .*@(\d+) .*\n+/
+
+
+Here is the order: 2nd
+
+
+'git-svn-id: ' + '@0 '.repeat(31623)
+
+
+/home/cyberhacker/Asioita/Hakkerointi/Rubydatetime/ruby/tool/lib/vcs.rb

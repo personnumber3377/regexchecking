@@ -2172,3 +2172,6293 @@
 /\A\s*,(.+)\z/
 /\b([_a-zA-Z]\w*[!\?]?)\z/
 /\A\s*[a-z]*\z/
+/^(a|a)*$/
+/^(a|a)*$/
+/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/
+/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/
+/\A\#/
+/\A----/
+/^([^\[]+)(?:\[(.*)\])$/
+/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/
+/\A\#/
+/\A----/
+/^([^\[]+)(?:\[(.*)\])$/
+/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/
+/^\d+$/
+/^history/
+/^(\w+)=(.*)$/
+/^#{prefix}:/
+/^rake:/
+/^(\^+)/
+/^ *$/
+/\A\w/
+/\w\z/
+/^PASS /
+/[\r\n]/
+/[\r\n]/
+/^([^\[]+)(?:\[(.*)\])$/
+/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/
+/^\d+$/
+/^history/
+/^(\w+)=(.*)$/
+/^#{prefix}:/
+/^rake:/
+/^(\^+)/
+/^ *$/
+/[\r\n]/
+/\Adrbunix:(.*?)(\?(.*))?\z/
+/\Adrb([a-z0-9]+):/
+/`__send__'$/
+/\A\*\[(.*)\]\z/
+/:(\d+)$/
+/\.\w*$/
+/\AContent-length: (\d+)\r\n\z/
+/\{(\d+)\}\r\n/
+/^"(.*)"$/
+/^auth-(?:conf|int)$/
+/rspauth=/
+/(?<number>\d+)/
+/(?<number>\d+)/
+/\$(?<dollars>\d+)\.(?<cents>\d+)/
+/c(.)t/
+/c(.)t/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/^a*b?a*$/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<foo>\w+)\s*=\s*(?<foo>\w+)/
+/(?<foo>\w+)\s*=\s*#{r}/
+/(?:\+xml|^xml)$/
+/\A\s*\z/
+/\A(?:yes|no)\z/
+/\.([^.]+)$/
+/\\A[a-z][a-z0-9+.\\-]*:/
+/\Ais/
+/^(atom|rss)?(\d+\.\d+)?(?::(.+))?$/
+/\Axmlns(?:\z|:)/
+/\{(\d+)\}\r\n/
+/^"(.*)"$/
+/^auth-(?:conf|int)$/
+/rspauth=/
+/\A\+OK/
+/\A\+OK/
+/\A(--[^=]+)/
+/=(.*)/
+/=(.*)/
+/=(.*)/
+/\A(-(.))(.*)/
+/[\r\n]/
+/(?<number>\d+)/
+/(?<number>\d+)/
+/\$(?<dollars>\d+)\.(?<cents>\d+)/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/ab\Kc/
+/(?<=ab)c/
+/(b|a)/
+/(b|a+)/
+/(b|a+)*/
+/(b|a+)*c/
+/(b|a+)*c/
+/(?>b|a+)*c/
+/(b|a+)*c/
+/(b|a+)*c/
+/c(.)t/
+/c(.)t/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/^a*b?a*$/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<foo>\w+)\s*=\s*(?<foo>\w+)/
+/(?<foo>\w+)\s*=\s*#{r}/
+/\A\d+\z/
+/-r (#{Regexp.escape(__dir__)}\S+)/
+/\ARUBY_EVENT_/
+/\A(.+?)\b(.+)/
+/\s+into:\s*(.+)/
+/([^\s]+)(?:\s+(.+))?/
+/\ADEBUGGER__::(([A-Z][a-z]+?)[A-Z][a-z]+)/
+/RUBY/
+/\A\s*,(.+)\z/
+/\b([_a-zA-Z]\w*[!\?]?)\z/
+/\A\s*[a-z]*\z/
+/(?:\+xml|^xml)$/
+/\A\s*\z/
+/\A(?:yes|no)\z/
+/\.([^.]+)$/
+/\\A[a-z][a-z0-9+.\\-]*:/
+/^(atom|rss)?(\d+\.\d+)?(?::(.+))?$/
+/\Axmlns(?:\z|:)/
+/#{test}(.*)/
+/SYSTEM|PUBLIC/
+/^xmlns:/
+/-or-self$/
+/\AUTF-16(?:BE|LE)\z/
+/^xmlns:(.*)/
+/\AUTF-16\z/
+/^\s*\)/
+/^\s*( or )/
+/^\s*( and )/
+/^\s*(!?=)\s*/
+/^\s*([<>]=?)\s*/
+/^\s*(\+|-)\s*/
+/^\s*(\*| div | mod )\s*/
+/^(\-*)/
+/^\s*(\|)\s*/
+/PUBLIC|SYSTEM/
+/PUBLIC|SYSTEM/
+/^xmlns(:|$)/
+/(?:::)(\w)\w+$/
+/(?:::)(\w+)$/
+/#{test}(.*)/
+/SYSTEM|PUBLIC/
+/^xmlns:/
+/-or-self$/
+/\AUTF-16(?:BE|LE)\z/
+/^xmlns:(.*)/
+/\AUTF-16\z/
+/^\s*\)/
+/^\s*( or )/
+/^\s*( and )/
+/^\s*(!?=)\s*/
+/^\s*([<>]=?)\s*/
+/^\s*(\+|-)\s*/
+/^\s*(\*| div | mod )\s*/
+/^(\-*)/
+/^\s*(\|)\s*/
+/PUBLIC|SYSTEM/
+/PUBLIC|SYSTEM/
+/^xmlns(:|$)/
+/(?:::)(\w)\w+$/
+/(?:::)(\w+)$/
+/^PASS /
+/[\r\n]/
+/[\r\n]/
+/\A\*\[(.*)\]\z/
+/:(\d+)$/
+/\.\w*$/
+/\AContent-length: (\d+)\r\n\z/
+/\A\d+\z/
+/-r (#{Regexp.escape(__dir__)}\S+)/
+/\ARUBY_EVENT_/
+/\A(.+?)\b(.+)/
+/\s+into:\s*(.+)/
+/([^\s]+)(?:\s+(.+))?/
+/\ADEBUGGER__::(([A-Z][a-z]+?)[A-Z][a-z]+)/
+/RUBY/
+/\A\s*,(.+)\z/
+/\b([_a-zA-Z]\w*[!\?]?)\z/
+/\A\s*[a-z]*\z/
+/[*?\[{]/
+/\A\d/
+/\A\d/
+/mswin|mingw|cygwin/
+/mswin|cygwin|mingw|bccwin/
+/\.\z/
+/\A::(ffff:)?([\da-f]{1,4}):([\da-f]{1,4})\z/
+/\A\[(.*)\]\z/
+/\A(.*)(%\w+)\z/
+/(.*?):(\d+).*?$/
+/gemcutter-0\.[0-3]/
+/^--\[no-\](.+)$/
+/\A-./
+/buff/
+/buff/
+/\A([+-])(\d\d)(:?)(\d\d)(?:\3(\d\d))?\z/
+/\Arb?(?:\Z|:([^:]+))/
+/[\r\n]/
+/[\r\n]/
+/\A(--[^=]+)/
+/=(.*)/
+/=(.*)/
+/=(.*)/
+/\A(-(.))(.*)/
+/mswin|mingw|bccwin|wince/
+/warning/
+/\)\z/
+/\A--(?:top(?:src)?|src|cur)dir(?=\z|=)/
+/mswin/
+/mingw/
+/cygwin/
+/netbsd/
+/haiku/
+/solaris/
+/universal/
+/\A\w/
+/\Acheck/
+/-l([^ ]+)/
+/\A\$[\(\{]/
+/.prefix$/
+/^abs_/
+/^(?:src|top(?:_src)?|build|hdr)dir$/
+/dir$/
+/^RUBY.*NAME/
+/\$\(target_prefix\)\z/
+/\A\t/
+/\A(?!\s*\w+\s*=)[$\w][^#]*:/
+/\A\s*\$\(RM|COPY\)/
+/(?:^|[^\\])(?:\\\\)*\\$/
+/^[[:upper:]]/
+/icc\z/
+/warnflags/
+/nmake/
+/\A(extconf|makefile).rb\z/
+/\Ablock_given\?\z|\Aiterator\?\z|\A__.*__\z/
+/\A@delegate_/
+/\A__(?:send|id)__\z/
+/\A__(?:send|id)__\z/
+/\Adrbunix:(.*?)(\?(.*))?\z/
+/\Adrb([a-z0-9]+):/
+/`__send__'$/
+/charset[\t\n\f\r ]*=(?:"([^"]*)"|'([^']*)'|["']|\z|([^\t\n\f\r ;]+))/
+/\Abytes=((?:,[ \t]*)*(?:\d+-\d*|-\d+)(?:[ \t]*,(?:[ \t]*\d+-\d*|-\d+)?)*)\z/
+/(?:\A|[^\-\w])chunked(?![\-\w])/
+/[\r\n]/
+/[ \t]*<%-/
+/[ \t]*<%-/
+/mswin|mingw|cygwin/
+/^(.{0,#{wrap}})[ \n]/
+/\.gem$/
+/\.gem$/
+/^rubygems-\d/
+/#{Gem.path_separator}\z/
+/[ @](.*:\d+)/
+/[ @](.*:\d+)/
+/\A\d+\z/
+/(?:\R|[<>])/
+/\A#{PREFIX}/
+/^--config-file=(.*)/
+/^--config-file$/
+/mswin(?:32|64)$/
+/^\d+(\.\d+)?$/
+/^[a-z]$/
+/\A\s*\Z/
+/[a-zA-Z]/
+/^\d+$/
+/\A(.*):(#{Gem::Requirement::PATTERN_RAW})\z/
+/^#{name}/
+/\.gem$/
+/\A[0-7]*\z/
+/\A[\x80\xff]/
+/\A(.*)(i)?\z/
+/\A.+@.+\z/
+/\.gem$/
+/^#{selected.name}$/
+/Ext::(.*)Builder/
+/with-make-prog\=(\w+)/
+/mkrf_conf/
+/^--\[no-\](.+)$/
+/\A-./
+/\A\w[-\w]*\z/
+/\A\#/
+/\A----/
+/<<[-~]?(['"`])\w+\1/
+/(%*)%I/
+/#|\./
+/^\s*$/
+/^\s*$/
+/^\s+$/
+/mswin|mingw/
+/meets end of file|unexpected end-of-input/
+/\A(['"])([^'"]+)\Z/
+/\A(?:::)?RubyVM/
+/mswin|msys|mingw|cygwin|bccwin|wince|emc/
+/\A\w[-\w]*\z/
+/\A"(.*)"\z/
+/\A"(.*)"\z/
+/"(.*)"/
+/mswin|mingw/
+/(msys-|cygwin-).*-pty/
+/[0-9]/
+/[A-Z]/
+/[a-z]/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\w|\s/
+/[\w\s]/
+/[\w\s]/
+/[\r\n]/
+/(\r?\n)\z/
+/\A127\.|\A::1\z/
+/\A(?:[^@,;]+@[^@,;]+(?:\z|[,;]))*\z/
+/(?<foo>bar)/
+/\.c$/
+/^(.+?):(\d+)(?::in `.*')?/
+/linux/
+/#{SEPARATOR_PAT}+\z/
+/(?<type>_client|_server)\z/
+/^:(["'])(.*)\1/
+/^(?:tag:|x-private)/
+/\n(?!\Z)/
+/^[^[:word:]][^"]*$/
+/\A0[0-7]*[89]/
+/^([\w\*\s]+)\[(\d+)\]$/
+/^(.+?):(\d+)/
+/^(.+?):(\d+)/
+/_content\z/
+/_new\z/
+/_add\z/
+/\A\s/
+/\A(\w+)=(.*)/
+/^STATIC_LIB[ \t]*=[ \t]*\S+/
+/\A[^-][^=]*\Z/
+/\AMINIRUBY=/
+/^[a-z-]+$/
+/^\s*$/
+/^TARGET *= *\S/
+/clean\z/
+/(?<type>_client|_server)\z/
+/darwin/
+/darwin/
+/\A(AF_INET6|PF_INET6|IPV6_.*)\z/
+/linux/
+/\b#{name}\b/
+/^(.+?):(\d+)(?::in `.*')?/
+/^:(["'])(.*)\1/
+/^(?:tag:|x-private)/
+/\n(?!\Z)/
+/^[^[:word:]][^"]*$/
+/\A0[0-7]*[89]/
+/#{SEPARATOR_PAT}+\z/
+/^TOP[ \t]/
+/^\w+\./
+/^(?:x64|x86_64)/
+/\A\s*(\#|\z)/
+/^\#define\s+SIZEOF_#{type}\s+(SIZEOF_(.+)|\d+)/
+/^([\w\*\s]+)\[(\d+)\]$/
+/^(.+?):(\d+)/
+/^(.+?):(\d+)/
+/^AC_INIT\((.*)\)/
+/^x64/
+/openbsd/
+/_content\z/
+/_new\z/
+/_add\z/
+/\A\s/
+/#{re.join("\0")}/
+/\Aid[A-Z_]/
+/\A\#\s*define\s+dispatch/
+/ripper_dispatch/
+/\*% *ripper(?:\[(.*?)\])?: *(.*?) *%\*/
+/^[a-z]/
+/(mswin|mingw)/
+/^<internal:/
+/( *)/
+/^([A-Za-z_]+\w*)(\.|#|::)([^ ]+)/
+/^#{Regexp.quote("<" + @element)}.*#{Regexp.quote(">" + (@content || ''))}$/
+/^#{Regexp.quote("<" + @element)}/
+/^\s*end\s*$/
+/fake/
+/fake/
+/real/
+/real/
+/real/
+/fake/
+/^\s*require.+spec_helper/
+/^\s*require_relative\s*['"](.*spec_helper)['"]/
+/^(\s*)#/
+/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}.\d+Z /
+/^(\w+)[#\.](\w+) /
+/\A_(.*)_\z/
+/success$/
+/success$/
+/\bdie\b/
+/value of \$DEBUG is true/
+/^rubyopt.rb required/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/extra argument for --encoding: utf-32le/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/\A#<StringIO:0x\h+>\z/
+/\A215 FTP Dummy Server \(SYST\)\Z/
+/\AFTP Dummy Server \(SYST\)\Z/
+/^AF_INET6?/
+/^#{@hostname}/
+/^#{SocketSpecs.hostname}\b/
+/^#{SocketSpecs.hostname}\b/
+/^#{SocketSpecs.hostname('::1')}\b/
+/^(.*?):(\d+): /
+/^(.*?):(\d+): /
+/specs.*\.tt$/
+/onreadystatechange/
+/onreadystatechange/
+/^\{[A-Z0-9]{8}\-[A-Z0-9]{4}\-[A-Z0-9]{4}\-[A-Z0-9]{4}\-[A-Z0-9]{12}/
+/System32/
+/\A\{[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}\}\z/
+/^(UNKNOWN|PROPERTY|PROPERTYGET|PROPERTYPUT|PROPERTYPUTREF|FUNC)$/
+/VBENLR.*\.CHM$/
+/opened=false/
+/opened=true.*/
+/opened=true/
+/\A0\.100#{i}E3\z/
+/\A-0\.100#{i}E3\z/
+/\A0\.3E-49999\z/
+/^0\.[0-9]*e[0-9]*$/
+/^\+.*/
+/^\+.*/
+/\ .*/
+/\ .*/
+/^0\.[0-9]*E[0-9]*$/
+/\A0+\z/
+/\A0+\z/
+/#{suffix}$/
+/c(a)t/
+/c(a)t/
+/c(a)t/
+/c(a)t/
+/c(a)t/
+/Module.*hello/
+/ Object::/
+/\A#<Module:0x\h+>\z/
+/\A#<Class:0x\h+>\z/
+/\A#<Class:#<#{klass}:0x\h+>>\z/
+/\A#<Class:#<#<Class:0x\h+>:0x\h+>>\z/
+/\A#<Class:#<ModuleSpecs::NamedClass:0x\h+>>\z/
+/\A#<Class:#<#{Regexp.escape klass.to_s}:0x\h+>>\z/
+/\A#<Module:0x[0-9a-f]+>::N\z/
+/\A#<Module:0x\h+>::N\z/
+/\A#<Module:0x\h+>::Child\z/
+/\bfoo\b/
+/\bModuleSpecs::InstanceMeth\b/
+/\bModuleSpecs::InstanceMeth\b/
+/\bfoo\b/
+/\bModuleSpecs::InstanceMeth\b/
+/\bbar\b/
+/\bModuleSpecs::InstanceMethMod\b/
+/\bModuleSpecs::InstanceMethChild\b/
+/\bModuleSpecs::InstanceMethChild\b/
+/#{__FILE__}/
+/#{__FILE__}/
+/#{__FILE__}/
+/#{__FILE__}/
+/\bUnboundMethod\b/
+/\#bar/
+/MethodSpecs::MyMod/
+/MethodSpecs::MySub/
+/MethodSpecs::MyMod/
+/\bMethod\b/
+/\#bar/
+/MethodSpecs::MyMod/
+/MethodSpecs::MySub/
+/^\[#<MockObject:0x[0-9a-f]+>\]$/
+/^\[#<MockObject:0x[0-9a-f]+>\]$/
+/set last (.*)/
+/set last (.*)/
+/Invalid argument|Signal already used by VM or OS/
+/can't trap reserved signal|Signal already used by VM or OS/
+/undefined local variable or method `not_defined'/
+/uninitialized constant NotDefined/
+/exception_spec/
+/private method `a_private_method' called for /
+/undefined method.+\bbar\b/
+/undefined method.+\bbar\b/
+/undefined method.+\bbar\b/
+/^undefined method `foo' for /
+/^undefined method `foo' for /
+/common\.rb/
+/:7:in /
+/in `backtrace'/
+/backtrace_spec\.rb/
+/:6(:in )?/
+/^.+:\d+:in `[^`]+'$/
+/backtrace_spec/
+/backtrace_spec/
+/backtrace_locations_spec/
+/a.rb:1.*b.rb:2/
+/b.rb:2.*a.rb:1/
+/@ not_a_string - foo/
+/Error .*occurred/
+/Unknown error/
+/message/
+/^#<Object:0x[0-9a-f]+>$/
+/Object/
+/_pub\z/
+/_pro\z/
+/EvalBindingProcA$/
+/EvalBindingA$/
+/#{expected}:1:.+/
+/#{expected_file}:-100:.+/
+/Object/
+/regexp/
+/deprecated Object#=~ is called on Object/
+/\A\d+\z/
+/_pri\z/
+/\b#{feature}\.(rb|so|jar)$/
+/^(a*)*$/
+/c(.)t/
+/c(.)t/
+/(?<test>[A-Z]+.*)/
+/(?<test>[A-Z]+.*)/
+/(?<test>[A-Z]+.*)/
+/(?<test>[A-Z]+.*)/
+/(?<test>[A-Z]+.*)/
+/(.)(.)(.)/
+/(.)(.)(.)/
+/LoadError/
+/LoadError/
+/\{.*"foo"=>"bar".*\}/
+/^\{:a=>#<MockObject:0x[0-9a-f]+>\}$/
+/^\{:a=>#<MockObject:0x[0-9a-f]+>\}$/
+/#<Encoding:#{enc.name}>/
+/#<Encoding:#{enc.name} \(dummy\)>/
+/`sleep'/
+/\A(singleton class|<singleton class>)\z/
+/^#<Thread:([^ ]*?) #{Regexp.escape __FILE__}:#{line} \w+>$/
+/\A\#<ObjectSpace::WeakMap:0x\h+>\z/
+/\A\#<ObjectSpace::WeakMap:0x\h+: \#<BasicObject:0x\h+> => \#<BasicObject:0x\h+>>\z/
+/\A\#<ObjectSpace::WeakMap:0x\h+: \#<BasicObject:0x\h+> => \#<BasicObject:0x\h+>>\z/
+/hello#{newline}/
+/#{__FILE__}/
+/#{__FILE__}/
+/\bUnboundMethod\b/
+/\bUnboundMethod\b/
+/\bfrom_mod\b/
+/\bUnboundMethodSpecs::Mod\b/
+/\bUnboundMethodSpecs::Methods\b/
+/^#<Proc:([^ ]*?) #{Regexp.escape __FILE__}:#{__LINE__ }>$/
+/^#<Proc:([^ ]*?) #{Regexp.escape __FILE__}:#{__LINE__ } \(lambda\)>$/
+/^#<Proc:([^ ]*?) #{Regexp.escape __FILE__}:#{__LINE__ }>$/
+/^#<Proc:([^ ]*?) #{Regexp.escape __FILE__}:#{__LINE__ - 3} \(lambda\)>$/
+/^#<Proc:([^ ]*?) \(lambda\)>$/
+/is deprecated/
+/is experimental/
+/Object/
+/a message/
+/(c|a)(t|z)/
+/(c|a)(t|z)/
+/(f)oo/
+/(b)ar/
+/hello/
+/(bar)/
+/(bar)/
+/(bar)/
+/(f(o)o)/
+/(a)|(b)/
+/(f)(o)(o)/
+/warning: argument of top-level return is ignored/
+/begin_file\.rb$/
+/class or module required for rescue clause/
+/class or module required for rescue clause/
+/invalid multibyte char/
+/invalid multibyte char/
+/warning: END in method; use at_exit/
+/regexp/
+/(?<matched>foo)(?<unmatched>bar)?/
+/regexp/
+/(?<matched>str)(?<unmatched>lit)?/
+/regexp/
+/(?<matched>foo)(?<unmatched>bar)?/
+/z(z)z/
+/s(-)m(.)/
+/z(z)z/
+/s(-)m(.)/
+/\A[[:space:]]*\z/
+/(1)(2)(3)(4)(5)(6)(7)(8)(9)(0)/
+/(o+)/
+/\10()()()()()()()()()()/
+/^[^f]/
+/($^)($^)/
+/[^o]$/
+/($\Z)($\Z)/
+/(\z\Z)(\z\Z)/
+/(\Z)/
+/($\z)($\z)/
+/(\z)/
+/This is a warning/
+/This is a warning/
+/#{__FILE__}/
+/(?:\A|\s)--jobserver-(?:auth|fds)=(\d+),(\d+)/
+/^#<Proc:([^ :@]*?)>$/
+/hack/
+/hack/
+/^From /
+/^(?<attr>\S+?):\s*(?<value>.*)/
+/^From /
+/^-(\d+)$/
+/^begin\s*(\d*)\s*(\S*)/
+/^end/
+/[a-z]/
+/,\s*$/
+/^\s*(class|module|def|if|unless|case|while|until|for|begin)\b[^_]/
+/^\s*end\b[^_]/
+/\{\s*(\|.*\|)?\s*$/
+/^\s*\}/
+/\.(Z|gz)$/
+/^(.*):([0-9]+)$/
+/^\[(.*)\]$/
+/^((void|VALUE|int|char *\*|ID|struct \w+ *\*|st_table *\*) *)?\n(\w+)\(.*\)\n\s*((.+;\n)*)\{/
+/(([^*]+) *\** *\w+),/
+/^http:/
+/^http:/
+/^http:/
+/^http:/
+/^[\da-f]+\.r{0,1}\d+$/
+/\AURI:(.*)\z/
+/CA:(TRUE|FALSE), pathlen:(\d+)/
+/(ruby.*?\.tar\.gz)/
+/^_?(rb_w32_\w+)(?:@\d+)?$/
+/^#define (\w+)\((.*?)\)\s+(?:\(void\))?(rb_w32_\w+)\((.*?)\)\s*$/
+/^[[:xdigit:]]+ 0+ UNDEF /
+/External/
+/(?:_local_stdio_printf_options|v(f|sn?)printf(_s)?_l)\Z/
+/^[@_]/
+/^_?#{PrivateNames}/
+/@.*@/
+/mingw/
+/(.+)[\!\?]\z/
+/\Arequire(?:_relative)\z/
+/\A#!/
+/^304 /
+/mswin|bccwin|mingw/
+/^(?:\*|\+)(.+)$/
+/^(?:&gt;|\*)?([0-9A-F\+]+)$/
+/\A(\d+)?\z/
+/\A(\d+)\z/
+/\A(\d+)?(?: *by (\h+))?(?:\s*-- +(.*))?\z/
+/revision="(?<rev>\d+)/
+/^commit (?<rev>\h{40})$/
+/\A(\d+)?\z/
+/\A(\d+)?\z/
+/\A\d+\z/
+/mingw|mswin/
+/\.dll\z/
+/\A(\w+)=(.*)/
+/\[Backport #(\d*)\]/
+/\(#(\d*)\)/
+/^0x([a-z0-9]+),/
+/[\n ]\z/
+/[\n ]\z/
+/^(.*)\(([0-9])\)$/
+/\A\./
+/\n\z/
+/\n\z/
+/\A--([-\w]+)(?:=(.*))?\z/
+/[\da-f]{16} /
+/\A\h+\z/
+/mswin/
+/universal.*darwin/
+/^program_transform_name$/
+/darwin/
+/= "no"$/
+/(\w+)\t([\d\.]+)/
+/benchmark summary/
+/gperf/
+/LICENSE\.md/
+/nothing\ to\ commit/
+/^CONFLICT/
+/pre|beta/
+/^# Total (?:code points|elements): /
+/^([0-9a-fA-F]+)(?:\.\.([0-9a-fA-F]+))?\s*;\s*(\w+)/
+/^(\w+)\s*; (\w+)/
+/^(sc|gc)\s*; (\w+)\s*; (\w+)(?:\s*; (\w+))?/
+/^# Total code points: /
+/^([0-9a-fA-F]+)(?:\.\.([0-9a-fA-F]+))?\s*;\s*(\d+\.\d+)/
+/^# Total code points: /
+/^([0-9a-fA-F]+)(?:\.\.([0-9a-fA-F]+))?\s*;\s*(\w+)/
+/^([0-9a-fA-F]+)\.\.([0-9a-fA-F]+);\s*(.*)/
+/^emoji/
+/ANSI-C code produced by gperf/
+/\A-\S*n/
+/^%token/
+/darwin/
+/\A[^-][^=]*\Z/
+/\A-[OW]/
+/emscripten/
+/ruby/
+/mswin|mingw|bccwin/
+/\Adoc\b/
+/^\s*(?:#|$)/
+/^(\S+)\s+(\S+).*/
+/\A\s*\(empset\)\s*\z/
+/\A\s*\(empstr\)\s*\z/
+/\A\s*(#{HEX2}+)\s*\z/
+/\A\s*((#{HEX2}|\{#{HEX2}(?:-#{HEX2})?(,#{HEX2}(?:-#{HEX2})?)*\})+(\s+|\z))*\z/
+/\bUCS@(BMP|SMP|SIP|TIP|SSP)\b/
+/^BEGIN_MAP/
+/^\s*(?:#|$)/
+/^END_MAP/
+/^<U([0-9a-fA-F]+)>\s*([\+0-9a-fA-Fx\\]+)\s*\|(\d)/
+/^([<U0-9a-fA-F>+]+)\s*([\+0-9a-fA-Fx\\]+)\s*\|(\d)/
+/(NODE_.+),/
+/^(\w+)\s*=\s*(.*)/
+/^!\s*(?:chdir:\s*([^|\s]+)\|\s*)?(.*)/
+/singleton/
+/\[start\] (\w+)/
+/\[start\] (\w+)/
+/\[length = (\d+)\]/
+/\A(Feature|Bug)\s+#\d+\z/
+/-(?:preview|rc)/
+/^(?:preview|rc)/
+/^\{% assign release = site.data.releases \| where: "version", "([^"]+)" \| first %\}/
+/\A(\d+)\.(\d+)\.(\d+)(?:-(?:preview|rc)\d+)?\z/
+/^preview:\n\n(?:  .*\n)*  - #{Regexp.escape(xy)}\./
+/^\{% assign release = site.data.releases \| where: "version", "([^"]+)" \| first %\}/
+/darwin/
+/\A(\d+)-(\d+)-(\d+)\D(\d+):(\d+):(\d+(?:\.\d+)?)\s*(?:Z|([-+]\d\d)(\d\d))\z/
+/[^\x00-\x7f]/
+/^ *git-svn-id: .*@(\d+) .*\n+\z/
+/\A\e\[.*m\z/
+/mswin|mingw/
+/darwin/
+/darwin/
+/\AProcess:\s+#{cmd} \[#{pid}\]$/
+/^ *"pid" *: *#{pid},/
+/mswin|mingw/
+/\n[^\n]/
+/\Anot_/
+/mswin|mingw/
+/^Basic\s+(.*)/
+/^(\d+)\.(\d+)$/
+/\A(#{CRLF}|#{LF})\z/
+/^[^=]+;/
+/\bchunked\b/
+/\Aclose\z/
+/\Akeep-alive\z/
+/^content-type$/
+/^content-length$/
+/\A(#{CRLF}|#{LF})\z/
+/^([0-9a-fA-F]+)(?:;(\S+))?/
+/\A(\[[0-9a-fA-F:]+\])(?::(\d+))?\z/
+/\.\.(/
+/\.(\w+)$/
+/\.(\w+)\.[\w\-]+$/
+/^bytes=(.*)/
+/\A"(.*)"\Z/
+/\s+name="(.*?)"/
+/\s+filename="(.*?)"/
+/^SSL_CLIENT_CERT_CHAIN_\d+$/
+/[\r\n]/
+/mswin|bccwin|mingw/
+/mswin|bccwin|mingw/
+/^(\d+)/
+/~([^/
+/\.(\w+)\z/
+/\.(\w+)\.([\w\-]+)\z/
+/[. ]+\z/
+/::\$DATA\z/
+/-sess$/
+/#(\s*)pragma RubyVM reset source\n/
+/[*?\[{]/
+/\A\d/
+/\A\d/
+/mswin|mingw|cygwin/
+/mswin|cygwin|mingw|bccwin/
+/\.\z/
+/\A::(ffff:)?([\da-f]{1,4}):([\da-f]{1,4})\z/
+/\A\[(.*)\]\z/
+/\A(.*)(%\w+)\z/
+/(.*?):(\d+).*?$/
+/gemcutter-0\.[0-3]/
+/^--\[no-\](.+)$/
+/\A-./
+/^(.+?):(\d+)(?::in `.*')?/
+/buff/
+/buff/
+/\A([+-])(\d\d)(:?)(\d\d)(?:\3(\d\d))?\z/
+/\Arb?(?:\Z|:([^:]+))/
+/[\r\n]/
+/[\r\n]/
+/linux/
+/#{SEPARATOR_PAT}+\z/
+/\A(--[^=]+)/
+/=(.*)/
+/=(.*)/
+/=(.*)/
+/\A(-(.))(.*)/
+/mswin|mingw|bccwin|wince/
+/warning/
+/\)\z/
+/\A--(?:top(?:src)?|src|cur)dir(?=\z|=)/
+/mswin/
+/mingw/
+/cygwin/
+/netbsd/
+/haiku/
+/solaris/
+/universal/
+/\A\w/
+/\Acheck/
+/-l([^ ]+)/
+/\A\$[\(\{]/
+/.prefix$/
+/^abs_/
+/^(?:src|top(?:_src)?|build|hdr)dir$/
+/dir$/
+/^RUBY.*NAME/
+/\$\(target_prefix\)\z/
+/\A\t/
+/\A(?!\s*\w+\s*=)[$\w][^#]*:/
+/\A\s*\$\(RM|COPY\)/
+/(?:^|[^\\])(?:\\\\)*\\$/
+/^[[:upper:]]/
+/icc\z/
+/warnflags/
+/nmake/
+/\A(extconf|makefile).rb\z/
+/\Ablock_given\?\z|\Aiterator\?\z|\A__.*__\z/
+/\A@delegate_/
+/\A__(?:send|id)__\z/
+/\A__(?:send|id)__\z/
+/\Adrbunix:(.*?)(\?(.*))?\z/
+/\Adrb([a-z0-9]+):/
+/`__send__'$/
+/(?<type>_client|_server)\z/
+/charset[\t\n\f\r ]*=(?:"([^"]*)"|'([^']*)'|["']|\z|([^\t\n\f\r ;]+))/
+/\Abytes=((?:,[ \t]*)*(?:\d+-\d*|-\d+)(?:[ \t]*,(?:[ \t]*\d+-\d*|-\d+)?)*)\z/
+/(?:\A|[^\-\w])chunked(?![\-\w])/
+/[\r\n]/
+/[ \t]*<%-/
+/[ \t]*<%-/
+/mswin|mingw|cygwin/
+/^:(["'])(.*)\1/
+/^(?:tag:|x-private)/
+/\n(?!\Z)/
+/^[^[:word:]][^"]*$/
+/\A0[0-7]*[89]/
+/^(.{0,#{wrap}})[ \n]/
+/\.gem$/
+/\.gem$/
+/^rubygems-\d/
+/#{Gem.path_separator}\z/
+/[ @](.*:\d+)/
+/[ @](.*:\d+)/
+/\A\d+\z/
+/(?:\R|[<>])/
+/\A#{PREFIX}/
+/^--config-file=(.*)/
+/^--config-file$/
+/mswin(?:32|64)$/
+/^\d+(\.\d+)?$/
+/^[a-z]$/
+/\A\s*\Z/
+/[a-zA-Z]/
+/^\d+$/
+/\A(.*):(#{Gem::Requirement::PATTERN_RAW})\z/
+/^#{name}/
+/\.gem$/
+/\A[0-7]*\z/
+/\A[\x80\xff]/
+/\A(.*)(i)?\z/
+/\A.+@.+\z/
+/\.gem$/
+/^#{selected.name}$/
+/Ext::(.*)Builder/
+/with-make-prog\=(\w+)/
+/mkrf_conf/
+/^--\[no-\](.+)$/
+/\A-./
+/\A\w[-\w]*\z/
+/\A\#/
+/\A----/
+/<<[-~]?(['"`])\w+\1/
+/(%*)%I/
+/#|\./
+/^\s*$/
+/^\s*$/
+/^\s+$/
+/mswin|mingw/
+/meets end of file|unexpected end-of-input/
+/\A(['"])([^'"]+)\Z/
+/\A(?:::)?RubyVM/
+/mswin|msys|mingw|cygwin|bccwin|wince|emc/
+/\A\w[-\w]*\z/
+/\A"(.*)"\z/
+/\A"(.*)"\z/
+/"(.*)"/
+/mswin|mingw/
+/(msys-|cygwin-).*-pty/
+/[0-9]/
+/[A-Z]/
+/[a-z]/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\w|\s/
+/[\w\s]/
+/[\w\s]/
+/^([\w\*\s]+)\[(\d+)\]$/
+/^(.+?):(\d+)/
+/^(.+?):(\d+)/
+/[\r\n]/
+/(\r?\n)\z/
+/\A127\.|\A::1\z/
+/\A(?:[^@,;]+@[^@,;]+(?:\z|[,;]))*\z/
+/_content\z/
+/_new\z/
+/_add\z/
+/\A\s/
+/(?<foo>bar)/
+/\A\w/
+/\w\z/
+/^PASS /
+/[\r\n]/
+/[\r\n]/
+/^([^\[]+)(?:\[(.*)\])$/
+/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/
+/^\d+$/
+/^history/
+/^(\w+)=(.*)$/
+/^#{prefix}:/
+/^rake:/
+/^(\^+)/
+/^ *$/
+/[\r\n]/
+/\{(\d+)\}\r\n/
+/^"(.*)"$/
+/^auth-(?:conf|int)$/
+/rspauth=/
+/\A\+OK/
+/\A\+OK/
+/(?<number>\d+)/
+/(?<number>\d+)/
+/\$(?<dollars>\d+)\.(?<cents>\d+)/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/ab\Kc/
+/(?<=ab)c/
+/(b|a)/
+/(b|a+)/
+/(b|a+)*/
+/(b|a+)*c/
+/(b|a+)*c/
+/(?>b|a+)*c/
+/(b|a+)*c/
+/(b|a+)*c/
+/c(.)t/
+/c(.)t/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/^a*b?a*$/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<foo>\w+)\s*=\s*(?<foo>\w+)/
+/(?<foo>\w+)\s*=\s*#{r}/
+/\A\d+\z/
+/-r (#{Regexp.escape(__dir__)}\S+)/
+/\ARUBY_EVENT_/
+/\A(.+?)\b(.+)/
+/\s+into:\s*(.+)/
+/([^\s]+)(?:\s+(.+))?/
+/\ADEBUGGER__::(([A-Z][a-z]+?)[A-Z][a-z]+)/
+/RUBY/
+/\A\s*,(.+)\z/
+/\b([_a-zA-Z]\w*[!\?]?)\z/
+/\A\s*[a-z]*\z/
+/(?:\+xml|^xml)$/
+/\A\s*\z/
+/\A(?:yes|no)\z/
+/\.([^.]+)$/
+/\\A[a-z][a-z0-9+.\\-]*:/
+/^(atom|rss)?(\d+\.\d+)?(?::(.+))?$/
+/\Axmlns(?:\z|:)/
+/#{test}(.*)/
+/SYSTEM|PUBLIC/
+/^xmlns:/
+/-or-self$/
+/\AUTF-16(?:BE|LE)\z/
+/^xmlns:(.*)/
+/\AUTF-16\z/
+/^\s*\)/
+/^\s*( or )/
+/^\s*( and )/
+/^\s*(!?=)\s*/
+/^\s*([<>]=?)\s*/
+/^\s*(\+|-)\s*/
+/^\s*(\*| div | mod )\s*/
+/^(\-*)/
+/^\s*(\|)\s*/
+/PUBLIC|SYSTEM/
+/PUBLIC|SYSTEM/
+/^xmlns(:|$)/
+/(?:::)(\w)\w+$/
+/(?:::)(\w+)$/
+/\A\*\[(.*)\]\z/
+/:(\d+)$/
+/\.\w*$/
+/\AContent-length: (\d+)\r\n\z/
+/(?<number>\d+)/
+/(?<number>\d+)/
+/\$(?<dollars>\d+)\.(?<cents>\d+)/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/ab\Kc/
+/(?<=ab)c/
+/(b|a)/
+/(b|a+)/
+/(b|a+)*/
+/(b|a+)*c/
+/(b|a+)*c/
+/(?>b|a+)*c/
+/(b|a+)*c/
+/(b|a+)*c/
+/c(.)t/
+/c(.)t/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/^a*b?a*$/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<foo>\w+)\s*=\s*(?<foo>\w+)/
+/(?<foo>\w+)\s*=\s*#{r}/
+/\A\d+\z/
+/-r (#{Regexp.escape(__dir__)}\S+)/
+/\ARUBY_EVENT_/
+/\A(.+?)\b(.+)/
+/\s+into:\s*(.+)/
+/([^\s]+)(?:\s+(.+))?/
+/\ADEBUGGER__::(([A-Z][a-z]+?)[A-Z][a-z]+)/
+/RUBY/
+/\A\s*,(.+)\z/
+/\b([_a-zA-Z]\w*[!\?]?)\z/
+/\A\s*[a-z]*\z/
+/\A\#/
+/\A----/
+/^([^\[]+)(?:\[(.*)\])$/
+/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/
+/^\d+$/
+/^history/
+/^(\w+)=(.*)$/
+/^#{prefix}:/
+/^rake:/
+/^(\^+)/
+/^ *$/
+/\A\w/
+/\w\z/
+/^PASS /
+/[\r\n]/
+/[\r\n]/
+/^([^\[]+)(?:\[(.*)\])$/
+/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/
+/^\d+$/
+/^history/
+/^(\w+)=(.*)$/
+/^#{prefix}:/
+/^rake:/
+/^(\^+)/
+/^ *$/
+/[\r\n]/
+/\Adrbunix:(.*?)(\?(.*))?\z/
+/\Adrb([a-z0-9]+):/
+/`__send__'$/
+/\A\*\[(.*)\]\z/
+/:(\d+)$/
+/\.\w*$/
+/\AContent-length: (\d+)\r\n\z/
+/\{(\d+)\}\r\n/
+/^"(.*)"$/
+/^auth-(?:conf|int)$/
+/rspauth=/
+/(?<number>\d+)/
+/(?<number>\d+)/
+/\$(?<dollars>\d+)\.(?<cents>\d+)/
+/c(.)t/
+/c(.)t/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/^a*b?a*$/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<foo>\w+)\s*=\s*(?<foo>\w+)/
+/(?<foo>\w+)\s*=\s*#{r}/
+/(?:\+xml|^xml)$/
+/\A\s*\z/
+/\A(?:yes|no)\z/
+/\.([^.]+)$/
+/\\A[a-z][a-z0-9+.\\-]*:/
+/\Ais/
+/^(atom|rss)?(\d+\.\d+)?(?::(.+))?$/
+/\Axmlns(?:\z|:)/
+/\{(\d+)\}\r\n/
+/^"(.*)"$/
+/^auth-(?:conf|int)$/
+/rspauth=/
+/\A\+OK/
+/\A\+OK/
+/\A(--[^=]+)/
+/=(.*)/
+/=(.*)/
+/=(.*)/
+/\A(-(.))(.*)/
+/[\r\n]/
+/(?<number>\d+)/
+/(?<number>\d+)/
+/\$(?<dollars>\d+)\.(?<cents>\d+)/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/ab\Kc/
+/(?<=ab)c/
+/(b|a)/
+/(b|a+)/
+/(b|a+)*/
+/(b|a+)*c/
+/(b|a+)*c/
+/(?>b|a+)*c/
+/(b|a+)*c/
+/(b|a+)*c/
+/c(.)t/
+/c(.)t/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/^a*b?a*$/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<foo>\w+)\s*=\s*(?<foo>\w+)/
+/(?<foo>\w+)\s*=\s*#{r}/
+/\A\d+\z/
+/-r (#{Regexp.escape(__dir__)}\S+)/
+/\ARUBY_EVENT_/
+/\A(.+?)\b(.+)/
+/\s+into:\s*(.+)/
+/([^\s]+)(?:\s+(.+))?/
+/\ADEBUGGER__::(([A-Z][a-z]+?)[A-Z][a-z]+)/
+/RUBY/
+/\A\s*,(.+)\z/
+/\b([_a-zA-Z]\w*[!\?]?)\z/
+/\A\s*[a-z]*\z/
+/(?:\+xml|^xml)$/
+/\A\s*\z/
+/\A(?:yes|no)\z/
+/\.([^.]+)$/
+/\\A[a-z][a-z0-9+.\\-]*:/
+/^(atom|rss)?(\d+\.\d+)?(?::(.+))?$/
+/\Axmlns(?:\z|:)/
+/#{test}(.*)/
+/SYSTEM|PUBLIC/
+/^xmlns:/
+/-or-self$/
+/\AUTF-16(?:BE|LE)\z/
+/^xmlns:(.*)/
+/\AUTF-16\z/
+/^\s*\)/
+/^\s*( or )/
+/^\s*( and )/
+/^\s*(!?=)\s*/
+/^\s*([<>]=?)\s*/
+/^\s*(\+|-)\s*/
+/^\s*(\*| div | mod )\s*/
+/^(\-*)/
+/^\s*(\|)\s*/
+/PUBLIC|SYSTEM/
+/PUBLIC|SYSTEM/
+/^xmlns(:|$)/
+/(?:::)(\w)\w+$/
+/(?:::)(\w+)$/
+/#{test}(.*)/
+/SYSTEM|PUBLIC/
+/^xmlns:/
+/-or-self$/
+/\AUTF-16(?:BE|LE)\z/
+/^xmlns:(.*)/
+/\AUTF-16\z/
+/^\s*\)/
+/^\s*( or )/
+/^\s*( and )/
+/^\s*(!?=)\s*/
+/^\s*([<>]=?)\s*/
+/^\s*(\+|-)\s*/
+/^\s*(\*| div | mod )\s*/
+/^(\-*)/
+/^\s*(\|)\s*/
+/PUBLIC|SYSTEM/
+/PUBLIC|SYSTEM/
+/^xmlns(:|$)/
+/(?:::)(\w)\w+$/
+/(?:::)(\w+)$/
+/^PASS /
+/[\r\n]/
+/[\r\n]/
+/\A\*\[(.*)\]\z/
+/:(\d+)$/
+/\.\w*$/
+/\AContent-length: (\d+)\r\n\z/
+/\A\d+\z/
+/-r (#{Regexp.escape(__dir__)}\S+)/
+/\ARUBY_EVENT_/
+/\A(.+?)\b(.+)/
+/\s+into:\s*(.+)/
+/([^\s]+)(?:\s+(.+))?/
+/\ADEBUGGER__::(([A-Z][a-z]+?)[A-Z][a-z]+)/
+/RUBY/
+/\A\s*,(.+)\z/
+/\b([_a-zA-Z]\w*[!\?]?)\z/
+/\A\s*[a-z]*\z/
+/[*?\[{]/
+/\A\d/
+/\A\d/
+/mswin|mingw|cygwin/
+/mswin|cygwin|mingw|bccwin/
+/\.\z/
+/\A::(ffff:)?([\da-f]{1,4}):([\da-f]{1,4})\z/
+/\A\[(.*)\]\z/
+/\A(.*)(%\w+)\z/
+/(.*?):(\d+).*?$/
+/gemcutter-0\.[0-3]/
+/^--\[no-\](.+)$/
+/\A-./
+/buff/
+/buff/
+/\A([+-])(\d\d)(:?)(\d\d)(?:\3(\d\d))?\z/
+/\Arb?(?:\Z|:([^:]+))/
+/[\r\n]/
+/[\r\n]/
+/\A(--[^=]+)/
+/=(.*)/
+/=(.*)/
+/=(.*)/
+/\A(-(.))(.*)/
+/mswin|mingw|bccwin|wince/
+/warning/
+/\)\z/
+/\A--(?:top(?:src)?|src|cur)dir(?=\z|=)/
+/mswin/
+/mingw/
+/cygwin/
+/netbsd/
+/haiku/
+/solaris/
+/universal/
+/\A\w/
+/\Acheck/
+/-l([^ ]+)/
+/\A\$[\(\{]/
+/.prefix$/
+/^abs_/
+/^(?:src|top(?:_src)?|build|hdr)dir$/
+/dir$/
+/^RUBY.*NAME/
+/\$\(target_prefix\)\z/
+/\A\t/
+/\A(?!\s*\w+\s*=)[$\w][^#]*:/
+/\A\s*\$\(RM|COPY\)/
+/(?:^|[^\\])(?:\\\\)*\\$/
+/^[[:upper:]]/
+/icc\z/
+/warnflags/
+/nmake/
+/\A(extconf|makefile).rb\z/
+/\Ablock_given\?\z|\Aiterator\?\z|\A__.*__\z/
+/\A@delegate_/
+/\A__(?:send|id)__\z/
+/\A__(?:send|id)__\z/
+/\Adrbunix:(.*?)(\?(.*))?\z/
+/\Adrb([a-z0-9]+):/
+/`__send__'$/
+/charset[\t\n\f\r ]*=(?:"([^"]*)"|'([^']*)'|["']|\z|([^\t\n\f\r ;]+))/
+/\Abytes=((?:,[ \t]*)*(?:\d+-\d*|-\d+)(?:[ \t]*,(?:[ \t]*\d+-\d*|-\d+)?)*)\z/
+/(?:\A|[^\-\w])chunked(?![\-\w])/
+/[\r\n]/
+/[ \t]*<%-/
+/[ \t]*<%-/
+/mswin|mingw|cygwin/
+/^(.{0,#{wrap}})[ \n]/
+/\.gem$/
+/\.gem$/
+/^rubygems-\d/
+/#{Gem.path_separator}\z/
+/[ @](.*:\d+)/
+/[ @](.*:\d+)/
+/\A\d+\z/
+/(?:\R|[<>])/
+/\A#{PREFIX}/
+/^--config-file=(.*)/
+/^--config-file$/
+/mswin(?:32|64)$/
+/^\d+(\.\d+)?$/
+/^[a-z]$/
+/\A\s*\Z/
+/[a-zA-Z]/
+/^\d+$/
+/\A(.*):(#{Gem::Requirement::PATTERN_RAW})\z/
+/^#{name}/
+/\.gem$/
+/\A[0-7]*\z/
+/\A[\x80\xff]/
+/\A(.*)(i)?\z/
+/\A.+@.+\z/
+/\.gem$/
+/^#{selected.name}$/
+/Ext::(.*)Builder/
+/with-make-prog\=(\w+)/
+/mkrf_conf/
+/^--\[no-\](.+)$/
+/\A-./
+/\A\w[-\w]*\z/
+/\A\#/
+/\A----/
+/<<[-~]?(['"`])\w+\1/
+/(%*)%I/
+/#|\./
+/^\s*$/
+/^\s*$/
+/^\s+$/
+/mswin|mingw/
+/meets end of file|unexpected end-of-input/
+/\A(['"])([^'"]+)\Z/
+/\A(?:::)?RubyVM/
+/mswin|msys|mingw|cygwin|bccwin|wince|emc/
+/\A\w[-\w]*\z/
+/\A"(.*)"\z/
+/\A"(.*)"\z/
+/"(.*)"/
+/mswin|mingw/
+/(msys-|cygwin-).*-pty/
+/[0-9]/
+/[A-Z]/
+/[a-z]/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\w|\s/
+/[\w\s]/
+/[\w\s]/
+/[\r\n]/
+/(\r?\n)\z/
+/\A127\.|\A::1\z/
+/\A(?:[^@,;]+@[^@,;]+(?:\z|[,;]))*\z/
+/(?<foo>bar)/
+/\.c$/
+/^(.+?):(\d+)(?::in `.*')?/
+/linux/
+/#{SEPARATOR_PAT}+\z/
+/(?<type>_client|_server)\z/
+/^:(["'])(.*)\1/
+/^(?:tag:|x-private)/
+/\n(?!\Z)/
+/^[^[:word:]][^"]*$/
+/\A0[0-7]*[89]/
+/^([\w\*\s]+)\[(\d+)\]$/
+/^(.+?):(\d+)/
+/^(.+?):(\d+)/
+/_content\z/
+/_new\z/
+/_add\z/
+/\A\s/
+/\A(\w+)=(.*)/
+/^STATIC_LIB[ \t]*=[ \t]*\S+/
+/\A[^-][^=]*\Z/
+/\AMINIRUBY=/
+/^[a-z-]+$/
+/^\s*$/
+/^TARGET *= *\S/
+/clean\z/
+/(?<type>_client|_server)\z/
+/darwin/
+/darwin/
+/\A(AF_INET6|PF_INET6|IPV6_.*)\z/
+/linux/
+/\b#{name}\b/
+/^(.+?):(\d+)(?::in `.*')?/
+/^:(["'])(.*)\1/
+/^(?:tag:|x-private)/
+/\n(?!\Z)/
+/^[^[:word:]][^"]*$/
+/\A0[0-7]*[89]/
+/#{SEPARATOR_PAT}+\z/
+/^TOP[ \t]/
+/^\w+\./
+/^(?:x64|x86_64)/
+/\A\s*(\#|\z)/
+/^\#define\s+SIZEOF_#{type}\s+(SIZEOF_(.+)|\d+)/
+/^([\w\*\s]+)\[(\d+)\]$/
+/^(.+?):(\d+)/
+/^(.+?):(\d+)/
+/^AC_INIT\((.*)\)/
+/^x64/
+/openbsd/
+/_content\z/
+/_new\z/
+/_add\z/
+/\A\s/
+/#{re.join("\0")}/
+/\Aid[A-Z_]/
+/\A\#\s*define\s+dispatch/
+/ripper_dispatch/
+/\*% *ripper(?:\[(.*?)\])?: *(.*?) *%\*/
+/^[a-z]/
+/(mswin|mingw)/
+/^<internal:/
+/( *)/
+/^([A-Za-z_]+\w*)(\.|#|::)([^ ]+)/
+/^#{Regexp.quote("<" + @element)}.*#{Regexp.quote(">" + (@content || ''))}$/
+/^#{Regexp.quote("<" + @element)}/
+/^\s*end\s*$/
+/fake/
+/fake/
+/real/
+/real/
+/real/
+/fake/
+/^\s*require.+spec_helper/
+/^\s*require_relative\s*['"](.*spec_helper)['"]/
+/^(\s*)#/
+/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}.\d+Z /
+/^(\w+)[#\.](\w+) /
+/\A_(.*)_\z/
+/success$/
+/success$/
+/\bdie\b/
+/value of \$DEBUG is true/
+/^rubyopt.rb required/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/extra argument for --encoding: utf-32le/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/\A#<StringIO:0x\h+>\z/
+/\A215 FTP Dummy Server \(SYST\)\Z/
+/\AFTP Dummy Server \(SYST\)\Z/
+/^AF_INET6?/
+/^#{@hostname}/
+/^#{SocketSpecs.hostname}\b/
+/^#{SocketSpecs.hostname}\b/
+/^#{SocketSpecs.hostname('::1')}\b/
+/^(.*?):(\d+): /
+/^(.*?):(\d+): /
+/specs.*\.tt$/
+/onreadystatechange/
+/onreadystatechange/
+/^\{[A-Z0-9]{8}\-[A-Z0-9]{4}\-[A-Z0-9]{4}\-[A-Z0-9]{4}\-[A-Z0-9]{12}/
+/System32/
+/\A\{[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}\}\z/
+/^(UNKNOWN|PROPERTY|PROPERTYGET|PROPERTYPUT|PROPERTYPUTREF|FUNC)$/
+/VBENLR.*\.CHM$/
+/opened=false/
+/opened=true.*/
+/opened=true/
+/\A0\.100#{i}E3\z/
+/\A-0\.100#{i}E3\z/
+/\A0\.3E-49999\z/
+/^0\.[0-9]*e[0-9]*$/
+/^\+.*/
+/^\+.*/
+/\ .*/
+/\ .*/
+/^0\.[0-9]*E[0-9]*$/
+/\A0+\z/
+/\A0+\z/
+/#{suffix}$/
+/c(a)t/
+/c(a)t/
+/c(a)t/
+/c(a)t/
+/c(a)t/
+/Module.*hello/
+/ Object::/
+/\A#<Module:0x\h+>\z/
+/\A#<Class:0x\h+>\z/
+/\A#<Class:#<#{klass}:0x\h+>>\z/
+/\A#<Class:#<#<Class:0x\h+>:0x\h+>>\z/
+/\A#<Class:#<ModuleSpecs::NamedClass:0x\h+>>\z/
+/\A#<Class:#<#{Regexp.escape klass.to_s}:0x\h+>>\z/
+/\A#<Module:0x[0-9a-f]+>::N\z/
+/\A#<Module:0x\h+>::N\z/
+/\A#<Module:0x\h+>::Child\z/
+/\bfoo\b/
+/\bModuleSpecs::InstanceMeth\b/
+/\bModuleSpecs::InstanceMeth\b/
+/\bfoo\b/
+/\bModuleSpecs::InstanceMeth\b/
+/\bbar\b/
+/\bModuleSpecs::InstanceMethMod\b/
+/\bModuleSpecs::InstanceMethChild\b/
+/\bModuleSpecs::InstanceMethChild\b/
+/#{__FILE__}/
+/#{__FILE__}/
+/#{__FILE__}/
+/#{__FILE__}/
+/\bUnboundMethod\b/
+/\#bar/
+/MethodSpecs::MyMod/
+/MethodSpecs::MySub/
+/MethodSpecs::MyMod/
+/\bMethod\b/
+/\#bar/
+/MethodSpecs::MyMod/
+/MethodSpecs::MySub/
+/^\[#<MockObject:0x[0-9a-f]+>\]$/
+/^\[#<MockObject:0x[0-9a-f]+>\]$/
+/set last (.*)/
+/set last (.*)/
+/Invalid argument|Signal already used by VM or OS/
+/can't trap reserved signal|Signal already used by VM or OS/
+/undefined local variable or method `not_defined'/
+/uninitialized constant NotDefined/
+/exception_spec/
+/private method `a_private_method' called for /
+/undefined method.+\bbar\b/
+/undefined method.+\bbar\b/
+/undefined method.+\bbar\b/
+/^undefined method `foo' for /
+/^undefined method `foo' for /
+/common\.rb/
+/:7:in /
+/in `backtrace'/
+/backtrace_spec\.rb/
+/:6(:in )?/
+/^.+:\d+:in `[^`]+'$/
+/backtrace_spec/
+/backtrace_spec/
+/backtrace_locations_spec/
+/a.rb:1.*b.rb:2/
+/b.rb:2.*a.rb:1/
+/@ not_a_string - foo/
+/Error .*occurred/
+/Unknown error/
+/message/
+/^#<Object:0x[0-9a-f]+>$/
+/Object/
+/_pub\z/
+/_pro\z/
+/EvalBindingProcA$/
+/EvalBindingA$/
+/#{expected}:1:.+/
+/#{expected_file}:-100:.+/
+/Object/
+/regexp/
+/deprecated Object#=~ is called on Object/
+/\A\d+\z/
+/_pri\z/
+/\b#{feature}\.(rb|so|jar)$/
+/^(a*)*$/
+/c(.)t/
+/c(.)t/
+/(?<test>[A-Z]+.*)/
+/(?<test>[A-Z]+.*)/
+/(?<test>[A-Z]+.*)/
+/(?<test>[A-Z]+.*)/
+/(?<test>[A-Z]+.*)/
+/(.)(.)(.)/
+/(.)(.)(.)/
+/LoadError/
+/LoadError/
+/\{.*"foo"=>"bar".*\}/
+/^\{:a=>#<MockObject:0x[0-9a-f]+>\}$/
+/^\{:a=>#<MockObject:0x[0-9a-f]+>\}$/
+/#<Encoding:#{enc.name}>/
+/#<Encoding:#{enc.name} \(dummy\)>/
+/`sleep'/
+/\A(singleton class|<singleton class>)\z/
+/^#<Thread:([^ ]*?) #{Regexp.escape __FILE__}:#{line} \w+>$/
+/\A\#<ObjectSpace::WeakMap:0x\h+>\z/
+/\A\#<ObjectSpace::WeakMap:0x\h+: \#<BasicObject:0x\h+> => \#<BasicObject:0x\h+>>\z/
+/\A\#<ObjectSpace::WeakMap:0x\h+: \#<BasicObject:0x\h+> => \#<BasicObject:0x\h+>>\z/
+/hello#{newline}/
+/#{__FILE__}/
+/#{__FILE__}/
+/\bUnboundMethod\b/
+/\bUnboundMethod\b/
+/\bfrom_mod\b/
+/\bUnboundMethodSpecs::Mod\b/
+/\bUnboundMethodSpecs::Methods\b/
+/^#<Proc:([^ ]*?) #{Regexp.escape __FILE__}:#{__LINE__ }>$/
+/^#<Proc:([^ ]*?) #{Regexp.escape __FILE__}:#{__LINE__ } \(lambda\)>$/
+/^#<Proc:([^ ]*?) #{Regexp.escape __FILE__}:#{__LINE__ }>$/
+/^#<Proc:([^ ]*?) #{Regexp.escape __FILE__}:#{__LINE__ - 3} \(lambda\)>$/
+/^#<Proc:([^ ]*?) \(lambda\)>$/
+/is deprecated/
+/is experimental/
+/Object/
+/a message/
+/(c|a)(t|z)/
+/(c|a)(t|z)/
+/(f)oo/
+/(b)ar/
+/hello/
+/(bar)/
+/(bar)/
+/(bar)/
+/(f(o)o)/
+/(a)|(b)/
+/(f)(o)(o)/
+/warning: argument of top-level return is ignored/
+/begin_file\.rb$/
+/class or module required for rescue clause/
+/class or module required for rescue clause/
+/invalid multibyte char/
+/invalid multibyte char/
+/warning: END in method; use at_exit/
+/regexp/
+/(?<matched>foo)(?<unmatched>bar)?/
+/regexp/
+/(?<matched>str)(?<unmatched>lit)?/
+/regexp/
+/(?<matched>foo)(?<unmatched>bar)?/
+/z(z)z/
+/s(-)m(.)/
+/z(z)z/
+/s(-)m(.)/
+/\A[[:space:]]*\z/
+/(1)(2)(3)(4)(5)(6)(7)(8)(9)(0)/
+/(o+)/
+/\10()()()()()()()()()()/
+/^[^f]/
+/($^)($^)/
+/[^o]$/
+/($\Z)($\Z)/
+/(\z\Z)(\z\Z)/
+/(\Z)/
+/($\z)($\z)/
+/(\z)/
+/This is a warning/
+/This is a warning/
+/#{__FILE__}/
+/(?:\A|\s)--jobserver-(?:auth|fds)=(\d+),(\d+)/
+/^#<Proc:([^ :@]*?)>$/
+/hack/
+/hack/
+/^From /
+/^(?<attr>\S+?):\s*(?<value>.*)/
+/^From /
+/^-(\d+)$/
+/^begin\s*(\d*)\s*(\S*)/
+/^end/
+/[a-z]/
+/,\s*$/
+/^\s*(class|module|def|if|unless|case|while|until|for|begin)\b[^_]/
+/^\s*end\b[^_]/
+/\{\s*(\|.*\|)?\s*$/
+/^\s*\}/
+/\.(Z|gz)$/
+/^(.*):([0-9]+)$/
+/^\[(.*)\]$/
+/^((void|VALUE|int|char *\*|ID|struct \w+ *\*|st_table *\*) *)?\n(\w+)\(.*\)\n\s*((.+;\n)*)\{/
+/(([^*]+) *\** *\w+),/
+/^http:/
+/^http:/
+/^http:/
+/^http:/
+/^[\da-f]+\.r{0,1}\d+$/
+/\AURI:(.*)\z/
+/CA:(TRUE|FALSE), pathlen:(\d+)/
+/(ruby.*?\.tar\.gz)/
+/^_?(rb_w32_\w+)(?:@\d+)?$/
+/^#define (\w+)\((.*?)\)\s+(?:\(void\))?(rb_w32_\w+)\((.*?)\)\s*$/
+/^[[:xdigit:]]+ 0+ UNDEF /
+/External/
+/(?:_local_stdio_printf_options|v(f|sn?)printf(_s)?_l)\Z/
+/^[@_]/
+/^_?#{PrivateNames}/
+/@.*@/
+/mingw/
+/(.+)[\!\?]\z/
+/\Arequire(?:_relative)\z/
+/\A#!/
+/^304 /
+/mswin|bccwin|mingw/
+/^(?:\*|\+)(.+)$/
+/^(?:&gt;|\*)?([0-9A-F\+]+)$/
+/\A(\d+)?\z/
+/\A(\d+)\z/
+/\A(\d+)?(?: *by (\h+))?(?:\s*-- +(.*))?\z/
+/revision="(?<rev>\d+)/
+/^commit (?<rev>\h{40})$/
+/\A(\d+)?\z/
+/\A(\d+)?\z/
+/\A\d+\z/
+/mingw|mswin/
+/\.dll\z/
+/\A(\w+)=(.*)/
+/\[Backport #(\d*)\]/
+/\(#(\d*)\)/
+/^0x([a-z0-9]+),/
+/[\n ]\z/
+/[\n ]\z/
+/^(.*)\(([0-9])\)$/
+/\A\./
+/\n\z/
+/\n\z/
+/\A--([-\w]+)(?:=(.*))?\z/
+/[\da-f]{16} /
+/\A\h+\z/
+/mswin/
+/universal.*darwin/
+/^program_transform_name$/
+/darwin/
+/= "no"$/
+/(\w+)\t([\d\.]+)/
+/benchmark summary/
+/gperf/
+/LICENSE\.md/
+/nothing\ to\ commit/
+/^CONFLICT/
+/pre|beta/
+/^# Total (?:code points|elements): /
+/^([0-9a-fA-F]+)(?:\.\.([0-9a-fA-F]+))?\s*;\s*(\w+)/
+/^(\w+)\s*; (\w+)/
+/^(sc|gc)\s*; (\w+)\s*; (\w+)(?:\s*; (\w+))?/
+/^# Total code points: /
+/^([0-9a-fA-F]+)(?:\.\.([0-9a-fA-F]+))?\s*;\s*(\d+\.\d+)/
+/^# Total code points: /
+/^([0-9a-fA-F]+)(?:\.\.([0-9a-fA-F]+))?\s*;\s*(\w+)/
+/^([0-9a-fA-F]+)\.\.([0-9a-fA-F]+);\s*(.*)/
+/^emoji/
+/ANSI-C code produced by gperf/
+/\A-\S*n/
+/^%token/
+/darwin/
+/\A[^-][^=]*\Z/
+/\A-[OW]/
+/emscripten/
+/ruby/
+/mswin|mingw|bccwin/
+/\Adoc\b/
+/^\s*(?:#|$)/
+/^(\S+)\s+(\S+).*/
+/\A\s*\(empset\)\s*\z/
+/\A\s*\(empstr\)\s*\z/
+/\A\s*(#{HEX2}+)\s*\z/
+/\A\s*((#{HEX2}|\{#{HEX2}(?:-#{HEX2})?(,#{HEX2}(?:-#{HEX2})?)*\})+(\s+|\z))*\z/
+/\bUCS@(BMP|SMP|SIP|TIP|SSP)\b/
+/^BEGIN_MAP/
+/^\s*(?:#|$)/
+/^END_MAP/
+/^<U([0-9a-fA-F]+)>\s*([\+0-9a-fA-Fx\\]+)\s*\|(\d)/
+/^([<U0-9a-fA-F>+]+)\s*([\+0-9a-fA-Fx\\]+)\s*\|(\d)/
+/(NODE_.+),/
+/^(\w+)\s*=\s*(.*)/
+/^!\s*(?:chdir:\s*([^|\s]+)\|\s*)?(.*)/
+/singleton/
+/\[start\] (\w+)/
+/\[start\] (\w+)/
+/\[length = (\d+)\]/
+/\A(Feature|Bug)\s+#\d+\z/
+/-(?:preview|rc)/
+/^(?:preview|rc)/
+/^\{% assign release = site.data.releases \| where: "version", "([^"]+)" \| first %\}/
+/\A(\d+)\.(\d+)\.(\d+)(?:-(?:preview|rc)\d+)?\z/
+/^preview:\n\n(?:  .*\n)*  - #{Regexp.escape(xy)}\./
+/^\{% assign release = site.data.releases \| where: "version", "([^"]+)" \| first %\}/
+/darwin/
+/\A(\d+)-(\d+)-(\d+)\D(\d+):(\d+):(\d+(?:\.\d+)?)\s*(?:Z|([-+]\d\d)(\d\d))\z/
+/[^\x00-\x7f]/
+/^ *git-svn-id: .*@(\d+) .*\n+\z/
+/\A\e\[.*m\z/
+/mswin|mingw/
+/darwin/
+/darwin/
+/\AProcess:\s+#{cmd} \[#{pid}\]$/
+/^ *"pid" *: *#{pid},/
+/mswin|mingw/
+/\n[^\n]/
+/\Anot_/
+/mswin|mingw/
+/^Basic\s+(.*)/
+/^(\d+)\.(\d+)$/
+/\A(#{CRLF}|#{LF})\z/
+/^[^=]+;/
+/\bchunked\b/
+/\Aclose\z/
+/\Akeep-alive\z/
+/^content-type$/
+/^content-length$/
+/\A(#{CRLF}|#{LF})\z/
+/^([0-9a-fA-F]+)(?:;(\S+))?/
+/\A(\[[0-9a-fA-F:]+\])(?::(\d+))?\z/
+/\.\.(/
+/\.(\w+)$/
+/\.(\w+)\.[\w\-]+$/
+/^bytes=(.*)/
+/\A"(.*)"\Z/
+/\s+name="(.*?)"/
+/\s+filename="(.*?)"/
+/^SSL_CLIENT_CERT_CHAIN_\d+$/
+/[\r\n]/
+/mswin|bccwin|mingw/
+/mswin|bccwin|mingw/
+/^(\d+)/
+/~([^/
+/\.(\w+)\z/
+/\.(\w+)\.([\w\-]+)\z/
+/[. ]+\z/
+/::\$DATA\z/
+/-sess$/
+/#(\s*)pragma RubyVM reset source\n/
+/[*?\[{]/
+/\A\d/
+/\A\d/
+/mswin|mingw|cygwin/
+/mswin|cygwin|mingw|bccwin/
+/\.\z/
+/\A::(ffff:)?([\da-f]{1,4}):([\da-f]{1,4})\z/
+/\A\[(.*)\]\z/
+/\A(.*)(%\w+)\z/
+/(.*?):(\d+).*?$/
+/gemcutter-0\.[0-3]/
+/^--\[no-\](.+)$/
+/\A-./
+/^(.+?):(\d+)(?::in `.*')?/
+/buff/
+/buff/
+/\A([+-])(\d\d)(:?)(\d\d)(?:\3(\d\d))?\z/
+/\Arb?(?:\Z|:([^:]+))/
+/[\r\n]/
+/[\r\n]/
+/linux/
+/#{SEPARATOR_PAT}+\z/
+/\A(--[^=]+)/
+/=(.*)/
+/=(.*)/
+/=(.*)/
+/\A(-(.))(.*)/
+/mswin|mingw|bccwin|wince/
+/warning/
+/\)\z/
+/\A--(?:top(?:src)?|src|cur)dir(?=\z|=)/
+/mswin/
+/mingw/
+/cygwin/
+/netbsd/
+/haiku/
+/solaris/
+/universal/
+/\A\w/
+/\Acheck/
+/-l([^ ]+)/
+/\A\$[\(\{]/
+/.prefix$/
+/^abs_/
+/^(?:src|top(?:_src)?|build|hdr)dir$/
+/dir$/
+/^RUBY.*NAME/
+/\$\(target_prefix\)\z/
+/\A\t/
+/\A(?!\s*\w+\s*=)[$\w][^#]*:/
+/\A\s*\$\(RM|COPY\)/
+/(?:^|[^\\])(?:\\\\)*\\$/
+/^[[:upper:]]/
+/icc\z/
+/warnflags/
+/nmake/
+/\A(extconf|makefile).rb\z/
+/\Ablock_given\?\z|\Aiterator\?\z|\A__.*__\z/
+/\A@delegate_/
+/\A__(?:send|id)__\z/
+/\A__(?:send|id)__\z/
+/\Adrbunix:(.*?)(\?(.*))?\z/
+/\Adrb([a-z0-9]+):/
+/`__send__'$/
+/(?<type>_client|_server)\z/
+/charset[\t\n\f\r ]*=(?:"([^"]*)"|'([^']*)'|["']|\z|([^\t\n\f\r ;]+))/
+/\Abytes=((?:,[ \t]*)*(?:\d+-\d*|-\d+)(?:[ \t]*,(?:[ \t]*\d+-\d*|-\d+)?)*)\z/
+/(?:\A|[^\-\w])chunked(?![\-\w])/
+/[\r\n]/
+/[ \t]*<%-/
+/[ \t]*<%-/
+/mswin|mingw|cygwin/
+/^:(["'])(.*)\1/
+/^(?:tag:|x-private)/
+/\n(?!\Z)/
+/^[^[:word:]][^"]*$/
+/\A0[0-7]*[89]/
+/^(.{0,#{wrap}})[ \n]/
+/\.gem$/
+/\.gem$/
+/^rubygems-\d/
+/#{Gem.path_separator}\z/
+/[ @](.*:\d+)/
+/[ @](.*:\d+)/
+/\A\d+\z/
+/(?:\R|[<>])/
+/\A#{PREFIX}/
+/^--config-file=(.*)/
+/^--config-file$/
+/mswin(?:32|64)$/
+/^\d+(\.\d+)?$/
+/^[a-z]$/
+/\A\s*\Z/
+/[a-zA-Z]/
+/^\d+$/
+/\A(.*):(#{Gem::Requirement::PATTERN_RAW})\z/
+/^#{name}/
+/\.gem$/
+/\A[0-7]*\z/
+/\A[\x80\xff]/
+/\A(.*)(i)?\z/
+/\A.+@.+\z/
+/\.gem$/
+/^#{selected.name}$/
+/Ext::(.*)Builder/
+/with-make-prog\=(\w+)/
+/mkrf_conf/
+/^--\[no-\](.+)$/
+/\A-./
+/\A\w[-\w]*\z/
+/\A\#/
+/\A----/
+/<<[-~]?(['"`])\w+\1/
+/(%*)%I/
+/#|\./
+/^\s*$/
+/^\s*$/
+/^\s+$/
+/mswin|mingw/
+/meets end of file|unexpected end-of-input/
+/\A(['"])([^'"]+)\Z/
+/\A(?:::)?RubyVM/
+/mswin|msys|mingw|cygwin|bccwin|wince|emc/
+/\A\w[-\w]*\z/
+/\A"(.*)"\z/
+/\A"(.*)"\z/
+/"(.*)"/
+/mswin|mingw/
+/(msys-|cygwin-).*-pty/
+/[0-9]/
+/[A-Z]/
+/[a-z]/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\w|\s/
+/[\w\s]/
+/[\w\s]/
+/^([\w\*\s]+)\[(\d+)\]$/
+/^(.+?):(\d+)/
+/^(.+?):(\d+)/
+/[\r\n]/
+/(\r?\n)\z/
+/\A127\.|\A::1\z/
+/\A(?:[^@,;]+@[^@,;]+(?:\z|[,;]))*\z/
+/_content\z/
+/_new\z/
+/_add\z/
+/\A\s/
+/(?<foo>bar)/
+/\A\w/
+/\w\z/
+/^PASS /
+/[\r\n]/
+/[\r\n]/
+/^([^\[]+)(?:\[(.*)\])$/
+/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/
+/^\d+$/
+/^history/
+/^(\w+)=(.*)$/
+/^#{prefix}:/
+/^rake:/
+/^(\^+)/
+/^ *$/
+/[\r\n]/
+/\{(\d+)\}\r\n/
+/^"(.*)"$/
+/^auth-(?:conf|int)$/
+/rspauth=/
+/\A\+OK/
+/\A\+OK/
+/(?<number>\d+)/
+/(?<number>\d+)/
+/\$(?<dollars>\d+)\.(?<cents>\d+)/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/ab\Kc/
+/(?<=ab)c/
+/(b|a)/
+/(b|a+)/
+/(b|a+)*/
+/(b|a+)*c/
+/(b|a+)*c/
+/(?>b|a+)*c/
+/(b|a+)*c/
+/(b|a+)*c/
+/c(.)t/
+/c(.)t/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/^a*b?a*$/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<foo>\w+)\s*=\s*(?<foo>\w+)/
+/(?<foo>\w+)\s*=\s*#{r}/
+/\A\d+\z/
+/-r (#{Regexp.escape(__dir__)}\S+)/
+/\ARUBY_EVENT_/
+/\A(.+?)\b(.+)/
+/\s+into:\s*(.+)/
+/([^\s]+)(?:\s+(.+))?/
+/\ADEBUGGER__::(([A-Z][a-z]+?)[A-Z][a-z]+)/
+/RUBY/
+/\A\s*,(.+)\z/
+/\b([_a-zA-Z]\w*[!\?]?)\z/
+/\A\s*[a-z]*\z/
+/(?:\+xml|^xml)$/
+/\A\s*\z/
+/\A(?:yes|no)\z/
+/\.([^.]+)$/
+/\\A[a-z][a-z0-9+.\\-]*:/
+/^(atom|rss)?(\d+\.\d+)?(?::(.+))?$/
+/\Axmlns(?:\z|:)/
+/#{test}(.*)/
+/SYSTEM|PUBLIC/
+/^xmlns:/
+/-or-self$/
+/\AUTF-16(?:BE|LE)\z/
+/^xmlns:(.*)/
+/\AUTF-16\z/
+/^\s*\)/
+/^\s*( or )/
+/^\s*( and )/
+/^\s*(!?=)\s*/
+/^\s*([<>]=?)\s*/
+/^\s*(\+|-)\s*/
+/^\s*(\*| div | mod )\s*/
+/^(\-*)/
+/^\s*(\|)\s*/
+/PUBLIC|SYSTEM/
+/PUBLIC|SYSTEM/
+/^xmlns(:|$)/
+/(?:::)(\w)\w+$/
+/(?:::)(\w+)$/
+/\A\*\[(.*)\]\z/
+/:(\d+)$/
+/\.\w*$/
+/\AContent-length: (\d+)\r\n\z/
+/(?<number>\d+)/
+/(?<number>\d+)/
+/\$(?<dollars>\d+)\.(?<cents>\d+)/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/ab\Kc/
+/(?<=ab)c/
+/(b|a)/
+/(b|a+)/
+/(b|a+)*/
+/(b|a+)*c/
+/(b|a+)*c/
+/(?>b|a+)*c/
+/(b|a+)*c/
+/(b|a+)*c/
+/c(.)t/
+/c(.)t/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/^a*b?a*$/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<foo>\w+)\s*=\s*(?<foo>\w+)/
+/(?<foo>\w+)\s*=\s*#{r}/
+/\A\d+\z/
+/-r (#{Regexp.escape(__dir__)}\S+)/
+/\ARUBY_EVENT_/
+/\A(.+?)\b(.+)/
+/\s+into:\s*(.+)/
+/([^\s]+)(?:\s+(.+))?/
+/\ADEBUGGER__::(([A-Z][a-z]+?)[A-Z][a-z]+)/
+/RUBY/
+/\A\s*,(.+)\z/
+/\b([_a-zA-Z]\w*[!\?]?)\z/
+/\A\s*[a-z]*\z/
+/\A\#/
+/\A----/
+/^([^\[]+)(?:\[(.*)\])$/
+/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/
+/^\d+$/
+/^history/
+/^(\w+)=(.*)$/
+/^#{prefix}:/
+/^rake:/
+/^(\^+)/
+/^ *$/
+/\A\w/
+/\w\z/
+/^PASS /
+/[\r\n]/
+/[\r\n]/
+/^([^\[]+)(?:\[(.*)\])$/
+/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/
+/^\d+$/
+/^history/
+/^(\w+)=(.*)$/
+/^#{prefix}:/
+/^rake:/
+/^(\^+)/
+/^ *$/
+/[\r\n]/
+/\Adrbunix:(.*?)(\?(.*))?\z/
+/\Adrb([a-z0-9]+):/
+/`__send__'$/
+/\A\*\[(.*)\]\z/
+/:(\d+)$/
+/\.\w*$/
+/\AContent-length: (\d+)\r\n\z/
+/\{(\d+)\}\r\n/
+/^"(.*)"$/
+/^auth-(?:conf|int)$/
+/rspauth=/
+/(?<number>\d+)/
+/(?<number>\d+)/
+/\$(?<dollars>\d+)\.(?<cents>\d+)/
+/c(.)t/
+/c(.)t/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/^a*b?a*$/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<foo>\w+)\s*=\s*(?<foo>\w+)/
+/(?<foo>\w+)\s*=\s*#{r}/
+/(?:\+xml|^xml)$/
+/\A\s*\z/
+/\A(?:yes|no)\z/
+/\.([^.]+)$/
+/\\A[a-z][a-z0-9+.\\-]*:/
+/\Ais/
+/^(atom|rss)?(\d+\.\d+)?(?::(.+))?$/
+/\Axmlns(?:\z|:)/
+/\{(\d+)\}\r\n/
+/^"(.*)"$/
+/^auth-(?:conf|int)$/
+/rspauth=/
+/\A\+OK/
+/\A\+OK/
+/\A(--[^=]+)/
+/=(.*)/
+/=(.*)/
+/=(.*)/
+/\A(-(.))(.*)/
+/[\r\n]/
+/(?<number>\d+)/
+/(?<number>\d+)/
+/\$(?<dollars>\d+)\.(?<cents>\d+)/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/ab\Kc/
+/(?<=ab)c/
+/(b|a)/
+/(b|a+)/
+/(b|a+)*/
+/(b|a+)*c/
+/(b|a+)*c/
+/(?>b|a+)*c/
+/(b|a+)*c/
+/(b|a+)*c/
+/c(.)t/
+/c(.)t/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/^a*b?a*$/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<foo>\w+)\s*=\s*(?<foo>\w+)/
+/(?<foo>\w+)\s*=\s*#{r}/
+/\A\d+\z/
+/-r (#{Regexp.escape(__dir__)}\S+)/
+/\ARUBY_EVENT_/
+/\A(.+?)\b(.+)/
+/\s+into:\s*(.+)/
+/([^\s]+)(?:\s+(.+))?/
+/\ADEBUGGER__::(([A-Z][a-z]+?)[A-Z][a-z]+)/
+/RUBY/
+/\A\s*,(.+)\z/
+/\b([_a-zA-Z]\w*[!\?]?)\z/
+/\A\s*[a-z]*\z/
+/(?:\+xml|^xml)$/
+/\A\s*\z/
+/\A(?:yes|no)\z/
+/\.([^.]+)$/
+/\\A[a-z][a-z0-9+.\\-]*:/
+/^(atom|rss)?(\d+\.\d+)?(?::(.+))?$/
+/\Axmlns(?:\z|:)/
+/#{test}(.*)/
+/SYSTEM|PUBLIC/
+/^xmlns:/
+/-or-self$/
+/\AUTF-16(?:BE|LE)\z/
+/^xmlns:(.*)/
+/\AUTF-16\z/
+/^\s*\)/
+/^\s*( or )/
+/^\s*( and )/
+/^\s*(!?=)\s*/
+/^\s*([<>]=?)\s*/
+/^\s*(\+|-)\s*/
+/^\s*(\*| div | mod )\s*/
+/^(\-*)/
+/^\s*(\|)\s*/
+/PUBLIC|SYSTEM/
+/PUBLIC|SYSTEM/
+/^xmlns(:|$)/
+/(?:::)(\w)\w+$/
+/(?:::)(\w+)$/
+/#{test}(.*)/
+/SYSTEM|PUBLIC/
+/^xmlns:/
+/-or-self$/
+/\AUTF-16(?:BE|LE)\z/
+/^xmlns:(.*)/
+/\AUTF-16\z/
+/^\s*\)/
+/^\s*( or )/
+/^\s*( and )/
+/^\s*(!?=)\s*/
+/^\s*([<>]=?)\s*/
+/^\s*(\+|-)\s*/
+/^\s*(\*| div | mod )\s*/
+/^(\-*)/
+/^\s*(\|)\s*/
+/PUBLIC|SYSTEM/
+/PUBLIC|SYSTEM/
+/^xmlns(:|$)/
+/(?:::)(\w)\w+$/
+/(?:::)(\w+)$/
+/^PASS /
+/[\r\n]/
+/[\r\n]/
+/\A\*\[(.*)\]\z/
+/:(\d+)$/
+/\.\w*$/
+/\AContent-length: (\d+)\r\n\z/
+/\A\d+\z/
+/-r (#{Regexp.escape(__dir__)}\S+)/
+/\ARUBY_EVENT_/
+/\A(.+?)\b(.+)/
+/\s+into:\s*(.+)/
+/([^\s]+)(?:\s+(.+))?/
+/\ADEBUGGER__::(([A-Z][a-z]+?)[A-Z][a-z]+)/
+/RUBY/
+/\A\s*,(.+)\z/
+/\b([_a-zA-Z]\w*[!\?]?)\z/
+/\A\s*[a-z]*\z/
+/[*?\[{]/
+/\A\d/
+/\A\d/
+/mswin|mingw|cygwin/
+/mswin|cygwin|mingw|bccwin/
+/\.\z/
+/\A::(ffff:)?([\da-f]{1,4}):([\da-f]{1,4})\z/
+/\A\[(.*)\]\z/
+/\A(.*)(%\w+)\z/
+/(.*?):(\d+).*?$/
+/gemcutter-0\.[0-3]/
+/^--\[no-\](.+)$/
+/\A-./
+/buff/
+/buff/
+/\A([+-])(\d\d)(:?)(\d\d)(?:\3(\d\d))?\z/
+/\Arb?(?:\Z|:([^:]+))/
+/[\r\n]/
+/[\r\n]/
+/\A(--[^=]+)/
+/=(.*)/
+/=(.*)/
+/=(.*)/
+/\A(-(.))(.*)/
+/mswin|mingw|bccwin|wince/
+/warning/
+/\)\z/
+/\A--(?:top(?:src)?|src|cur)dir(?=\z|=)/
+/mswin/
+/mingw/
+/cygwin/
+/netbsd/
+/haiku/
+/solaris/
+/universal/
+/\A\w/
+/\Acheck/
+/-l([^ ]+)/
+/\A\$[\(\{]/
+/.prefix$/
+/^abs_/
+/^(?:src|top(?:_src)?|build|hdr)dir$/
+/dir$/
+/^RUBY.*NAME/
+/\$\(target_prefix\)\z/
+/\A\t/
+/\A(?!\s*\w+\s*=)[$\w][^#]*:/
+/\A\s*\$\(RM|COPY\)/
+/(?:^|[^\\])(?:\\\\)*\\$/
+/^[[:upper:]]/
+/icc\z/
+/warnflags/
+/nmake/
+/\A(extconf|makefile).rb\z/
+/\Ablock_given\?\z|\Aiterator\?\z|\A__.*__\z/
+/\A@delegate_/
+/\A__(?:send|id)__\z/
+/\A__(?:send|id)__\z/
+/\Adrbunix:(.*?)(\?(.*))?\z/
+/\Adrb([a-z0-9]+):/
+/`__send__'$/
+/charset[\t\n\f\r ]*=(?:"([^"]*)"|'([^']*)'|["']|\z|([^\t\n\f\r ;]+))/
+/\Abytes=((?:,[ \t]*)*(?:\d+-\d*|-\d+)(?:[ \t]*,(?:[ \t]*\d+-\d*|-\d+)?)*)\z/
+/(?:\A|[^\-\w])chunked(?![\-\w])/
+/[\r\n]/
+/[ \t]*<%-/
+/[ \t]*<%-/
+/mswin|mingw|cygwin/
+/^(.{0,#{wrap}})[ \n]/
+/\.gem$/
+/\.gem$/
+/^rubygems-\d/
+/#{Gem.path_separator}\z/
+/[ @](.*:\d+)/
+/[ @](.*:\d+)/
+/\A\d+\z/
+/(?:\R|[<>])/
+/\A#{PREFIX}/
+/^--config-file=(.*)/
+/^--config-file$/
+/mswin(?:32|64)$/
+/^\d+(\.\d+)?$/
+/^[a-z]$/
+/\A\s*\Z/
+/[a-zA-Z]/
+/^\d+$/
+/\A(.*):(#{Gem::Requirement::PATTERN_RAW})\z/
+/^#{name}/
+/\.gem$/
+/\A[0-7]*\z/
+/\A[\x80\xff]/
+/\A(.*)(i)?\z/
+/\A.+@.+\z/
+/\.gem$/
+/^#{selected.name}$/
+/Ext::(.*)Builder/
+/with-make-prog\=(\w+)/
+/mkrf_conf/
+/^--\[no-\](.+)$/
+/\A-./
+/\A\w[-\w]*\z/
+/\A\#/
+/\A----/
+/<<[-~]?(['"`])\w+\1/
+/(%*)%I/
+/#|\./
+/^\s*$/
+/^\s*$/
+/^\s+$/
+/mswin|mingw/
+/meets end of file|unexpected end-of-input/
+/\A(['"])([^'"]+)\Z/
+/\A(?:::)?RubyVM/
+/mswin|msys|mingw|cygwin|bccwin|wince|emc/
+/\A\w[-\w]*\z/
+/\A"(.*)"\z/
+/\A"(.*)"\z/
+/"(.*)"/
+/mswin|mingw/
+/(msys-|cygwin-).*-pty/
+/[0-9]/
+/[A-Z]/
+/[a-z]/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\w|\s/
+/[\w\s]/
+/[\w\s]/
+/[\r\n]/
+/(\r?\n)\z/
+/\A127\.|\A::1\z/
+/\A(?:[^@,;]+@[^@,;]+(?:\z|[,;]))*\z/
+/(?<foo>bar)/
+/\.c$/
+/^(.+?):(\d+)(?::in `.*')?/
+/linux/
+/#{SEPARATOR_PAT}+\z/
+/(?<type>_client|_server)\z/
+/^:(["'])(.*)\1/
+/^(?:tag:|x-private)/
+/\n(?!\Z)/
+/^[^[:word:]][^"]*$/
+/\A0[0-7]*[89]/
+/^([\w\*\s]+)\[(\d+)\]$/
+/^(.+?):(\d+)/
+/^(.+?):(\d+)/
+/_content\z/
+/_new\z/
+/_add\z/
+/\A\s/
+/\A(\w+)=(.*)/
+/^STATIC_LIB[ \t]*=[ \t]*\S+/
+/\A[^-][^=]*\Z/
+/\AMINIRUBY=/
+/^[a-z-]+$/
+/^\s*$/
+/^TARGET *= *\S/
+/clean\z/
+/(?<type>_client|_server)\z/
+/darwin/
+/darwin/
+/\A(AF_INET6|PF_INET6|IPV6_.*)\z/
+/linux/
+/\b#{name}\b/
+/^(.+?):(\d+)(?::in `.*')?/
+/^:(["'])(.*)\1/
+/^(?:tag:|x-private)/
+/\n(?!\Z)/
+/^[^[:word:]][^"]*$/
+/\A0[0-7]*[89]/
+/#{SEPARATOR_PAT}+\z/
+/^TOP[ \t]/
+/^\w+\./
+/^(?:x64|x86_64)/
+/\A\s*(\#|\z)/
+/^\#define\s+SIZEOF_#{type}\s+(SIZEOF_(.+)|\d+)/
+/^([\w\*\s]+)\[(\d+)\]$/
+/^(.+?):(\d+)/
+/^(.+?):(\d+)/
+/^AC_INIT\((.*)\)/
+/^x64/
+/openbsd/
+/_content\z/
+/_new\z/
+/_add\z/
+/\A\s/
+/#{re.join("\0")}/
+/\Aid[A-Z_]/
+/\A\#\s*define\s+dispatch/
+/ripper_dispatch/
+/\*% *ripper(?:\[(.*?)\])?: *(.*?) *%\*/
+/^[a-z]/
+/(mswin|mingw)/
+/^<internal:/
+/( *)/
+/^([A-Za-z_]+\w*)(\.|#|::)([^ ]+)/
+/^#{Regexp.quote("<" + @element)}.*#{Regexp.quote(">" + (@content || ''))}$/
+/^#{Regexp.quote("<" + @element)}/
+/^\s*end\s*$/
+/fake/
+/fake/
+/real/
+/real/
+/real/
+/fake/
+/^\s*require.+spec_helper/
+/^\s*require_relative\s*['"](.*spec_helper)['"]/
+/^(\s*)#/
+/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}.\d+Z /
+/^(\w+)[#\.](\w+) /
+/\A_(.*)_\z/
+/success$/
+/success$/
+/\bdie\b/
+/value of \$DEBUG is true/
+/^rubyopt.rb required/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/extra argument for --encoding: utf-32le/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/\A#<StringIO:0x\h+>\z/
+/\A215 FTP Dummy Server \(SYST\)\Z/
+/\AFTP Dummy Server \(SYST\)\Z/
+/^AF_INET6?/
+/^#{@hostname}/
+/^#{SocketSpecs.hostname}\b/
+/^#{SocketSpecs.hostname}\b/
+/^#{SocketSpecs.hostname('::1')}\b/
+/^(.*?):(\d+): /
+/^(.*?):(\d+): /
+/specs.*\.tt$/
+/onreadystatechange/
+/onreadystatechange/
+/^\{[A-Z0-9]{8}\-[A-Z0-9]{4}\-[A-Z0-9]{4}\-[A-Z0-9]{4}\-[A-Z0-9]{12}/
+/System32/
+/\A\{[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}\}\z/
+/^(UNKNOWN|PROPERTY|PROPERTYGET|PROPERTYPUT|PROPERTYPUTREF|FUNC)$/
+/VBENLR.*\.CHM$/
+/opened=false/
+/opened=true.*/
+/opened=true/
+/\A0\.100#{i}E3\z/
+/\A-0\.100#{i}E3\z/
+/\A0\.3E-49999\z/
+/^0\.[0-9]*e[0-9]*$/
+/^\+.*/
+/^\+.*/
+/\ .*/
+/\ .*/
+/^0\.[0-9]*E[0-9]*$/
+/\A0+\z/
+/\A0+\z/
+/#{suffix}$/
+/c(a)t/
+/c(a)t/
+/c(a)t/
+/c(a)t/
+/c(a)t/
+/Module.*hello/
+/ Object::/
+/\A#<Module:0x\h+>\z/
+/\A#<Class:0x\h+>\z/
+/\A#<Class:#<#{klass}:0x\h+>>\z/
+/\A#<Class:#<#<Class:0x\h+>:0x\h+>>\z/
+/\A#<Class:#<ModuleSpecs::NamedClass:0x\h+>>\z/
+/\A#<Class:#<#{Regexp.escape klass.to_s}:0x\h+>>\z/
+/\A#<Module:0x[0-9a-f]+>::N\z/
+/\A#<Module:0x\h+>::N\z/
+/\A#<Module:0x\h+>::Child\z/
+/\bfoo\b/
+/\bModuleSpecs::InstanceMeth\b/
+/\bModuleSpecs::InstanceMeth\b/
+/\bfoo\b/
+/\bModuleSpecs::InstanceMeth\b/
+/\bbar\b/
+/\bModuleSpecs::InstanceMethMod\b/
+/\bModuleSpecs::InstanceMethChild\b/
+/\bModuleSpecs::InstanceMethChild\b/
+/#{__FILE__}/
+/#{__FILE__}/
+/#{__FILE__}/
+/#{__FILE__}/
+/\bUnboundMethod\b/
+/\#bar/
+/MethodSpecs::MyMod/
+/MethodSpecs::MySub/
+/MethodSpecs::MyMod/
+/\bMethod\b/
+/\#bar/
+/MethodSpecs::MyMod/
+/MethodSpecs::MySub/
+/^\[#<MockObject:0x[0-9a-f]+>\]$/
+/^\[#<MockObject:0x[0-9a-f]+>\]$/
+/set last (.*)/
+/set last (.*)/
+/Invalid argument|Signal already used by VM or OS/
+/can't trap reserved signal|Signal already used by VM or OS/
+/undefined local variable or method `not_defined'/
+/uninitialized constant NotDefined/
+/exception_spec/
+/private method `a_private_method' called for /
+/undefined method.+\bbar\b/
+/undefined method.+\bbar\b/
+/undefined method.+\bbar\b/
+/^undefined method `foo' for /
+/^undefined method `foo' for /
+/common\.rb/
+/:7:in /
+/in `backtrace'/
+/backtrace_spec\.rb/
+/:6(:in )?/
+/^.+:\d+:in `[^`]+'$/
+/backtrace_spec/
+/backtrace_spec/
+/backtrace_locations_spec/
+/a.rb:1.*b.rb:2/
+/b.rb:2.*a.rb:1/
+/@ not_a_string - foo/
+/Error .*occurred/
+/Unknown error/
+/message/
+/^#<Object:0x[0-9a-f]+>$/
+/Object/
+/_pub\z/
+/_pro\z/
+/EvalBindingProcA$/
+/EvalBindingA$/
+/#{expected}:1:.+/
+/#{expected_file}:-100:.+/
+/Object/
+/regexp/
+/deprecated Object#=~ is called on Object/
+/\A\d+\z/
+/_pri\z/
+/\b#{feature}\.(rb|so|jar)$/
+/^(a*)*$/
+/c(.)t/
+/c(.)t/
+/(?<test>[A-Z]+.*)/
+/(?<test>[A-Z]+.*)/
+/(?<test>[A-Z]+.*)/
+/(?<test>[A-Z]+.*)/
+/(?<test>[A-Z]+.*)/
+/(.)(.)(.)/
+/(.)(.)(.)/
+/LoadError/
+/LoadError/
+/\{.*"foo"=>"bar".*\}/
+/^\{:a=>#<MockObject:0x[0-9a-f]+>\}$/
+/^\{:a=>#<MockObject:0x[0-9a-f]+>\}$/
+/#<Encoding:#{enc.name}>/
+/#<Encoding:#{enc.name} \(dummy\)>/
+/`sleep'/
+/\A(singleton class|<singleton class>)\z/
+/^#<Thread:([^ ]*?) #{Regexp.escape __FILE__}:#{line} \w+>$/
+/\A\#<ObjectSpace::WeakMap:0x\h+>\z/
+/\A\#<ObjectSpace::WeakMap:0x\h+: \#<BasicObject:0x\h+> => \#<BasicObject:0x\h+>>\z/
+/\A\#<ObjectSpace::WeakMap:0x\h+: \#<BasicObject:0x\h+> => \#<BasicObject:0x\h+>>\z/
+/hello#{newline}/
+/#{__FILE__}/
+/#{__FILE__}/
+/\bUnboundMethod\b/
+/\bUnboundMethod\b/
+/\bfrom_mod\b/
+/\bUnboundMethodSpecs::Mod\b/
+/\bUnboundMethodSpecs::Methods\b/
+/^#<Proc:([^ ]*?) #{Regexp.escape __FILE__}:#{__LINE__ }>$/
+/^#<Proc:([^ ]*?) #{Regexp.escape __FILE__}:#{__LINE__ } \(lambda\)>$/
+/^#<Proc:([^ ]*?) #{Regexp.escape __FILE__}:#{__LINE__ }>$/
+/^#<Proc:([^ ]*?) #{Regexp.escape __FILE__}:#{__LINE__ - 3} \(lambda\)>$/
+/^#<Proc:([^ ]*?) \(lambda\)>$/
+/is deprecated/
+/is experimental/
+/Object/
+/a message/
+/(c|a)(t|z)/
+/(c|a)(t|z)/
+/(f)oo/
+/(b)ar/
+/hello/
+/(bar)/
+/(bar)/
+/(bar)/
+/(f(o)o)/
+/(a)|(b)/
+/(f)(o)(o)/
+/warning: argument of top-level return is ignored/
+/begin_file\.rb$/
+/class or module required for rescue clause/
+/class or module required for rescue clause/
+/invalid multibyte char/
+/invalid multibyte char/
+/warning: END in method; use at_exit/
+/regexp/
+/(?<matched>foo)(?<unmatched>bar)?/
+/regexp/
+/(?<matched>str)(?<unmatched>lit)?/
+/regexp/
+/(?<matched>foo)(?<unmatched>bar)?/
+/z(z)z/
+/s(-)m(.)/
+/z(z)z/
+/s(-)m(.)/
+/\A[[:space:]]*\z/
+/(1)(2)(3)(4)(5)(6)(7)(8)(9)(0)/
+/(o+)/
+/\10()()()()()()()()()()/
+/^[^f]/
+/($^)($^)/
+/[^o]$/
+/($\Z)($\Z)/
+/(\z\Z)(\z\Z)/
+/(\Z)/
+/($\z)($\z)/
+/(\z)/
+/This is a warning/
+/This is a warning/
+/#{__FILE__}/
+/(?:\A|\s)--jobserver-(?:auth|fds)=(\d+),(\d+)/
+/^#<Proc:([^ :@]*?)>$/
+/hack/
+/hack/
+/^From /
+/^(?<attr>\S+?):\s*(?<value>.*)/
+/^From /
+/^-(\d+)$/
+/^begin\s*(\d*)\s*(\S*)/
+/^end/
+/[a-z]/
+/,\s*$/
+/^\s*(class|module|def|if|unless|case|while|until|for|begin)\b[^_]/
+/^\s*end\b[^_]/
+/\{\s*(\|.*\|)?\s*$/
+/^\s*\}/
+/\.(Z|gz)$/
+/^(.*):([0-9]+)$/
+/^\[(.*)\]$/
+/^((void|VALUE|int|char *\*|ID|struct \w+ *\*|st_table *\*) *)?\n(\w+)\(.*\)\n\s*((.+;\n)*)\{/
+/(([^*]+) *\** *\w+),/
+/^http:/
+/^http:/
+/^http:/
+/^http:/
+/^[\da-f]+\.r{0,1}\d+$/
+/\AURI:(.*)\z/
+/CA:(TRUE|FALSE), pathlen:(\d+)/
+/(ruby.*?\.tar\.gz)/
+/^_?(rb_w32_\w+)(?:@\d+)?$/
+/^#define (\w+)\((.*?)\)\s+(?:\(void\))?(rb_w32_\w+)\((.*?)\)\s*$/
+/^[[:xdigit:]]+ 0+ UNDEF /
+/External/
+/(?:_local_stdio_printf_options|v(f|sn?)printf(_s)?_l)\Z/
+/^[@_]/
+/^_?#{PrivateNames}/
+/@.*@/
+/mingw/
+/(.+)[\!\?]\z/
+/\Arequire(?:_relative)\z/
+/\A#!/
+/^304 /
+/mswin|bccwin|mingw/
+/^(?:\*|\+)(.+)$/
+/^(?:&gt;|\*)?([0-9A-F\+]+)$/
+/\A(\d+)?\z/
+/\A(\d+)\z/
+/\A(\d+)?(?: *by (\h+))?(?:\s*-- +(.*))?\z/
+/revision="(?<rev>\d+)/
+/^commit (?<rev>\h{40})$/
+/\A(\d+)?\z/
+/\A(\d+)?\z/
+/\A\d+\z/
+/mingw|mswin/
+/\.dll\z/
+/\A(\w+)=(.*)/
+/\[Backport #(\d*)\]/
+/\(#(\d*)\)/
+/^0x([a-z0-9]+),/
+/[\n ]\z/
+/[\n ]\z/
+/^(.*)\(([0-9])\)$/
+/\A\./
+/\n\z/
+/\n\z/
+/\A--([-\w]+)(?:=(.*))?\z/
+/[\da-f]{16} /
+/\A\h+\z/
+/mswin/
+/universal.*darwin/
+/^program_transform_name$/
+/darwin/
+/= "no"$/
+/(\w+)\t([\d\.]+)/
+/benchmark summary/
+/gperf/
+/LICENSE\.md/
+/nothing\ to\ commit/
+/^CONFLICT/
+/pre|beta/
+/^# Total (?:code points|elements): /
+/^([0-9a-fA-F]+)(?:\.\.([0-9a-fA-F]+))?\s*;\s*(\w+)/
+/^(\w+)\s*; (\w+)/
+/^(sc|gc)\s*; (\w+)\s*; (\w+)(?:\s*; (\w+))?/
+/^# Total code points: /
+/^([0-9a-fA-F]+)(?:\.\.([0-9a-fA-F]+))?\s*;\s*(\d+\.\d+)/
+/^# Total code points: /
+/^([0-9a-fA-F]+)(?:\.\.([0-9a-fA-F]+))?\s*;\s*(\w+)/
+/^([0-9a-fA-F]+)\.\.([0-9a-fA-F]+);\s*(.*)/
+/^emoji/
+/ANSI-C code produced by gperf/
+/\A-\S*n/
+/^%token/
+/darwin/
+/\A[^-][^=]*\Z/
+/\A-[OW]/
+/emscripten/
+/ruby/
+/mswin|mingw|bccwin/
+/\Adoc\b/
+/^\s*(?:#|$)/
+/^(\S+)\s+(\S+).*/
+/\A\s*\(empset\)\s*\z/
+/\A\s*\(empstr\)\s*\z/
+/\A\s*(#{HEX2}+)\s*\z/
+/\A\s*((#{HEX2}|\{#{HEX2}(?:-#{HEX2})?(,#{HEX2}(?:-#{HEX2})?)*\})+(\s+|\z))*\z/
+/\bUCS@(BMP|SMP|SIP|TIP|SSP)\b/
+/^BEGIN_MAP/
+/^\s*(?:#|$)/
+/^END_MAP/
+/^<U([0-9a-fA-F]+)>\s*([\+0-9a-fA-Fx\\]+)\s*\|(\d)/
+/^([<U0-9a-fA-F>+]+)\s*([\+0-9a-fA-Fx\\]+)\s*\|(\d)/
+/(NODE_.+),/
+/^(\w+)\s*=\s*(.*)/
+/^!\s*(?:chdir:\s*([^|\s]+)\|\s*)?(.*)/
+/singleton/
+/\[start\] (\w+)/
+/\[start\] (\w+)/
+/\[length = (\d+)\]/
+/\A(Feature|Bug)\s+#\d+\z/
+/-(?:preview|rc)/
+/^(?:preview|rc)/
+/^\{% assign release = site.data.releases \| where: "version", "([^"]+)" \| first %\}/
+/\A(\d+)\.(\d+)\.(\d+)(?:-(?:preview|rc)\d+)?\z/
+/^preview:\n\n(?:  .*\n)*  - #{Regexp.escape(xy)}\./
+/^\{% assign release = site.data.releases \| where: "version", "([^"]+)" \| first %\}/
+/darwin/
+/\A(\d+)-(\d+)-(\d+)\D(\d+):(\d+):(\d+(?:\.\d+)?)\s*(?:Z|([-+]\d\d)(\d\d))\z/
+/[^\x00-\x7f]/
+/^ *git-svn-id: .*@(\d+) .*\n+\z/
+/\A\e\[.*m\z/
+/mswin|mingw/
+/darwin/
+/darwin/
+/\AProcess:\s+#{cmd} \[#{pid}\]$/
+/^ *"pid" *: *#{pid},/
+/mswin|mingw/
+/\n[^\n]/
+/\Anot_/
+/mswin|mingw/
+/^Basic\s+(.*)/
+/^(\d+)\.(\d+)$/
+/\A(#{CRLF}|#{LF})\z/
+/^[^=]+;/
+/\bchunked\b/
+/\Aclose\z/
+/\Akeep-alive\z/
+/^content-type$/
+/^content-length$/
+/\A(#{CRLF}|#{LF})\z/
+/^([0-9a-fA-F]+)(?:;(\S+))?/
+/\A(\[[0-9a-fA-F:]+\])(?::(\d+))?\z/
+/\.\.(/
+/\.(\w+)$/
+/\.(\w+)\.[\w\-]+$/
+/^bytes=(.*)/
+/\A"(.*)"\Z/
+/\s+name="(.*?)"/
+/\s+filename="(.*?)"/
+/^SSL_CLIENT_CERT_CHAIN_\d+$/
+/[\r\n]/
+/mswin|bccwin|mingw/
+/mswin|bccwin|mingw/
+/^(\d+)/
+/~([^/
+/\.(\w+)\z/
+/\.(\w+)\.([\w\-]+)\z/
+/[. ]+\z/
+/::\$DATA\z/
+/-sess$/
+/#(\s*)pragma RubyVM reset source\n/
+/[*?\[{]/
+/\A\d/
+/\A\d/
+/mswin|mingw|cygwin/
+/mswin|cygwin|mingw|bccwin/
+/\.\z/
+/\A::(ffff:)?([\da-f]{1,4}):([\da-f]{1,4})\z/
+/\A\[(.*)\]\z/
+/\A(.*)(%\w+)\z/
+/(.*?):(\d+).*?$/
+/gemcutter-0\.[0-3]/
+/^--\[no-\](.+)$/
+/\A-./
+/^(.+?):(\d+)(?::in `.*')?/
+/buff/
+/buff/
+/\A([+-])(\d\d)(:?)(\d\d)(?:\3(\d\d))?\z/
+/\Arb?(?:\Z|:([^:]+))/
+/[\r\n]/
+/[\r\n]/
+/linux/
+/#{SEPARATOR_PAT}+\z/
+/\A(--[^=]+)/
+/=(.*)/
+/=(.*)/
+/=(.*)/
+/\A(-(.))(.*)/
+/mswin|mingw|bccwin|wince/
+/warning/
+/\)\z/
+/\A--(?:top(?:src)?|src|cur)dir(?=\z|=)/
+/mswin/
+/mingw/
+/cygwin/
+/netbsd/
+/haiku/
+/solaris/
+/universal/
+/\A\w/
+/\Acheck/
+/-l([^ ]+)/
+/\A\$[\(\{]/
+/.prefix$/
+/^abs_/
+/^(?:src|top(?:_src)?|build|hdr)dir$/
+/dir$/
+/^RUBY.*NAME/
+/\$\(target_prefix\)\z/
+/\A\t/
+/\A(?!\s*\w+\s*=)[$\w][^#]*:/
+/\A\s*\$\(RM|COPY\)/
+/(?:^|[^\\])(?:\\\\)*\\$/
+/^[[:upper:]]/
+/icc\z/
+/warnflags/
+/nmake/
+/\A(extconf|makefile).rb\z/
+/\Ablock_given\?\z|\Aiterator\?\z|\A__.*__\z/
+/\A@delegate_/
+/\A__(?:send|id)__\z/
+/\A__(?:send|id)__\z/
+/\Adrbunix:(.*?)(\?(.*))?\z/
+/\Adrb([a-z0-9]+):/
+/`__send__'$/
+/(?<type>_client|_server)\z/
+/charset[\t\n\f\r ]*=(?:"([^"]*)"|'([^']*)'|["']|\z|([^\t\n\f\r ;]+))/
+/\Abytes=((?:,[ \t]*)*(?:\d+-\d*|-\d+)(?:[ \t]*,(?:[ \t]*\d+-\d*|-\d+)?)*)\z/
+/(?:\A|[^\-\w])chunked(?![\-\w])/
+/[\r\n]/
+/[ \t]*<%-/
+/[ \t]*<%-/
+/mswin|mingw|cygwin/
+/^:(["'])(.*)\1/
+/^(?:tag:|x-private)/
+/\n(?!\Z)/
+/^[^[:word:]][^"]*$/
+/\A0[0-7]*[89]/
+/^(.{0,#{wrap}})[ \n]/
+/\.gem$/
+/\.gem$/
+/^rubygems-\d/
+/#{Gem.path_separator}\z/
+/[ @](.*:\d+)/
+/[ @](.*:\d+)/
+/\A\d+\z/
+/(?:\R|[<>])/
+/\A#{PREFIX}/
+/^--config-file=(.*)/
+/^--config-file$/
+/mswin(?:32|64)$/
+/^\d+(\.\d+)?$/
+/^[a-z]$/
+/\A\s*\Z/
+/[a-zA-Z]/
+/^\d+$/
+/\A(.*):(#{Gem::Requirement::PATTERN_RAW})\z/
+/^#{name}/
+/\.gem$/
+/\A[0-7]*\z/
+/\A[\x80\xff]/
+/\A(.*)(i)?\z/
+/\A.+@.+\z/
+/\.gem$/
+/^#{selected.name}$/
+/Ext::(.*)Builder/
+/with-make-prog\=(\w+)/
+/mkrf_conf/
+/^--\[no-\](.+)$/
+/\A-./
+/\A\w[-\w]*\z/
+/\A\#/
+/\A----/
+/<<[-~]?(['"`])\w+\1/
+/(%*)%I/
+/#|\./
+/^\s*$/
+/^\s*$/
+/^\s+$/
+/mswin|mingw/
+/meets end of file|unexpected end-of-input/
+/\A(['"])([^'"]+)\Z/
+/\A(?:::)?RubyVM/
+/mswin|msys|mingw|cygwin|bccwin|wince|emc/
+/\A\w[-\w]*\z/
+/\A"(.*)"\z/
+/\A"(.*)"\z/
+/"(.*)"/
+/mswin|mingw/
+/(msys-|cygwin-).*-pty/
+/[0-9]/
+/[A-Z]/
+/[a-z]/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\w|\s/
+/[\w\s]/
+/[\w\s]/
+/^([\w\*\s]+)\[(\d+)\]$/
+/^(.+?):(\d+)/
+/^(.+?):(\d+)/
+/[\r\n]/
+/(\r?\n)\z/
+/\A127\.|\A::1\z/
+/\A(?:[^@,;]+@[^@,;]+(?:\z|[,;]))*\z/
+/_content\z/
+/_new\z/
+/_add\z/
+/\A\s/
+/(?<foo>bar)/
+/\A\w/
+/\w\z/
+/^PASS /
+/[\r\n]/
+/[\r\n]/
+/^([^\[]+)(?:\[(.*)\])$/
+/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/
+/^\d+$/
+/^history/
+/^(\w+)=(.*)$/
+/^#{prefix}:/
+/^rake:/
+/^(\^+)/
+/^ *$/
+/[\r\n]/
+/\{(\d+)\}\r\n/
+/^"(.*)"$/
+/^auth-(?:conf|int)$/
+/rspauth=/
+/\A\+OK/
+/\A\+OK/
+/(?<number>\d+)/
+/(?<number>\d+)/
+/\$(?<dollars>\d+)\.(?<cents>\d+)/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/ab\Kc/
+/(?<=ab)c/
+/(b|a)/
+/(b|a+)/
+/(b|a+)*/
+/(b|a+)*c/
+/(b|a+)*c/
+/(?>b|a+)*c/
+/(b|a+)*c/
+/(b|a+)*c/
+/c(.)t/
+/c(.)t/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/^a*b?a*$/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<foo>\w+)\s*=\s*(?<foo>\w+)/
+/(?<foo>\w+)\s*=\s*#{r}/
+/\A\d+\z/
+/-r (#{Regexp.escape(__dir__)}\S+)/
+/\ARUBY_EVENT_/
+/\A(.+?)\b(.+)/
+/\s+into:\s*(.+)/
+/([^\s]+)(?:\s+(.+))?/
+/\ADEBUGGER__::(([A-Z][a-z]+?)[A-Z][a-z]+)/
+/RUBY/
+/\A\s*,(.+)\z/
+/\b([_a-zA-Z]\w*[!\?]?)\z/
+/\A\s*[a-z]*\z/
+/(?:\+xml|^xml)$/
+/\A\s*\z/
+/\A(?:yes|no)\z/
+/\.([^.]+)$/
+/\\A[a-z][a-z0-9+.\\-]*:/
+/^(atom|rss)?(\d+\.\d+)?(?::(.+))?$/
+/\Axmlns(?:\z|:)/
+/#{test}(.*)/
+/SYSTEM|PUBLIC/
+/^xmlns:/
+/-or-self$/
+/\AUTF-16(?:BE|LE)\z/
+/^xmlns:(.*)/
+/\AUTF-16\z/
+/^\s*\)/
+/^\s*( or )/
+/^\s*( and )/
+/^\s*(!?=)\s*/
+/^\s*([<>]=?)\s*/
+/^\s*(\+|-)\s*/
+/^\s*(\*| div | mod )\s*/
+/^(\-*)/
+/^\s*(\|)\s*/
+/PUBLIC|SYSTEM/
+/PUBLIC|SYSTEM/
+/^xmlns(:|$)/
+/(?:::)(\w)\w+$/
+/(?:::)(\w+)$/
+/\A\*\[(.*)\]\z/
+/:(\d+)$/
+/\.\w*$/
+/\AContent-length: (\d+)\r\n\z/
+/(?<number>\d+)/
+/(?<number>\d+)/
+/\$(?<dollars>\d+)\.(?<cents>\d+)/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/ab\Kc/
+/(?<=ab)c/
+/(b|a)/
+/(b|a+)/
+/(b|a+)*/
+/(b|a+)*c/
+/(b|a+)*c/
+/(?>b|a+)*c/
+/(b|a+)*c/
+/(b|a+)*c/
+/c(.)t/
+/c(.)t/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/^a*b?a*$/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<foo>\w+)\s*=\s*(?<foo>\w+)/
+/(?<foo>\w+)\s*=\s*#{r}/
+/\A\d+\z/
+/-r (#{Regexp.escape(__dir__)}\S+)/
+/\ARUBY_EVENT_/
+/\A(.+?)\b(.+)/
+/\s+into:\s*(.+)/
+/([^\s]+)(?:\s+(.+))?/
+/\ADEBUGGER__::(([A-Z][a-z]+?)[A-Z][a-z]+)/
+/RUBY/
+/\A\s*,(.+)\z/
+/\b([_a-zA-Z]\w*[!\?]?)\z/
+/\A\s*[a-z]*\z/
+/\A\#/
+/\A----/
+/^([^\[]+)(?:\[(.*)\])$/
+/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/
+/\A\#/
+/\A----/
+/^([^\[]+)(?:\[(.*)\])$/
+/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/
+/\A\#/
+/\A----/
+/^([^\[]+)(?:\[(.*)\])$/
+/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/
+/^\d+$/
+/^history/
+/^(\w+)=(.*)$/
+/^#{prefix}:/
+/^rake:/
+/^(\^+)/
+/^ *$/
+/\A\w/
+/\w\z/
+/^PASS /
+/[\r\n]/
+/[\r\n]/
+/^([^\[]+)(?:\[(.*)\])$/
+/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/
+/^\d+$/
+/^history/
+/^(\w+)=(.*)$/
+/^#{prefix}:/
+/^rake:/
+/^(\^+)/
+/^ *$/
+/[\r\n]/
+/\Adrbunix:(.*?)(\?(.*))?\z/
+/\Adrb([a-z0-9]+):/
+/`__send__'$/
+/\A\*\[(.*)\]\z/
+/:(\d+)$/
+/\.\w*$/
+/\AContent-length: (\d+)\r\n\z/
+/\{(\d+)\}\r\n/
+/^"(.*)"$/
+/^auth-(?:conf|int)$/
+/rspauth=/
+/(?<number>\d+)/
+/(?<number>\d+)/
+/\$(?<dollars>\d+)\.(?<cents>\d+)/
+/c(.)t/
+/c(.)t/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/^a*b?a*$/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<foo>\w+)\s*=\s*(?<foo>\w+)/
+/(?<foo>\w+)\s*=\s*#{r}/
+/(?:\+xml|^xml)$/
+/\A\s*\z/
+/\A(?:yes|no)\z/
+/\.([^.]+)$/
+/\\A[a-z][a-z0-9+.\\-]*:/
+/\Ais/
+/^(atom|rss)?(\d+\.\d+)?(?::(.+))?$/
+/\Axmlns(?:\z|:)/
+/\{(\d+)\}\r\n/
+/^"(.*)"$/
+/^auth-(?:conf|int)$/
+/rspauth=/
+/\A\+OK/
+/\A\+OK/
+/\A(--[^=]+)/
+/=(.*)/
+/=(.*)/
+/=(.*)/
+/\A(-(.))(.*)/
+/[\r\n]/
+/(?<number>\d+)/
+/(?<number>\d+)/
+/\$(?<dollars>\d+)\.(?<cents>\d+)/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/ab\Kc/
+/(?<=ab)c/
+/(b|a)/
+/(b|a+)/
+/(b|a+)*/
+/(b|a+)*c/
+/(b|a+)*c/
+/(?>b|a+)*c/
+/(b|a+)*c/
+/(b|a+)*c/
+/c(.)t/
+/c(.)t/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/^a*b?a*$/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<foo>\w+)\s*=\s*(?<foo>\w+)/
+/(?<foo>\w+)\s*=\s*#{r}/
+/\A\d+\z/
+/-r (#{Regexp.escape(__dir__)}\S+)/
+/\ARUBY_EVENT_/
+/\A(.+?)\b(.+)/
+/\s+into:\s*(.+)/
+/([^\s]+)(?:\s+(.+))?/
+/\ADEBUGGER__::(([A-Z][a-z]+?)[A-Z][a-z]+)/
+/RUBY/
+/\A\s*,(.+)\z/
+/\b([_a-zA-Z]\w*[!\?]?)\z/
+/\A\s*[a-z]*\z/
+/(?:\+xml|^xml)$/
+/\A\s*\z/
+/\A(?:yes|no)\z/
+/\.([^.]+)$/
+/\\A[a-z][a-z0-9+.\\-]*:/
+/^(atom|rss)?(\d+\.\d+)?(?::(.+))?$/
+/\Axmlns(?:\z|:)/
+/#{test}(.*)/
+/SYSTEM|PUBLIC/
+/^xmlns:/
+/-or-self$/
+/\AUTF-16(?:BE|LE)\z/
+/^xmlns:(.*)/
+/\AUTF-16\z/
+/^\s*\)/
+/^\s*( or )/
+/^\s*( and )/
+/^\s*(!?=)\s*/
+/^\s*([<>]=?)\s*/
+/^\s*(\+|-)\s*/
+/^\s*(\*| div | mod )\s*/
+/^(\-*)/
+/^\s*(\|)\s*/
+/PUBLIC|SYSTEM/
+/PUBLIC|SYSTEM/
+/^xmlns(:|$)/
+/(?:::)(\w)\w+$/
+/(?:::)(\w+)$/
+/#{test}(.*)/
+/SYSTEM|PUBLIC/
+/^xmlns:/
+/-or-self$/
+/\AUTF-16(?:BE|LE)\z/
+/^xmlns:(.*)/
+/\AUTF-16\z/
+/^\s*\)/
+/^\s*( or )/
+/^\s*( and )/
+/^\s*(!?=)\s*/
+/^\s*([<>]=?)\s*/
+/^\s*(\+|-)\s*/
+/^\s*(\*| div | mod )\s*/
+/^(\-*)/
+/^\s*(\|)\s*/
+/PUBLIC|SYSTEM/
+/PUBLIC|SYSTEM/
+/^xmlns(:|$)/
+/(?:::)(\w)\w+$/
+/(?:::)(\w+)$/
+/^PASS /
+/[\r\n]/
+/[\r\n]/
+/\A\*\[(.*)\]\z/
+/:(\d+)$/
+/\.\w*$/
+/\AContent-length: (\d+)\r\n\z/
+/\A\d+\z/
+/-r (#{Regexp.escape(__dir__)}\S+)/
+/\ARUBY_EVENT_/
+/\A(.+?)\b(.+)/
+/\s+into:\s*(.+)/
+/([^\s]+)(?:\s+(.+))?/
+/\ADEBUGGER__::(([A-Z][a-z]+?)[A-Z][a-z]+)/
+/RUBY/
+/\A\s*,(.+)\z/
+/\b([_a-zA-Z]\w*[!\?]?)\z/
+/\A\s*[a-z]*\z/
+/[*?\[{]/
+/\A\d/
+/\A\d/
+/mswin|mingw|cygwin/
+/mswin|cygwin|mingw|bccwin/
+/\.\z/
+/\A::(ffff:)?([\da-f]{1,4}):([\da-f]{1,4})\z/
+/\A\[(.*)\]\z/
+/\A(.*)(%\w+)\z/
+/(.*?):(\d+).*?$/
+/gemcutter-0\.[0-3]/
+/^--\[no-\](.+)$/
+/\A-./
+/buff/
+/buff/
+/\A([+-])(\d\d)(:?)(\d\d)(?:\3(\d\d))?\z/
+/\Arb?(?:\Z|:([^:]+))/
+/[\r\n]/
+/[\r\n]/
+/\A(--[^=]+)/
+/=(.*)/
+/=(.*)/
+/=(.*)/
+/\A(-(.))(.*)/
+/mswin|mingw|bccwin|wince/
+/warning/
+/\)\z/
+/\A--(?:top(?:src)?|src|cur)dir(?=\z|=)/
+/mswin/
+/mingw/
+/cygwin/
+/netbsd/
+/haiku/
+/solaris/
+/universal/
+/\A\w/
+/\Acheck/
+/-l([^ ]+)/
+/\A\$[\(\{]/
+/.prefix$/
+/^abs_/
+/^(?:src|top(?:_src)?|build|hdr)dir$/
+/dir$/
+/^RUBY.*NAME/
+/\$\(target_prefix\)\z/
+/\A\t/
+/\A(?!\s*\w+\s*=)[$\w][^#]*:/
+/\A\s*\$\(RM|COPY\)/
+/(?:^|[^\\])(?:\\\\)*\\$/
+/^[[:upper:]]/
+/icc\z/
+/warnflags/
+/nmake/
+/\A(extconf|makefile).rb\z/
+/\Ablock_given\?\z|\Aiterator\?\z|\A__.*__\z/
+/\A@delegate_/
+/\A__(?:send|id)__\z/
+/\A__(?:send|id)__\z/
+/\Adrbunix:(.*?)(\?(.*))?\z/
+/\Adrb([a-z0-9]+):/
+/`__send__'$/
+/charset[\t\n\f\r ]*=(?:"([^"]*)"|'([^']*)'|["']|\z|([^\t\n\f\r ;]+))/
+/\Abytes=((?:,[ \t]*)*(?:\d+-\d*|-\d+)(?:[ \t]*,(?:[ \t]*\d+-\d*|-\d+)?)*)\z/
+/(?:\A|[^\-\w])chunked(?![\-\w])/
+/[\r\n]/
+/[ \t]*<%-/
+/[ \t]*<%-/
+/mswin|mingw|cygwin/
+/^(.{0,#{wrap}})[ \n]/
+/\.gem$/
+/\.gem$/
+/^rubygems-\d/
+/#{Gem.path_separator}\z/
+/[ @](.*:\d+)/
+/[ @](.*:\d+)/
+/\A\d+\z/
+/(?:\R|[<>])/
+/\A#{PREFIX}/
+/^--config-file=(.*)/
+/^--config-file$/
+/mswin(?:32|64)$/
+/^\d+(\.\d+)?$/
+/^[a-z]$/
+/\A\s*\Z/
+/[a-zA-Z]/
+/^\d+$/
+/\A(.*):(#{Gem::Requirement::PATTERN_RAW})\z/
+/^#{name}/
+/\.gem$/
+/\A[0-7]*\z/
+/\A[\x80\xff]/
+/\A(.*)(i)?\z/
+/\A.+@.+\z/
+/\.gem$/
+/^#{selected.name}$/
+/Ext::(.*)Builder/
+/with-make-prog\=(\w+)/
+/mkrf_conf/
+/^--\[no-\](.+)$/
+/\A-./
+/\A\w[-\w]*\z/
+/\A\#/
+/\A----/
+/<<[-~]?(['"`])\w+\1/
+/(%*)%I/
+/#|\./
+/^\s*$/
+/^\s*$/
+/^\s+$/
+/mswin|mingw/
+/meets end of file|unexpected end-of-input/
+/\A(['"])([^'"]+)\Z/
+/\A(?:::)?RubyVM/
+/mswin|msys|mingw|cygwin|bccwin|wince|emc/
+/\A\w[-\w]*\z/
+/\A"(.*)"\z/
+/\A"(.*)"\z/
+/"(.*)"/
+/mswin|mingw/
+/(msys-|cygwin-).*-pty/
+/[0-9]/
+/[A-Z]/
+/[a-z]/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\w|\s/
+/[\w\s]/
+/[\w\s]/
+/[\r\n]/
+/(\r?\n)\z/
+/\A127\.|\A::1\z/
+/\A(?:[^@,;]+@[^@,;]+(?:\z|[,;]))*\z/
+/(?<foo>bar)/
+/\.c$/
+/^(.+?):(\d+)(?::in `.*')?/
+/linux/
+/#{SEPARATOR_PAT}+\z/
+/(?<type>_client|_server)\z/
+/^:(["'])(.*)\1/
+/^(?:tag:|x-private)/
+/\n(?!\Z)/
+/^[^[:word:]][^"]*$/
+/\A0[0-7]*[89]/
+/^([\w\*\s]+)\[(\d+)\]$/
+/^(.+?):(\d+)/
+/^(.+?):(\d+)/
+/_content\z/
+/_new\z/
+/_add\z/
+/\A\s/
+/\A(\w+)=(.*)/
+/^STATIC_LIB[ \t]*=[ \t]*\S+/
+/\A[^-][^=]*\Z/
+/\AMINIRUBY=/
+/^[a-z-]+$/
+/^\s*$/
+/^TARGET *= *\S/
+/clean\z/
+/(?<type>_client|_server)\z/
+/darwin/
+/darwin/
+/\A(AF_INET6|PF_INET6|IPV6_.*)\z/
+/linux/
+/\b#{name}\b/
+/^(.+?):(\d+)(?::in `.*')?/
+/^:(["'])(.*)\1/
+/^(?:tag:|x-private)/
+/\n(?!\Z)/
+/^[^[:word:]][^"]*$/
+/\A0[0-7]*[89]/
+/#{SEPARATOR_PAT}+\z/
+/^TOP[ \t]/
+/^\w+\./
+/^(?:x64|x86_64)/
+/\A\s*(\#|\z)/
+/^\#define\s+SIZEOF_#{type}\s+(SIZEOF_(.+)|\d+)/
+/^([\w\*\s]+)\[(\d+)\]$/
+/^(.+?):(\d+)/
+/^(.+?):(\d+)/
+/^AC_INIT\((.*)\)/
+/^x64/
+/openbsd/
+/_content\z/
+/_new\z/
+/_add\z/
+/\A\s/
+/#{re.join("\0")}/
+/\Aid[A-Z_]/
+/\A\#\s*define\s+dispatch/
+/ripper_dispatch/
+/\*% *ripper(?:\[(.*?)\])?: *(.*?) *%\*/
+/^[a-z]/
+/(mswin|mingw)/
+/^<internal:/
+/( *)/
+/^([A-Za-z_]+\w*)(\.|#|::)([^ ]+)/
+/^#{Regexp.quote("<" + @element)}.*#{Regexp.quote(">" + (@content || ''))}$/
+/^#{Regexp.quote("<" + @element)}/
+/^\s*end\s*$/
+/fake/
+/fake/
+/real/
+/real/
+/real/
+/fake/
+/^\s*require.+spec_helper/
+/^\s*require_relative\s*['"](.*spec_helper)['"]/
+/^(\s*)#/
+/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}.\d+Z /
+/^(\w+)[#\.](\w+) /
+/\A_(.*)_\z/
+/success$/
+/success$/
+/\bdie\b/
+/value of \$DEBUG is true/
+/^rubyopt.rb required/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/extra argument for --encoding: utf-32le/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/\A#<StringIO:0x\h+>\z/
+/\A215 FTP Dummy Server \(SYST\)\Z/
+/\AFTP Dummy Server \(SYST\)\Z/
+/^AF_INET6?/
+/^#{@hostname}/
+/^#{SocketSpecs.hostname}\b/
+/^#{SocketSpecs.hostname}\b/
+/^#{SocketSpecs.hostname('::1')}\b/
+/^(.*?):(\d+): /
+/^(.*?):(\d+): /
+/specs.*\.tt$/
+/onreadystatechange/
+/onreadystatechange/
+/^\{[A-Z0-9]{8}\-[A-Z0-9]{4}\-[A-Z0-9]{4}\-[A-Z0-9]{4}\-[A-Z0-9]{12}/
+/System32/
+/\A\{[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}\}\z/
+/^(UNKNOWN|PROPERTY|PROPERTYGET|PROPERTYPUT|PROPERTYPUTREF|FUNC)$/
+/VBENLR.*\.CHM$/
+/opened=false/
+/opened=true.*/
+/opened=true/
+/\A0\.100#{i}E3\z/
+/\A-0\.100#{i}E3\z/
+/\A0\.3E-49999\z/
+/^0\.[0-9]*e[0-9]*$/
+/^\+.*/
+/^\+.*/
+/\ .*/
+/\ .*/
+/^0\.[0-9]*E[0-9]*$/
+/\A0+\z/
+/\A0+\z/
+/#{suffix}$/
+/c(a)t/
+/c(a)t/
+/c(a)t/
+/c(a)t/
+/c(a)t/
+/Module.*hello/
+/ Object::/
+/\A#<Module:0x\h+>\z/
+/\A#<Class:0x\h+>\z/
+/\A#<Class:#<#{klass}:0x\h+>>\z/
+/\A#<Class:#<#<Class:0x\h+>:0x\h+>>\z/
+/\A#<Class:#<ModuleSpecs::NamedClass:0x\h+>>\z/
+/\A#<Class:#<#{Regexp.escape klass.to_s}:0x\h+>>\z/
+/\A#<Module:0x[0-9a-f]+>::N\z/
+/\A#<Module:0x\h+>::N\z/
+/\A#<Module:0x\h+>::Child\z/
+/\bfoo\b/
+/\bModuleSpecs::InstanceMeth\b/
+/\bModuleSpecs::InstanceMeth\b/
+/\bfoo\b/
+/\bModuleSpecs::InstanceMeth\b/
+/\bbar\b/
+/\bModuleSpecs::InstanceMethMod\b/
+/\bModuleSpecs::InstanceMethChild\b/
+/\bModuleSpecs::InstanceMethChild\b/
+/#{__FILE__}/
+/#{__FILE__}/
+/#{__FILE__}/
+/#{__FILE__}/
+/\bUnboundMethod\b/
+/\#bar/
+/MethodSpecs::MyMod/
+/MethodSpecs::MySub/
+/MethodSpecs::MyMod/
+/\bMethod\b/
+/\#bar/
+/MethodSpecs::MyMod/
+/MethodSpecs::MySub/
+/^\[#<MockObject:0x[0-9a-f]+>\]$/
+/^\[#<MockObject:0x[0-9a-f]+>\]$/
+/set last (.*)/
+/set last (.*)/
+/Invalid argument|Signal already used by VM or OS/
+/can't trap reserved signal|Signal already used by VM or OS/
+/undefined local variable or method `not_defined'/
+/uninitialized constant NotDefined/
+/exception_spec/
+/private method `a_private_method' called for /
+/undefined method.+\bbar\b/
+/undefined method.+\bbar\b/
+/undefined method.+\bbar\b/
+/^undefined method `foo' for /
+/^undefined method `foo' for /
+/common\.rb/
+/:7:in /
+/in `backtrace'/
+/backtrace_spec\.rb/
+/:6(:in )?/
+/^.+:\d+:in `[^`]+'$/
+/backtrace_spec/
+/backtrace_spec/
+/backtrace_locations_spec/
+/a.rb:1.*b.rb:2/
+/b.rb:2.*a.rb:1/
+/@ not_a_string - foo/
+/Error .*occurred/
+/Unknown error/
+/message/
+/^#<Object:0x[0-9a-f]+>$/
+/Object/
+/_pub\z/
+/_pro\z/
+/EvalBindingProcA$/
+/EvalBindingA$/
+/#{expected}:1:.+/
+/#{expected_file}:-100:.+/
+/Object/
+/regexp/
+/deprecated Object#=~ is called on Object/
+/\A\d+\z/
+/_pri\z/
+/\b#{feature}\.(rb|so|jar)$/
+/^(a*)*$/
+/c(.)t/
+/c(.)t/
+/(?<test>[A-Z]+.*)/
+/(?<test>[A-Z]+.*)/
+/(?<test>[A-Z]+.*)/
+/(?<test>[A-Z]+.*)/
+/(?<test>[A-Z]+.*)/
+/(.)(.)(.)/
+/(.)(.)(.)/
+/LoadError/
+/LoadError/
+/\{.*"foo"=>"bar".*\}/
+/^\{:a=>#<MockObject:0x[0-9a-f]+>\}$/
+/^\{:a=>#<MockObject:0x[0-9a-f]+>\}$/
+/#<Encoding:#{enc.name}>/
+/#<Encoding:#{enc.name} \(dummy\)>/
+/`sleep'/
+/\A(singleton class|<singleton class>)\z/
+/^#<Thread:([^ ]*?) #{Regexp.escape __FILE__}:#{line} \w+>$/
+/\A\#<ObjectSpace::WeakMap:0x\h+>\z/
+/\A\#<ObjectSpace::WeakMap:0x\h+: \#<BasicObject:0x\h+> => \#<BasicObject:0x\h+>>\z/
+/\A\#<ObjectSpace::WeakMap:0x\h+: \#<BasicObject:0x\h+> => \#<BasicObject:0x\h+>>\z/
+/hello#{newline}/
+/#{__FILE__}/
+/#{__FILE__}/
+/\bUnboundMethod\b/
+/\bUnboundMethod\b/
+/\bfrom_mod\b/
+/\bUnboundMethodSpecs::Mod\b/
+/\bUnboundMethodSpecs::Methods\b/
+/^#<Proc:([^ ]*?) #{Regexp.escape __FILE__}:#{__LINE__ }>$/
+/^#<Proc:([^ ]*?) #{Regexp.escape __FILE__}:#{__LINE__ } \(lambda\)>$/
+/^#<Proc:([^ ]*?) #{Regexp.escape __FILE__}:#{__LINE__ }>$/
+/^#<Proc:([^ ]*?) #{Regexp.escape __FILE__}:#{__LINE__ - 3} \(lambda\)>$/
+/^#<Proc:([^ ]*?) \(lambda\)>$/
+/is deprecated/
+/is experimental/
+/Object/
+/a message/
+/(c|a)(t|z)/
+/(c|a)(t|z)/
+/(f)oo/
+/(b)ar/
+/hello/
+/(bar)/
+/(bar)/
+/(bar)/
+/(f(o)o)/
+/(a)|(b)/
+/(f)(o)(o)/
+/warning: argument of top-level return is ignored/
+/begin_file\.rb$/
+/class or module required for rescue clause/
+/class or module required for rescue clause/
+/invalid multibyte char/
+/invalid multibyte char/
+/warning: END in method; use at_exit/
+/regexp/
+/(?<matched>foo)(?<unmatched>bar)?/
+/regexp/
+/(?<matched>str)(?<unmatched>lit)?/
+/regexp/
+/(?<matched>foo)(?<unmatched>bar)?/
+/z(z)z/
+/s(-)m(.)/
+/z(z)z/
+/s(-)m(.)/
+/\A[[:space:]]*\z/
+/(1)(2)(3)(4)(5)(6)(7)(8)(9)(0)/
+/(o+)/
+/\10()()()()()()()()()()/
+/^[^f]/
+/($^)($^)/
+/[^o]$/
+/($\Z)($\Z)/
+/(\z\Z)(\z\Z)/
+/(\Z)/
+/($\z)($\z)/
+/(\z)/
+/This is a warning/
+/This is a warning/
+/#{__FILE__}/
+/(?:\A|\s)--jobserver-(?:auth|fds)=(\d+),(\d+)/
+/^#<Proc:([^ :@]*?)>$/
+/hack/
+/hack/
+/^From /
+/^(?<attr>\S+?):\s*(?<value>.*)/
+/^From /
+/^-(\d+)$/
+/^begin\s*(\d*)\s*(\S*)/
+/^end/
+/[a-z]/
+/,\s*$/
+/^\s*(class|module|def|if|unless|case|while|until|for|begin)\b[^_]/
+/^\s*end\b[^_]/
+/\{\s*(\|.*\|)?\s*$/
+/^\s*\}/
+/\.(Z|gz)$/
+/^(.*):([0-9]+)$/
+/^\[(.*)\]$/
+/^((void|VALUE|int|char *\*|ID|struct \w+ *\*|st_table *\*) *)?\n(\w+)\(.*\)\n\s*((.+;\n)*)\{/
+/(([^*]+) *\** *\w+),/
+/^http:/
+/^http:/
+/^http:/
+/^http:/
+/^[\da-f]+\.r{0,1}\d+$/
+/\AURI:(.*)\z/
+/CA:(TRUE|FALSE), pathlen:(\d+)/
+/(ruby.*?\.tar\.gz)/
+/^_?(rb_w32_\w+)(?:@\d+)?$/
+/^#define (\w+)\((.*?)\)\s+(?:\(void\))?(rb_w32_\w+)\((.*?)\)\s*$/
+/^[[:xdigit:]]+ 0+ UNDEF /
+/External/
+/(?:_local_stdio_printf_options|v(f|sn?)printf(_s)?_l)\Z/
+/^[@_]/
+/^_?#{PrivateNames}/
+/@.*@/
+/mingw/
+/(.+)[\!\?]\z/
+/\Arequire(?:_relative)\z/
+/\A#!/
+/^304 /
+/mswin|bccwin|mingw/
+/^(?:\*|\+)(.+)$/
+/^(?:&gt;|\*)?([0-9A-F\+]+)$/
+/\A(\d+)?\z/
+/\A(\d+)\z/
+/\A(\d+)?(?: *by (\h+))?(?:\s*-- +(.*))?\z/
+/revision="(?<rev>\d+)/
+/^commit (?<rev>\h{40})$/
+/\A(\d+)?\z/
+/\A(\d+)?\z/
+/\A\d+\z/
+/mingw|mswin/
+/\.dll\z/
+/\A(\w+)=(.*)/
+/\[Backport #(\d*)\]/
+/\(#(\d*)\)/
+/^0x([a-z0-9]+),/
+/[\n ]\z/
+/[\n ]\z/
+/^(.*)\(([0-9])\)$/
+/\A\./
+/\n\z/
+/\n\z/
+/\A--([-\w]+)(?:=(.*))?\z/
+/[\da-f]{16} /
+/\A\h+\z/
+/mswin/
+/universal.*darwin/
+/^program_transform_name$/
+/darwin/
+/= "no"$/
+/(\w+)\t([\d\.]+)/
+/benchmark summary/
+/gperf/
+/LICENSE\.md/
+/nothing\ to\ commit/
+/^CONFLICT/
+/pre|beta/
+/^# Total (?:code points|elements): /
+/^([0-9a-fA-F]+)(?:\.\.([0-9a-fA-F]+))?\s*;\s*(\w+)/
+/^(\w+)\s*; (\w+)/
+/^(sc|gc)\s*; (\w+)\s*; (\w+)(?:\s*; (\w+))?/
+/^# Total code points: /
+/^([0-9a-fA-F]+)(?:\.\.([0-9a-fA-F]+))?\s*;\s*(\d+\.\d+)/
+/^# Total code points: /
+/^([0-9a-fA-F]+)(?:\.\.([0-9a-fA-F]+))?\s*;\s*(\w+)/
+/^([0-9a-fA-F]+)\.\.([0-9a-fA-F]+);\s*(.*)/
+/^emoji/
+/ANSI-C code produced by gperf/
+/\A-\S*n/
+/^%token/
+/darwin/
+/\A[^-][^=]*\Z/
+/\A-[OW]/
+/emscripten/
+/ruby/
+/mswin|mingw|bccwin/
+/\Adoc\b/
+/^\s*(?:#|$)/
+/^(\S+)\s+(\S+).*/
+/\A\s*\(empset\)\s*\z/
+/\A\s*\(empstr\)\s*\z/
+/\A\s*(#{HEX2}+)\s*\z/
+/\A\s*((#{HEX2}|\{#{HEX2}(?:-#{HEX2})?(,#{HEX2}(?:-#{HEX2})?)*\})+(\s+|\z))*\z/
+/\bUCS@(BMP|SMP|SIP|TIP|SSP)\b/
+/^BEGIN_MAP/
+/^\s*(?:#|$)/
+/^END_MAP/
+/^<U([0-9a-fA-F]+)>\s*([\+0-9a-fA-Fx\\]+)\s*\|(\d)/
+/^([<U0-9a-fA-F>+]+)\s*([\+0-9a-fA-Fx\\]+)\s*\|(\d)/
+/(NODE_.+),/
+/^(\w+)\s*=\s*(.*)/
+/^!\s*(?:chdir:\s*([^|\s]+)\|\s*)?(.*)/
+/singleton/
+/\[start\] (\w+)/
+/\[start\] (\w+)/
+/\[length = (\d+)\]/
+/\A(Feature|Bug)\s+#\d+\z/
+/-(?:preview|rc)/
+/^(?:preview|rc)/
+/^\{% assign release = site.data.releases \| where: "version", "([^"]+)" \| first %\}/
+/\A(\d+)\.(\d+)\.(\d+)(?:-(?:preview|rc)\d+)?\z/
+/^preview:\n\n(?:  .*\n)*  - #{Regexp.escape(xy)}\./
+/^\{% assign release = site.data.releases \| where: "version", "([^"]+)" \| first %\}/
+/darwin/
+/\A(\d+)-(\d+)-(\d+)\D(\d+):(\d+):(\d+(?:\.\d+)?)\s*(?:Z|([-+]\d\d)(\d\d))\z/
+/[^\x00-\x7f]/
+/^ *git-svn-id: .*@(\d+) .*\n+\z/
+/\A\e\[.*m\z/
+/mswin|mingw/
+/darwin/
+/darwin/
+/\AProcess:\s+#{cmd} \[#{pid}\]$/
+/^ *"pid" *: *#{pid},/
+/mswin|mingw/
+/\n[^\n]/
+/\Anot_/
+/\A\#/
+/\A\#/
+/\A\#/
+/\A\#/
+/\A----/
+/^([^\[]+)(?:\[(.*)\])$/
+/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/
+/^\d+$/
+/^history/
+/^(\w+)=(.*)$/
+/^#{prefix}:/
+/^rake:/
+/^(\^+)/
+/^ *$/
+/\A\w/
+/\w\z/
+/^PASS /
+/[\r\n]/
+/[\r\n]/
+/^([^\[]+)(?:\[(.*)\])$/
+/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/
+/^\d+$/
+/^history/
+/^(\w+)=(.*)$/
+/^#{prefix}:/
+/^rake:/
+/^(\^+)/
+/^ *$/
+/[\r\n]/
+/\Adrbunix:(.*?)(\?(.*))?\z/
+/\Adrb([a-z0-9]+):/
+/`__send__'$/
+/\A\*\[(.*)\]\z/
+/:(\d+)$/
+/\.\w*$/
+/\AContent-length: (\d+)\r\n\z/
+/\{(\d+)\}\r\n/
+/^"(.*)"$/
+/^auth-(?:conf|int)$/
+/rspauth=/
+/(?<number>\d+)/
+/(?<number>\d+)/
+/\$(?<dollars>\d+)\.(?<cents>\d+)/
+/c(.)t/
+/c(.)t/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/^a*b?a*$/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<foo>\w+)\s*=\s*(?<foo>\w+)/
+/(?<foo>\w+)\s*=\s*#{r}/
+/(?:\+xml|^xml)$/
+/\A\s*\z/
+/\A(?:yes|no)\z/
+/\.([^.]+)$/
+/\\A[a-z][a-z0-9+.\\-]*:/
+/\A\#/
+/\A----/
+/^([^\[]+)(?:\[(.*)\])$/
+/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/
+/^\d+$/
+/^history/
+/^(\w+)=(.*)$/
+/^#{prefix}:/
+/^rake:/
+/^(\^+)/
+/^ *$/
+/\A\w/
+/\w\z/
+/^PASS /
+/[\r\n]/
+/[\r\n]/
+/^([^\[]+)(?:\[(.*)\])$/
+/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/
+/^\d+$/
+/^history/
+/^(\w+)=(.*)$/
+/^#{prefix}:/
+/^rake:/
+/^(\^+)/
+/^ *$/
+/[\r\n]/
+/\Adrbunix:(.*?)(\?(.*))?\z/
+/\Adrb([a-z0-9]+):/
+/`__send__'$/
+/\A\*\[(.*)\]\z/
+/:(\d+)$/
+/\.\w*$/
+/\AContent-length: (\d+)\r\n\z/
+/\{(\d+)\}\r\n/
+/^"(.*)"$/
+/^auth-(?:conf|int)$/
+/rspauth=/
+/(?<number>\d+)/
+/(?<number>\d+)/
+/\$(?<dollars>\d+)\.(?<cents>\d+)/
+/c(.)t/
+/c(.)t/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/^a*b?a*$/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<foo>\w+)\s*=\s*(?<foo>\w+)/
+/(?<foo>\w+)\s*=\s*#{r}/
+/(?:\+xml|^xml)$/
+/\A\s*\z/
+/\A(?:yes|no)\z/
+/\.([^.]+)$/
+/\\A[a-z][a-z0-9+.\\-]*:/
+/\Ais/
+/^(atom|rss)?(\d+\.\d+)?(?::(.+))?$/
+/\Axmlns(?:\z|:)/
+/\A\#/
+/\A----/
+/^([^\[]+)(?:\[(.*)\])$/
+/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/
+/^\d+$/
+/^history/
+/^(\w+)=(.*)$/
+/^#{prefix}:/
+/^rake:/
+/^(\^+)/
+/^ *$/
+/\A\w/
+/\w\z/
+/^PASS /
+/[\r\n]/
+/[\r\n]/
+/^([^\[]+)(?:\[(.*)\])$/
+/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/
+/^\d+$/
+/^history/
+/^(\w+)=(.*)$/
+/^#{prefix}:/
+/^rake:/
+/^(\^+)/
+/^ *$/
+/[\r\n]/
+/\Adrbunix:(.*?)(\?(.*))?\z/
+/\Adrb([a-z0-9]+):/
+/`__send__'$/
+/\A\*\[(.*)\]\z/
+/:(\d+)$/
+/\.\w*$/
+/\AContent-length: (\d+)\r\n\z/
+/\{(\d+)\}\r\n/
+/^"(.*)"$/
+/^auth-(?:conf|int)$/
+/rspauth=/
+/(?<number>\d+)/
+/(?<number>\d+)/
+/\$(?<dollars>\d+)\.(?<cents>\d+)/
+/c(.)t/
+/c(.)t/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/^a*b?a*$/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<foo>\w+)\s*=\s*(?<foo>\w+)/
+/(?<foo>\w+)\s*=\s*#{r}/
+/(?:\+xml|^xml)$/
+/\A\s*\z/
+/\A(?:yes|no)\z/
+/\.([^.]+)$/
+/\\A[a-z][a-z0-9+.\\-]*:/
+/\Ais/
+/^(atom|rss)?(\d+\.\d+)?(?::(.+))?$/
+/\Axmlns(?:\z|:)/
+/\{(\d+)\}\r\n/
+/^"(.*)"$/
+/^auth-(?:conf|int)$/
+/rspauth=/
+/\A\+OK/
+/\A\+OK/
+/\A(--[^=]+)/
+/=(.*)/
+/=(.*)/
+/=(.*)/
+/\A(-(.))(.*)/
+/[\r\n]/
+/(?<number>\d+)/
+/(?<number>\d+)/
+/\$(?<dollars>\d+)\.(?<cents>\d+)/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/ab\Kc/
+/(?<=ab)c/
+/(b|a)/
+/(b|a+)/
+/(b|a+)*/
+/(b|a+)*c/
+/(b|a+)*c/
+/(?>b|a+)*c/
+/(b|a+)*c/
+/(b|a+)*c/
+/c(.)t/
+/c(.)t/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/^a*b?a*$/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<foo>\w+)\s*=\s*(?<foo>\w+)/
+/(?<foo>\w+)\s*=\s*#{r}/
+/\A\d+\z/
+/-r (#{Regexp.escape(__dir__)}\S+)/
+/\ARUBY_EVENT_/
+/\A(.+?)\b(.+)/
+/\s+into:\s*(.+)/
+/([^\s]+)(?:\s+(.+))?/
+/\ADEBUGGER__::(([A-Z][a-z]+?)[A-Z][a-z]+)/
+/RUBY/
+/\A\s*,(.+)\z/
+/\b([_a-zA-Z]\w*[!\?]?)\z/
+/\A\s*[a-z]*\z/
+/(?:\+xml|^xml)$/
+/\A\s*\z/
+/\A(?:yes|no)\z/
+/\.([^.]+)$/
+/\\A[a-z][a-z0-9+.\\-]*:/
+/^(atom|rss)?(\d+\.\d+)?(?::(.+))?$/
+/\Axmlns(?:\z|:)/
+/#{test}(.*)/
+/SYSTEM|PUBLIC/
+/^xmlns:/
+/-or-self$/
+/\AUTF-16(?:BE|LE)\z/
+/^xmlns:(.*)/
+/\AUTF-16\z/
+/^\s*\)/
+/^\s*( or )/
+/^\s*( and )/
+/^\s*(!?=)\s*/
+/^\s*([<>]=?)\s*/
+/^\s*(\+|-)\s*/
+/^\s*(\*| div | mod )\s*/
+/^(\-*)/
+/^\s*(\|)\s*/
+/PUBLIC|SYSTEM/
+/PUBLIC|SYSTEM/
+/^xmlns(:|$)/
+/(?:::)(\w)\w+$/
+/(?:::)(\w+)$/
+/#{test}(.*)/
+/SYSTEM|PUBLIC/
+/^xmlns:/
+/-or-self$/
+/\AUTF-16(?:BE|LE)\z/
+/^xmlns:(.*)/
+/\AUTF-16\z/
+/^\s*\)/
+/^\s*( or )/
+/^\s*( and )/
+/^\s*(!?=)\s*/
+/^\s*([<>]=?)\s*/
+/^\s*(\+|-)\s*/
+/^\s*(\*| div | mod )\s*/
+/^(\-*)/
+/^\s*(\|)\s*/
+/PUBLIC|SYSTEM/
+/PUBLIC|SYSTEM/
+/^xmlns(:|$)/
+/(?:::)(\w)\w+$/
+/(?:::)(\w+)$/
+/^PASS /
+/[\r\n]/
+/[\r\n]/
+/\A\*\[(.*)\]\z/
+/:(\d+)$/
+/\.\w*$/
+/\AContent-length: (\d+)\r\n\z/
+/\A\d+\z/
+/-r (#{Regexp.escape(__dir__)}\S+)/
+/\ARUBY_EVENT_/
+/\A(.+?)\b(.+)/
+/\s+into:\s*(.+)/
+/([^\s]+)(?:\s+(.+))?/
+/\ADEBUGGER__::(([A-Z][a-z]+?)[A-Z][a-z]+)/
+/RUBY/
+/\A\s*,(.+)\z/
+/\b([_a-zA-Z]\w*[!\?]?)\z/
+/\A\s*[a-z]*\z/
+/[*?\[{]/
+/\A\d/
+/\A\d/
+/mswin|mingw|cygwin/
+/mswin|cygwin|mingw|bccwin/
+/\.\z/
+/\A::(ffff:)?([\da-f]{1,4}):([\da-f]{1,4})\z/
+/\A\[(.*)\]\z/
+/\A(.*)(%\w+)\z/
+/(.*?):(\d+).*?$/
+/gemcutter-0\.[0-3]/
+/^--\[no-\](.+)$/
+/\A-./
+/buff/
+/buff/
+/\A([+-])(\d\d)(:?)(\d\d)(?:\3(\d\d))?\z/
+/\Arb?(?:\Z|:([^:]+))/
+/[\r\n]/
+/[\r\n]/
+/\A(--[^=]+)/
+/=(.*)/
+/=(.*)/
+/=(.*)/
+/\A(-(.))(.*)/
+/mswin|mingw|bccwin|wince/
+/warning/
+/\)\z/
+/\A--(?:top(?:src)?|src|cur)dir(?=\z|=)/
+/mswin/
+/mingw/
+/cygwin/
+/netbsd/
+/haiku/
+/solaris/
+/universal/
+/\A\w/
+/\Acheck/
+/-l([^ ]+)/
+/\A\$[\(\{]/
+/.prefix$/
+/^abs_/
+/^(?:src|top(?:_src)?|build|hdr)dir$/
+/dir$/
+/^RUBY.*NAME/
+/\$\(target_prefix\)\z/
+/\A\t/
+/\A(?!\s*\w+\s*=)[$\w][^#]*:/
+/\A\s*\$\(RM|COPY\)/
+/(?:^|[^\\])(?:\\\\)*\\$/
+/^[[:upper:]]/
+/icc\z/
+/warnflags/
+/nmake/
+/\A(extconf|makefile).rb\z/
+/\Ablock_given\?\z|\Aiterator\?\z|\A__.*__\z/
+/\A@delegate_/
+/\A__(?:send|id)__\z/
+/\A__(?:send|id)__\z/
+/\Adrbunix:(.*?)(\?(.*))?\z/
+/\Adrb([a-z0-9]+):/
+/`__send__'$/
+/charset[\t\n\f\r ]*=(?:"([^"]*)"|'([^']*)'|["']|\z|([^\t\n\f\r ;]+))/
+/\Abytes=((?:,[ \t]*)*(?:\d+-\d*|-\d+)(?:[ \t]*,(?:[ \t]*\d+-\d*|-\d+)?)*)\z/
+/(?:\A|[^\-\w])chunked(?![\-\w])/
+/[\r\n]/
+/[ \t]*<%-/
+/[ \t]*<%-/
+/mswin|mingw|cygwin/
+/^(.{0,#{wrap}})[ \n]/
+/\.gem$/
+/\.gem$/
+/^rubygems-\d/
+/#{Gem.path_separator}\z/
+/[ @](.*:\d+)/
+/[ @](.*:\d+)/
+/\A\d+\z/
+/(?:\R|[<>])/
+/\A#{PREFIX}/
+/^--config-file=(.*)/
+/^--config-file$/
+/mswin(?:32|64)$/
+/^\d+(\.\d+)?$/
+/^[a-z]$/
+/\A\s*\Z/
+/[a-zA-Z]/
+/^\d+$/
+/\A(.*):(#{Gem::Requirement::PATTERN_RAW})\z/
+/^#{name}/
+/\.gem$/
+/\A[0-7]*\z/
+/\A[\x80\xff]/
+/\A(.*)(i)?\z/
+/\A.+@.+\z/
+/\.gem$/
+/^#{selected.name}$/
+/Ext::(.*)Builder/
+/with-make-prog\=(\w+)/
+/mkrf_conf/
+/^--\[no-\](.+)$/
+/\A-./
+/\A\w[-\w]*\z/
+/\A\#/
+/\A----/
+/<<[-~]?(['"`])\w+\1/
+/(%*)%I/
+/#|\./
+/^\s*$/
+/^\s*$/
+/^\s+$/
+/mswin|mingw/
+/meets end of file|unexpected end-of-input/
+/\A(['"])([^'"]+)\Z/
+/\A(?:::)?RubyVM/
+/mswin|msys|mingw|cygwin|bccwin|wince|emc/
+/\A\w[-\w]*\z/
+/\A"(.*)"\z/
+/\A"(.*)"\z/
+/"(.*)"/
+/mswin|mingw/
+/(msys-|cygwin-).*-pty/
+/[0-9]/
+/[A-Z]/
+/[a-z]/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\w|\s/
+/[\w\s]/
+/[\w\s]/
+/[\r\n]/
+/(\r?\n)\z/
+/\A127\.|\A::1\z/
+/\A(?:[^@,;]+@[^@,;]+(?:\z|[,;]))*\z/
+/(?<foo>bar)/
+/\.c$/
+/^(.+?):(\d+)(?::in `.*')?/
+/linux/
+/#{SEPARATOR_PAT}+\z/
+/(?<type>_client|_server)\z/
+/^:(["'])(.*)\1/
+/^(?:tag:|x-private)/
+/\n(?!\Z)/
+/^[^[:word:]][^"]*$/
+/\A0[0-7]*[89]/
+/^([\w\*\s]+)\[(\d+)\]$/
+/^(.+?):(\d+)/
+/^(.+?):(\d+)/
+/_content\z/
+/_new\z/
+/_add\z/
+/\A\s/
+/\A(\w+)=(.*)/
+/^STATIC_LIB[ \t]*=[ \t]*\S+/
+/\A[^-][^=]*\Z/
+/\AMINIRUBY=/
+/^[a-z-]+$/
+/^\s*$/
+/^TARGET *= *\S/
+/clean\z/
+/(?<type>_client|_server)\z/
+/darwin/
+/darwin/
+/\A(AF_INET6|PF_INET6|IPV6_.*)\z/
+/linux/
+/\b#{name}\b/
+/^(.+?):(\d+)(?::in `.*')?/
+/^:(["'])(.*)\1/
+/^(?:tag:|x-private)/
+/\n(?!\Z)/
+/^[^[:word:]][^"]*$/
+/\A0[0-7]*[89]/
+/#{SEPARATOR_PAT}+\z/
+/^TOP[ \t]/
+/^\w+\./
+/^(?:x64|x86_64)/
+/\A\s*(\#|\z)/
+/^\#define\s+SIZEOF_#{type}\s+(SIZEOF_(.+)|\d+)/
+/^([\w\*\s]+)\[(\d+)\]$/
+/^(.+?):(\d+)/
+/^(.+?):(\d+)/
+/^AC_INIT\((.*)\)/
+/^x64/
+/openbsd/
+/_content\z/
+/_new\z/
+/_add\z/
+/\A\s/
+/#{re.join("\0")}/
+/\Aid[A-Z_]/
+/\A\#\s*define\s+dispatch/
+/ripper_dispatch/
+/\*% *ripper(?:\[(.*?)\])?: *(.*?) *%\*/
+/^[a-z]/
+/(mswin|mingw)/
+/^<internal:/
+/( *)/
+/^([A-Za-z_]+\w*)(\.|#|::)([^ ]+)/
+/^#{Regexp.quote("<" + @element)}.*#{Regexp.quote(">" + (@content || ''))}$/
+/^#{Regexp.quote("<" + @element)}/
+/^\s*end\s*$/
+/fake/
+/fake/
+/real/
+/real/
+/real/
+/fake/
+/^\s*require.+spec_helper/
+/^\s*require_relative\s*['"](.*spec_helper)['"]/
+/^(\s*)#/
+/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}.\d+Z /
+/^(\w+)[#\.](\w+) /
+/\A_(.*)_\z/
+/success$/
+/success$/
+/\bdie\b/
+/value of \$DEBUG is true/
+/^rubyopt.rb required/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/extra argument for --encoding: utf-32le/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/\A#<StringIO:0x\h+>\z/
+/\A215 FTP Dummy Server \(SYST\)\Z/
+/\AFTP Dummy Server \(SYST\)\Z/
+/^AF_INET6?/
+/^#{@hostname}/
+/^#{SocketSpecs.hostname}\b/
+/^#{SocketSpecs.hostname}\b/
+/^#{SocketSpecs.hostname('::1')}\b/
+/^(.*?):(\d+): /
+/^(.*?):(\d+): /
+/specs.*\.tt$/
+/onreadystatechange/
+/onreadystatechange/
+/^\{[A-Z0-9]{8}\-[A-Z0-9]{4}\-[A-Z0-9]{4}\-[A-Z0-9]{4}\-[A-Z0-9]{12}/
+/System32/
+/\A\{[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}\}\z/
+/^(UNKNOWN|PROPERTY|PROPERTYGET|PROPERTYPUT|PROPERTYPUTREF|FUNC)$/
+/VBENLR.*\.CHM$/
+/opened=false/
+/opened=true.*/
+/opened=true/
+/\A0\.100#{i}E3\z/
+/\A-0\.100#{i}E3\z/
+/\A0\.3E-49999\z/
+/^0\.[0-9]*e[0-9]*$/
+/^\+.*/
+/^\+.*/
+/\ .*/
+/\ .*/
+/^0\.[0-9]*E[0-9]*$/
+/\A0+\z/
+/\A0+\z/
+/#{suffix}$/
+/c(a)t/
+/c(a)t/
+/c(a)t/
+/c(a)t/
+/c(a)t/
+/Module.*hello/
+/ Object::/
+/\A#<Module:0x\h+>\z/
+/\A#<Class:0x\h+>\z/
+/\A#<Class:#<#{klass}:0x\h+>>\z/
+/\A#<Class:#<#<Class:0x\h+>:0x\h+>>\z/
+/\A#<Class:#<ModuleSpecs::NamedClass:0x\h+>>\z/
+/\A#<Class:#<#{Regexp.escape klass.to_s}:0x\h+>>\z/
+/\A#<Module:0x[0-9a-f]+>::N\z/
+/\A#<Module:0x\h+>::N\z/
+/\A#<Module:0x\h+>::Child\z/
+/\bfoo\b/
+/\bModuleSpecs::InstanceMeth\b/
+/\bModuleSpecs::InstanceMeth\b/
+/\bfoo\b/
+/\bModuleSpecs::InstanceMeth\b/
+/\bbar\b/
+/\bModuleSpecs::InstanceMethMod\b/
+/\bModuleSpecs::InstanceMethChild\b/
+/\bModuleSpecs::InstanceMethChild\b/
+/#{__FILE__}/
+/#{__FILE__}/
+/#{__FILE__}/
+/#{__FILE__}/
+/\bUnboundMethod\b/
+/\#bar/
+/MethodSpecs::MyMod/
+/MethodSpecs::MySub/
+/MethodSpecs::MyMod/
+/\bMethod\b/
+/\#bar/
+/MethodSpecs::MyMod/
+/MethodSpecs::MySub/
+/^\[#<MockObject:0x[0-9a-f]+>\]$/
+/^\[#<MockObject:0x[0-9a-f]+>\]$/
+/set last (.*)/
+/set last (.*)/
+/Invalid argument|Signal already used by VM or OS/
+/can't trap reserved signal|Signal already used by VM or OS/
+/undefined local variable or method `not_defined'/
+/uninitialized constant NotDefined/
+/exception_spec/
+/private method `a_private_method' called for /
+/undefined method.+\bbar\b/
+/undefined method.+\bbar\b/
+/undefined method.+\bbar\b/
+/^undefined method `foo' for /
+/^undefined method `foo' for /
+/common\.rb/
+/:7:in /
+/in `backtrace'/
+/backtrace_spec\.rb/
+/:6(:in )?/
+/^.+:\d+:in `[^`]+'$/
+/backtrace_spec/
+/backtrace_spec/
+/backtrace_locations_spec/
+/a.rb:1.*b.rb:2/
+/b.rb:2.*a.rb:1/
+/@ not_a_string - foo/
+/Error .*occurred/
+/Unknown error/
+/message/
+/^#<Object:0x[0-9a-f]+>$/
+/Object/
+/_pub\z/
+/_pro\z/
+/EvalBindingProcA$/
+/EvalBindingA$/
+/#{expected}:1:.+/
+/#{expected_file}:-100:.+/
+/Object/
+/regexp/
+/deprecated Object#=~ is called on Object/
+/\A\d+\z/
+/_pri\z/
+/\b#{feature}\.(rb|so|jar)$/
+/^(a*)*$/
+/c(.)t/
+/c(.)t/
+/(?<test>[A-Z]+.*)/
+/(?<test>[A-Z]+.*)/
+/(?<test>[A-Z]+.*)/
+/(?<test>[A-Z]+.*)/
+/(?<test>[A-Z]+.*)/
+/(.)(.)(.)/
+/(.)(.)(.)/
+/LoadError/
+/LoadError/
+/\{.*"foo"=>"bar".*\}/
+/^\{:a=>#<MockObject:0x[0-9a-f]+>\}$/
+/^\{:a=>#<MockObject:0x[0-9a-f]+>\}$/
+/#<Encoding:#{enc.name}>/
+/#<Encoding:#{enc.name} \(dummy\)>/
+/`sleep'/
+/\A(singleton class|<singleton class>)\z/
+/^#<Thread:([^ ]*?) #{Regexp.escape __FILE__}:#{line} \w+>$/
+/\A\#<ObjectSpace::WeakMap:0x\h+>\z/
+/\A\#<ObjectSpace::WeakMap:0x\h+: \#<BasicObject:0x\h+> => \#<BasicObject:0x\h+>>\z/
+/\A\#<ObjectSpace::WeakMap:0x\h+: \#<BasicObject:0x\h+> => \#<BasicObject:0x\h+>>\z/
+/hello#{newline}/
+/#{__FILE__}/
+/#{__FILE__}/
+/\bUnboundMethod\b/
+/\bUnboundMethod\b/
+/\bfrom_mod\b/
+/\bUnboundMethodSpecs::Mod\b/
+/\bUnboundMethodSpecs::Methods\b/
+/^#<Proc:([^ ]*?) #{Regexp.escape __FILE__}:#{__LINE__ }>$/
+/^#<Proc:([^ ]*?) #{Regexp.escape __FILE__}:#{__LINE__ } \(lambda\)>$/
+/^#<Proc:([^ ]*?) #{Regexp.escape __FILE__}:#{__LINE__ }>$/
+/^#<Proc:([^ ]*?) #{Regexp.escape __FILE__}:#{__LINE__ - 3} \(lambda\)>$/
+/^#<Proc:([^ ]*?) \(lambda\)>$/
+/is deprecated/
+/is experimental/
+/Object/
+/a message/
+/(c|a)(t|z)/
+/(c|a)(t|z)/
+/(f)oo/
+/(b)ar/
+/hello/
+/(bar)/
+/(bar)/
+/(bar)/
+/(f(o)o)/
+/(a)|(b)/
+/(f)(o)(o)/
+/warning: argument of top-level return is ignored/
+/begin_file\.rb$/
+/class or module required for rescue clause/
+/class or module required for rescue clause/
+/invalid multibyte char/
+/invalid multibyte char/
+/warning: END in method; use at_exit/
+/regexp/
+/(?<matched>foo)(?<unmatched>bar)?/
+/regexp/
+/(?<matched>str)(?<unmatched>lit)?/
+/regexp/
+/(?<matched>foo)(?<unmatched>bar)?/
+/z(z)z/
+/s(-)m(.)/
+/z(z)z/
+/s(-)m(.)/
+/\A[[:space:]]*\z/
+/(1)(2)(3)(4)(5)(6)(7)(8)(9)(0)/
+/(o+)/
+/\10()()()()()()()()()()/
+/^[^f]/
+/($^)($^)/
+/[^o]$/
+/($\Z)($\Z)/
+/(\z\Z)(\z\Z)/
+/(\Z)/
+/($\z)($\z)/
+/(\z)/
+/This is a warning/
+/This is a warning/
+/#{__FILE__}/
+/(?:\A|\s)--jobserver-(?:auth|fds)=(\d+),(\d+)/
+/^#<Proc:([^ :@]*?)>$/
+/hack/
+/hack/
+/^From /
+/^(?<attr>\S+?):\s*(?<value>.*)/
+/^From /
+/^-(\d+)$/
+/^begin\s*(\d*)\s*(\S*)/
+/^end/
+/[a-z]/
+/,\s*$/
+/^\s*(class|module|def|if|unless|case|while|until|for|begin)\b[^_]/
+/^\s*end\b[^_]/
+/\{\s*(\|.*\|)?\s*$/
+/^\s*\}/
+/\.(Z|gz)$/
+/^(.*):([0-9]+)$/
+/^\[(.*)\]$/
+/^((void|VALUE|int|char *\*|ID|struct \w+ *\*|st_table *\*) *)?\n(\w+)\(.*\)\n\s*((.+;\n)*)\{/
+/(([^*]+) *\** *\w+),/
+/^http:/
+/^http:/
+/^http:/
+/^http:/
+/^[\da-f]+\.r{0,1}\d+$/
+/\AURI:(.*)\z/
+/CA:(TRUE|FALSE), pathlen:(\d+)/
+/(ruby.*?\.tar\.gz)/
+/^_?(rb_w32_\w+)(?:@\d+)?$/
+/^#define (\w+)\((.*?)\)\s+(?:\(void\))?(rb_w32_\w+)\((.*?)\)\s*$/
+/^[[:xdigit:]]+ 0+ UNDEF /
+/External/
+/(?:_local_stdio_printf_options|v(f|sn?)printf(_s)?_l)\Z/
+/^[@_]/
+/^_?#{PrivateNames}/
+/@.*@/
+/mingw/
+/(.+)[\!\?]\z/
+/\Arequire(?:_relative)\z/
+/\A#!/
+/^304 /
+/mswin|bccwin|mingw/
+/^(?:\*|\+)(.+)$/
+/^(?:&gt;|\*)?([0-9A-F\+]+)$/
+/\A(\d+)?\z/
+/\A(\d+)\z/
+/\A(\d+)?(?: *by (\h+))?(?:\s*-- +(.*))?\z/
+/revision="(?<rev>\d+)/
+/^commit (?<rev>\h{40})$/
+/\A(\d+)?\z/
+/\A(\d+)?\z/
+/\A\d+\z/
+/mingw|mswin/
+/\.dll\z/
+/\A(\w+)=(.*)/
+/\[Backport #(\d*)\]/
+/\(#(\d*)\)/
+/^0x([a-z0-9]+),/
+/[\n ]\z/
+/[\n ]\z/
+/^(.*)\(([0-9])\)$/
+/\A\./
+/\n\z/
+/\n\z/
+/\A--([-\w]+)(?:=(.*))?\z/
+/[\da-f]{16} /
+/\A\h+\z/
+/mswin/
+/universal.*darwin/
+/^program_transform_name$/
+/darwin/
+/= "no"$/
+/(\w+)\t([\d\.]+)/
+/benchmark summary/
+/gperf/
+/LICENSE\.md/
+/nothing\ to\ commit/
+/^CONFLICT/
+/pre|beta/
+/^# Total (?:code points|elements): /
+/^([0-9a-fA-F]+)(?:\.\.([0-9a-fA-F]+))?\s*;\s*(\w+)/
+/^(\w+)\s*; (\w+)/
+/^(sc|gc)\s*; (\w+)\s*; (\w+)(?:\s*; (\w+))?/
+/^# Total code points: /
+/^([0-9a-fA-F]+)(?:\.\.([0-9a-fA-F]+))?\s*;\s*(\d+\.\d+)/
+/^# Total code points: /
+/^([0-9a-fA-F]+)(?:\.\.([0-9a-fA-F]+))?\s*;\s*(\w+)/
+/^([0-9a-fA-F]+)\.\.([0-9a-fA-F]+);\s*(.*)/
+/^emoji/
+/ANSI-C code produced by gperf/
+/\A-\S*n/
+/^%token/
+/darwin/
+/\A[^-][^=]*\Z/
+/\A-[OW]/
+/emscripten/
+/ruby/
+/mswin|mingw|bccwin/
+/\Adoc\b/
+/^\s*(?:#|$)/
+/^(\S+)\s+(\S+).*/
+/\A\s*\(empset\)\s*\z/
+/\A\s*\(empstr\)\s*\z/
+/\A\s*(#{HEX2}+)\s*\z/
+/\A\s*((#{HEX2}|\{#{HEX2}(?:-#{HEX2})?(,#{HEX2}(?:-#{HEX2})?)*\})+(\s+|\z))*\z/
+/\bUCS@(BMP|SMP|SIP|TIP|SSP)\b/
+/^BEGIN_MAP/
+/^\s*(?:#|$)/
+/^END_MAP/
+/^<U([0-9a-fA-F]+)>\s*([\+0-9a-fA-Fx\\]+)\s*\|(\d)/
+/^([<U0-9a-fA-F>+]+)\s*([\+0-9a-fA-Fx\\]+)\s*\|(\d)/
+/(NODE_.+),/
+/^(\w+)\s*=\s*(.*)/
+/^!\s*(?:chdir:\s*([^|\s]+)\|\s*)?(.*)/
+/singleton/
+/\[start\] (\w+)/
+/\[start\] (\w+)/
+/\[length = (\d+)\]/
+/\A(Feature|Bug)\s+#\d+\z/
+/-(?:preview|rc)/
+/^(?:preview|rc)/
+/^\{% assign release = site.data.releases \| where: "version", "([^"]+)" \| first %\}/
+/\A(\d+)\.(\d+)\.(\d+)(?:-(?:preview|rc)\d+)?\z/
+/^preview:\n\n(?:  .*\n)*  - #{Regexp.escape(xy)}\./
+/^\{% assign release = site.data.releases \| where: "version", "([^"]+)" \| first %\}/
+/darwin/
+/\A(\d+)-(\d+)-(\d+)\D(\d+):(\d+):(\d+(?:\.\d+)?)\s*(?:Z|([-+]\d\d)(\d\d))\z/
+/[^\x00-\x7f]/
+/^ *git-svn-id: .*@(\d+) .*\n+\z/
+/\A\e\[.*m\z/
+/mswin|mingw/
+/darwin/
+/darwin/
+/\AProcess:\s+#{cmd} \[#{pid}\]$/
+/^ *"pid" *: *#{pid},/
+/mswin|mingw/
+/\n[^\n]/
+/\Anot_/
+/mswin|mingw/
+/^Basic\s+(.*)/
+/^(\d+)\.(\d+)$/
+/\A(#{CRLF}|#{LF})\z/
+/^[^=]+;/
+/\bchunked\b/
+/\Aclose\z/
+/\Akeep-alive\z/
+/^content-type$/
+/^content-length$/
+/\A(#{CRLF}|#{LF})\z/
+/^([0-9a-fA-F]+)(?:;(\S+))?/
+/\A(\[[0-9a-fA-F:]+\])(?::(\d+))?\z/
+/\.\.(/
+/\.(\w+)$/
+/\.(\w+)\.[\w\-]+$/
+/^bytes=(.*)/
+/\A"(.*)"\Z/
+/\s+name="(.*?)"/
+/\s+filename="(.*?)"/
+/^SSL_CLIENT_CERT_CHAIN_\d+$/
+/[\r\n]/
+/mswin|bccwin|mingw/
+/mswin|bccwin|mingw/
+/^(\d+)/
+/~([^/
+/\.(\w+)\z/
+/\.(\w+)\.([\w\-]+)\z/
+/[. ]+\z/
+/::\$DATA\z/
+/-sess$/
+/#(\s*)pragma RubyVM reset source\n/
+/[*?\[{]/
+/\A\d/
+/\A\d/
+/mswin|mingw|cygwin/
+/mswin|cygwin|mingw|bccwin/
+/\.\z/
+/\A::(ffff:)?([\da-f]{1,4}):([\da-f]{1,4})\z/
+/\A\[(.*)\]\z/
+/\A(.*)(%\w+)\z/
+/(.*?):(\d+).*?$/
+/gemcutter-0\.[0-3]/
+/^--\[no-\](.+)$/
+/\A-./
+/^(.+?):(\d+)(?::in `.*')?/
+/buff/
+/buff/
+/\A([+-])(\d\d)(:?)(\d\d)(?:\3(\d\d))?\z/
+/\Arb?(?:\Z|:([^:]+))/
+/[\r\n]/
+/[\r\n]/
+/linux/
+/#{SEPARATOR_PAT}+\z/
+/\A(--[^=]+)/
+/=(.*)/
+/=(.*)/
+/=(.*)/
+/\A(-(.))(.*)/
+/mswin|mingw|bccwin|wince/
+/warning/
+/\)\z/
+/\A--(?:top(?:src)?|src|cur)dir(?=\z|=)/
+/mswin/
+/mingw/
+/cygwin/
+/netbsd/
+/haiku/
+/solaris/
+/universal/
+/\A\w/
+/\Acheck/
+/-l([^ ]+)/
+/\A\$[\(\{]/
+/.prefix$/
+/^abs_/
+/^(?:src|top(?:_src)?|build|hdr)dir$/
+/dir$/
+/^RUBY.*NAME/
+/\$\(target_prefix\)\z/
+/\A\t/
+/\A(?!\s*\w+\s*=)[$\w][^#]*:/
+/\A\s*\$\(RM|COPY\)/
+/(?:^|[^\\])(?:\\\\)*\\$/
+/^[[:upper:]]/
+/icc\z/
+/warnflags/
+/nmake/
+/\A(extconf|makefile).rb\z/
+/\Ablock_given\?\z|\Aiterator\?\z|\A__.*__\z/
+/\A@delegate_/
+/\A__(?:send|id)__\z/
+/\A__(?:send|id)__\z/
+/\Adrbunix:(.*?)(\?(.*))?\z/
+/\Adrb([a-z0-9]+):/
+/`__send__'$/
+/(?<type>_client|_server)\z/
+/charset[\t\n\f\r ]*=(?:"([^"]*)"|'([^']*)'|["']|\z|([^\t\n\f\r ;]+))/
+/\Abytes=((?:,[ \t]*)*(?:\d+-\d*|-\d+)(?:[ \t]*,(?:[ \t]*\d+-\d*|-\d+)?)*)\z/
+/(?:\A|[^\-\w])chunked(?![\-\w])/
+/[\r\n]/
+/[ \t]*<%-/
+/[ \t]*<%-/
+/mswin|mingw|cygwin/
+/^:(["'])(.*)\1/
+/^(?:tag:|x-private)/
+/\n(?!\Z)/
+/^[^[:word:]][^"]*$/
+/\A0[0-7]*[89]/
+/^(.{0,#{wrap}})[ \n]/
+/\.gem$/
+/\.gem$/
+/^rubygems-\d/
+/#{Gem.path_separator}\z/
+/[ @](.*:\d+)/
+/[ @](.*:\d+)/
+/\A\d+\z/
+/(?:\R|[<>])/
+/\A#{PREFIX}/
+/^--config-file=(.*)/
+/^--config-file$/
+/mswin(?:32|64)$/
+/^\d+(\.\d+)?$/
+/^[a-z]$/
+/\A\s*\Z/
+/[a-zA-Z]/
+/^\d+$/
+/\A(.*):(#{Gem::Requirement::PATTERN_RAW})\z/
+/^#{name}/
+/\.gem$/
+/\A[0-7]*\z/
+/\A[\x80\xff]/
+/\A(.*)(i)?\z/
+/\A.+@.+\z/
+/\.gem$/
+/^#{selected.name}$/
+/Ext::(.*)Builder/
+/with-make-prog\=(\w+)/
+/mkrf_conf/
+/^--\[no-\](.+)$/
+/\A-./
+/\A\w[-\w]*\z/
+/\A\#/
+/\A----/
+/<<[-~]?(['"`])\w+\1/
+/(%*)%I/
+/#|\./
+/^\s*$/
+/^\s*$/
+/^\s+$/
+/mswin|mingw/
+/meets end of file|unexpected end-of-input/
+/\A(['"])([^'"]+)\Z/
+/\A(?:::)?RubyVM/
+/mswin|msys|mingw|cygwin|bccwin|wince|emc/
+/\A\w[-\w]*\z/
+/\A"(.*)"\z/
+/\A"(.*)"\z/
+/"(.*)"/
+/mswin|mingw/
+/(msys-|cygwin-).*-pty/
+/[0-9]/
+/[A-Z]/
+/[a-z]/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\w|\s/
+/[\w\s]/
+/[\w\s]/
+/^([\w\*\s]+)\[(\d+)\]$/
+/^(.+?):(\d+)/
+/^(.+?):(\d+)/
+/[\r\n]/
+/(\r?\n)\z/
+/\A127\.|\A::1\z/
+/\A(?:[^@,;]+@[^@,;]+(?:\z|[,;]))*\z/
+/_content\z/
+/_new\z/
+/_add\z/
+/\A\s/
+/(?<foo>bar)/
+/\A\w/
+/\w\z/
+/^PASS /
+/[\r\n]/
+/[\r\n]/
+/^([^\[]+)(?:\[(.*)\])$/
+/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/
+/^\d+$/
+/^history/
+/^(\w+)=(.*)$/
+/^#{prefix}:/
+/^rake:/
+/^(\^+)/
+/^ *$/
+/[\r\n]/
+/\{(\d+)\}\r\n/
+/^"(.*)"$/
+/^auth-(?:conf|int)$/
+/rspauth=/
+/\A\+OK/
+/\A\+OK/
+/(?<number>\d+)/
+/(?<number>\d+)/
+/\$(?<dollars>\d+)\.(?<cents>\d+)/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/ab\Kc/
+/(?<=ab)c/
+/(b|a)/
+/(b|a+)/
+/(b|a+)*/
+/(b|a+)*c/
+/(b|a+)*c/
+/(?>b|a+)*c/
+/(b|a+)*c/
+/(b|a+)*c/
+/c(.)t/
+/c(.)t/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/^a*b?a*$/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<foo>\w+)\s*=\s*(?<foo>\w+)/
+/(?<foo>\w+)\s*=\s*#{r}/
+/\A\d+\z/
+/-r (#{Regexp.escape(__dir__)}\S+)/
+/\ARUBY_EVENT_/
+/\A(.+?)\b(.+)/
+/\s+into:\s*(.+)/
+/([^\s]+)(?:\s+(.+))?/
+/\ADEBUGGER__::(([A-Z][a-z]+?)[A-Z][a-z]+)/
+/RUBY/
+/\A\s*,(.+)\z/
+/\b([_a-zA-Z]\w*[!\?]?)\z/
+/\A\s*[a-z]*\z/
+/(?:\+xml|^xml)$/
+/\A\s*\z/
+/\A(?:yes|no)\z/
+/\.([^.]+)$/
+/\\A[a-z][a-z0-9+.\\-]*:/
+/^(atom|rss)?(\d+\.\d+)?(?::(.+))?$/
+/\Axmlns(?:\z|:)/
+/#{test}(.*)/
+/SYSTEM|PUBLIC/
+/^xmlns:/
+/-or-self$/
+/\AUTF-16(?:BE|LE)\z/
+/^xmlns:(.*)/
+/\AUTF-16\z/
+/^\s*\)/
+/^\s*( or )/
+/^\s*( and )/
+/^\s*(!?=)\s*/
+/^\s*([<>]=?)\s*/
+/^\s*(\+|-)\s*/
+/^\s*(\*| div | mod )\s*/
+/^(\-*)/
+/^\s*(\|)\s*/
+/PUBLIC|SYSTEM/
+/PUBLIC|SYSTEM/
+/^xmlns(:|$)/
+/(?:::)(\w)\w+$/
+/(?:::)(\w+)$/
+/\A\*\[(.*)\]\z/
+/:(\d+)$/
+/\.\w*$/
+/\AContent-length: (\d+)\r\n\z/
+/(?<number>\d+)/
+/(?<number>\d+)/
+/\$(?<dollars>\d+)\.(?<cents>\d+)/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/ab\Kc/
+/(?<=ab)c/
+/(b|a)/
+/(b|a+)/
+/(b|a+)*/
+/(b|a+)*c/
+/(b|a+)*c/
+/(?>b|a+)*c/
+/(b|a+)*c/
+/(b|a+)*c/
+/c(.)t/
+/c(.)t/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/^a*b?a*$/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<foo>\w+)\s*=\s*(?<foo>\w+)/
+/(?<foo>\w+)\s*=\s*#{r}/
+/\A\d+\z/
+/-r (#{Regexp.escape(__dir__)}\S+)/
+/\ARUBY_EVENT_/
+/\A(.+?)\b(.+)/
+/\s+into:\s*(.+)/
+/([^\s]+)(?:\s+(.+))?/
+/\ADEBUGGER__::(([A-Z][a-z]+?)[A-Z][a-z]+)/
+/RUBY/
+/\A\s*,(.+)\z/
+/\b([_a-zA-Z]\w*[!\?]?)\z/
+/\A\s*[a-z]*\z/
+/\A\#/
+/\A----/
+/^([^\[]+)(?:\[(.*)\])$/
+/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/
+/^\d+$/
+/^history/
+/^(\w+)=(.*)$/
+/^#{prefix}:/
+/^rake:/
+/^(\^+)/
+/^ *$/
+/\A\w/
+/\w\z/
+/^PASS /
+/[\r\n]/
+/[\r\n]/
+/^([^\[]+)(?:\[(.*)\])$/
+/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/
+/^\d+$/
+/^history/
+/^(\w+)=(.*)$/
+/^#{prefix}:/
+/^rake:/
+/^(\^+)/
+/^ *$/
+/[\r\n]/
+/\Adrbunix:(.*?)(\?(.*))?\z/
+/\Adrb([a-z0-9]+):/
+/`__send__'$/
+/\A\*\[(.*)\]\z/
+/:(\d+)$/
+/\.\w*$/
+/\AContent-length: (\d+)\r\n\z/
+/\{(\d+)\}\r\n/
+/^"(.*)"$/
+/^auth-(?:conf|int)$/
+/rspauth=/
+/(?<number>\d+)/
+/(?<number>\d+)/
+/\$(?<dollars>\d+)\.(?<cents>\d+)/
+/c(.)t/
+/c(.)t/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/^a*b?a*$/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<foo>\w+)\s*=\s*(?<foo>\w+)/
+/(?<foo>\w+)\s*=\s*#{r}/
+/(?:\+xml|^xml)$/
+/\A\s*\z/
+/\A(?:yes|no)\z/
+/\.([^.]+)$/
+/\\A[a-z][a-z0-9+.\\-]*:/
+/\Ais/
+/^(atom|rss)?(\d+\.\d+)?(?::(.+))?$/
+/\Axmlns(?:\z|:)/
+/\{(\d+)\}\r\n/
+/^"(.*)"$/
+/^auth-(?:conf|int)$/
+/rspauth=/
+/\A\+OK/
+/\A\+OK/
+/\A(--[^=]+)/
+/=(.*)/
+/=(.*)/
+/=(.*)/
+/\A(-(.))(.*)/
+/[\r\n]/
+/(?<number>\d+)/
+/(?<number>\d+)/
+/\$(?<dollars>\d+)\.(?<cents>\d+)/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/ab\Kc/
+/(?<=ab)c/
+/(b|a)/
+/(b|a+)/
+/(b|a+)*/
+/(b|a+)*c/
+/(b|a+)*c/
+/(?>b|a+)*c/
+/(b|a+)*c/
+/(b|a+)*c/
+/c(.)t/
+/c(.)t/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/^a*b?a*$/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<foo>\w+)\s*=\s*(?<foo>\w+)/
+/(?<foo>\w+)\s*=\s*#{r}/
+/\A\d+\z/
+/-r (#{Regexp.escape(__dir__)}\S+)/
+/\ARUBY_EVENT_/
+/\A(.+?)\b(.+)/
+/\s+into:\s*(.+)/
+/([^\s]+)(?:\s+(.+))?/
+/\ADEBUGGER__::(([A-Z][a-z]+?)[A-Z][a-z]+)/
+/RUBY/
+/\A\s*,(.+)\z/
+/\b([_a-zA-Z]\w*[!\?]?)\z/
+/\A\s*[a-z]*\z/
+/(?:\+xml|^xml)$/
+/\A\s*\z/
+/\A(?:yes|no)\z/
+/\.([^.]+)$/
+/\\A[a-z][a-z0-9+.\\-]*:/
+/^(atom|rss)?(\d+\.\d+)?(?::(.+))?$/
+/\Axmlns(?:\z|:)/
+/#{test}(.*)/
+/SYSTEM|PUBLIC/
+/^xmlns:/
+/-or-self$/
+/\AUTF-16(?:BE|LE)\z/
+/^xmlns:(.*)/
+/\AUTF-16\z/
+/^\s*\)/
+/^\s*( or )/
+/^\s*( and )/
+/^\s*(!?=)\s*/
+/^\s*([<>]=?)\s*/
+/^\s*(\+|-)\s*/
+/^\s*(\*| div | mod )\s*/
+/^(\-*)/
+/^\s*(\|)\s*/
+/PUBLIC|SYSTEM/
+/PUBLIC|SYSTEM/
+/^xmlns(:|$)/
+/(?:::)(\w)\w+$/
+/(?:::)(\w+)$/
+/#{test}(.*)/
+/SYSTEM|PUBLIC/
+/^xmlns:/
+/-or-self$/
+/\AUTF-16(?:BE|LE)\z/
+/^xmlns:(.*)/
+/\AUTF-16\z/
+/^\s*\)/
+/^\s*( or )/
+/^\s*( and )/
+/^\s*(!?=)\s*/
+/^\s*([<>]=?)\s*/
+/^\s*(\+|-)\s*/
+/^\s*(\*| div | mod )\s*/
+/^(\-*)/
+/^\s*(\|)\s*/
+/PUBLIC|SYSTEM/
+/PUBLIC|SYSTEM/
+/^xmlns(:|$)/
+/(?:::)(\w)\w+$/
+/(?:::)(\w+)$/
+/^PASS /
+/[\r\n]/
+/[\r\n]/
+/\A\*\[(.*)\]\z/
+/:(\d+)$/
+/\.\w*$/
+/\AContent-length: (\d+)\r\n\z/
+/\A\d+\z/
+/-r (#{Regexp.escape(__dir__)}\S+)/
+/\ARUBY_EVENT_/
+/\A(.+?)\b(.+)/
+/\s+into:\s*(.+)/
+/([^\s]+)(?:\s+(.+))?/
+/\ADEBUGGER__::(([A-Z][a-z]+?)[A-Z][a-z]+)/
+/RUBY/
+/\A\s*,(.+)\z/
+/\b([_a-zA-Z]\w*[!\?]?)\z/
+/\A\s*[a-z]*\z/
+/[*?\[{]/
+/\A\d/
+/\A\d/
+/mswin|mingw|cygwin/
+/mswin|cygwin|mingw|bccwin/
+/\.\z/
+/\A::(ffff:)?([\da-f]{1,4}):([\da-f]{1,4})\z/
+/\A\[(.*)\]\z/
+/\A(.*)(%\w+)\z/
+/(.*?):(\d+).*?$/
+/gemcutter-0\.[0-3]/
+/^--\[no-\](.+)$/
+/\A-./
+/buff/
+/buff/
+/\A([+-])(\d\d)(:?)(\d\d)(?:\3(\d\d))?\z/
+/\Arb?(?:\Z|:([^:]+))/
+/[\r\n]/
+/[\r\n]/
+/\A(--[^=]+)/
+/=(.*)/
+/=(.*)/
+/=(.*)/
+/\A(-(.))(.*)/
+/mswin|mingw|bccwin|wince/
+/warning/
+/\)\z/
+/\A--(?:top(?:src)?|src|cur)dir(?=\z|=)/
+/mswin/
+/mingw/
+/cygwin/
+/netbsd/
+/haiku/
+/solaris/
+/universal/
+/\A\w/
+/\Acheck/
+/-l([^ ]+)/
+/\A\$[\(\{]/
+/.prefix$/
+/^abs_/
+/^(?:src|top(?:_src)?|build|hdr)dir$/
+/dir$/
+/^RUBY.*NAME/
+/\$\(target_prefix\)\z/
+/\A\t/
+/\A(?!\s*\w+\s*=)[$\w][^#]*:/
+/\A\s*\$\(RM|COPY\)/
+/(?:^|[^\\])(?:\\\\)*\\$/
+/^[[:upper:]]/
+/icc\z/
+/warnflags/
+/nmake/
+/\A(extconf|makefile).rb\z/
+/\Ablock_given\?\z|\Aiterator\?\z|\A__.*__\z/
+/\A@delegate_/
+/\A__(?:send|id)__\z/
+/\A__(?:send|id)__\z/
+/\Adrbunix:(.*?)(\?(.*))?\z/
+/\Adrb([a-z0-9]+):/
+/`__send__'$/
+/charset[\t\n\f\r ]*=(?:"([^"]*)"|'([^']*)'|["']|\z|([^\t\n\f\r ;]+))/
+/\Abytes=((?:,[ \t]*)*(?:\d+-\d*|-\d+)(?:[ \t]*,(?:[ \t]*\d+-\d*|-\d+)?)*)\z/
+/(?:\A|[^\-\w])chunked(?![\-\w])/
+/[\r\n]/
+/[ \t]*<%-/
+/[ \t]*<%-/
+/mswin|mingw|cygwin/
+/^(.{0,#{wrap}})[ \n]/
+/\.gem$/
+/\.gem$/
+/^rubygems-\d/
+/#{Gem.path_separator}\z/
+/[ @](.*:\d+)/
+/[ @](.*:\d+)/
+/\A\d+\z/
+/(?:\R|[<>])/
+/\A#{PREFIX}/
+/^--config-file=(.*)/
+/^--config-file$/
+/mswin(?:32|64)$/
+/^\d+(\.\d+)?$/
+/^[a-z]$/
+/\A\s*\Z/
+/[a-zA-Z]/
+/^\d+$/
+/\A(.*):(#{Gem::Requirement::PATTERN_RAW})\z/
+/^#{name}/
+/\.gem$/
+/\A[0-7]*\z/
+/\A[\x80\xff]/
+/\A(.*)(i)?\z/
+/\A.+@.+\z/
+/\.gem$/
+/^#{selected.name}$/
+/Ext::(.*)Builder/
+/with-make-prog\=(\w+)/
+/mkrf_conf/
+/^--\[no-\](.+)$/
+/\A-./
+/\A\w[-\w]*\z/
+/\A\#/
+/\A----/
+/<<[-~]?(['"`])\w+\1/
+/(%*)%I/
+/#|\./
+/^\s*$/
+/^\s*$/
+/^\s+$/
+/mswin|mingw/
+/meets end of file|unexpected end-of-input/
+/\A(['"])([^'"]+)\Z/
+/\A(?:::)?RubyVM/
+/mswin|msys|mingw|cygwin|bccwin|wince|emc/
+/\A\w[-\w]*\z/
+/\A"(.*)"\z/
+/\A"(.*)"\z/
+/"(.*)"/
+/mswin|mingw/
+/(msys-|cygwin-).*-pty/
+/[0-9]/
+/[A-Z]/
+/[a-z]/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\w|\s/
+/[\w\s]/
+/[\w\s]/
+/[\r\n]/
+/(\r?\n)\z/
+/\A127\.|\A::1\z/
+/\A(?:[^@,;]+@[^@,;]+(?:\z|[,;]))*\z/
+/(?<foo>bar)/
+/\.c$/
+/^(.+?):(\d+)(?::in `.*')?/
+/linux/
+/#{SEPARATOR_PAT}+\z/
+/(?<type>_client|_server)\z/
+/^:(["'])(.*)\1/
+/^(?:tag:|x-private)/
+/\n(?!\Z)/
+/^[^[:word:]][^"]*$/
+/\A0[0-7]*[89]/
+/^([\w\*\s]+)\[(\d+)\]$/
+/^(.+?):(\d+)/
+/^(.+?):(\d+)/
+/_content\z/
+/_new\z/
+/_add\z/
+/\A\s/
+/\A(\w+)=(.*)/
+/^STATIC_LIB[ \t]*=[ \t]*\S+/
+/\A[^-][^=]*\Z/
+/\AMINIRUBY=/
+/^[a-z-]+$/
+/^\s*$/
+/^TARGET *= *\S/
+/clean\z/
+/(?<type>_client|_server)\z/
+/darwin/
+/darwin/
+/\A(AF_INET6|PF_INET6|IPV6_.*)\z/
+/linux/
+/\b#{name}\b/
+/^(.+?):(\d+)(?::in `.*')?/
+/^:(["'])(.*)\1/
+/^(?:tag:|x-private)/
+/\n(?!\Z)/
+/^[^[:word:]][^"]*$/
+/\A0[0-7]*[89]/
+/#{SEPARATOR_PAT}+\z/
+/^TOP[ \t]/
+/^\w+\./
+/^(?:x64|x86_64)/
+/\A\s*(\#|\z)/
+/^\#define\s+SIZEOF_#{type}\s+(SIZEOF_(.+)|\d+)/
+/^([\w\*\s]+)\[(\d+)\]$/
+/^(.+?):(\d+)/
+/^(.+?):(\d+)/
+/^AC_INIT\((.*)\)/
+/^x64/
+/openbsd/
+/_content\z/
+/_new\z/
+/_add\z/
+/\A\s/
+/#{re.join("\0")}/
+/\Aid[A-Z_]/
+/\A\#\s*define\s+dispatch/
+/ripper_dispatch/
+/\*% *ripper(?:\[(.*?)\])?: *(.*?) *%\*/
+/^[a-z]/
+/(mswin|mingw)/
+/^<internal:/
+/( *)/
+/^([A-Za-z_]+\w*)(\.|#|::)([^ ]+)/
+/^#{Regexp.quote("<" + @element)}.*#{Regexp.quote(">" + (@content || ''))}$/
+/^#{Regexp.quote("<" + @element)}/
+/^\s*end\s*$/
+/fake/
+/fake/
+/real/
+/real/
+/real/
+/fake/
+/^\s*require.+spec_helper/
+/^\s*require_relative\s*['"](.*spec_helper)['"]/
+/^(\s*)#/
+/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}.\d+Z /
+/^(\w+)[#\.](\w+) /
+/\A_(.*)_\z/
+/success$/
+/success$/
+/\bdie\b/
+/value of \$DEBUG is true/
+/^rubyopt.rb required/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/extra argument for --encoding: utf-32le/
+/RuntimeError/
+/RuntimeError/
+/RuntimeError/
+/\A#<StringIO:0x\h+>\z/
+/\A215 FTP Dummy Server \(SYST\)\Z/
+/\AFTP Dummy Server \(SYST\)\Z/
+/^AF_INET6?/
+/^#{@hostname}/
+/^#{SocketSpecs.hostname}\b/
+/^#{SocketSpecs.hostname}\b/
+/^#{SocketSpecs.hostname('::1')}\b/
+/^(.*?):(\d+): /
+/^(.*?):(\d+): /
+/specs.*\.tt$/
+/onreadystatechange/
+/onreadystatechange/
+/^\{[A-Z0-9]{8}\-[A-Z0-9]{4}\-[A-Z0-9]{4}\-[A-Z0-9]{4}\-[A-Z0-9]{12}/
+/System32/
+/\A\{[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}\}\z/
+/^(UNKNOWN|PROPERTY|PROPERTYGET|PROPERTYPUT|PROPERTYPUTREF|FUNC)$/
+/VBENLR.*\.CHM$/
+/opened=false/
+/opened=true.*/
+/opened=true/
+/\A0\.100#{i}E3\z/
+/\A-0\.100#{i}E3\z/
+/\A0\.3E-49999\z/
+/^0\.[0-9]*e[0-9]*$/
+/^\+.*/
+/^\+.*/
+/\ .*/
+/\ .*/
+/^0\.[0-9]*E[0-9]*$/
+/\A0+\z/
+/\A0+\z/
+/#{suffix}$/
+/c(a)t/
+/c(a)t/
+/c(a)t/
+/c(a)t/
+/c(a)t/
+/Module.*hello/
+/ Object::/
+/\A#<Module:0x\h+>\z/
+/\A#<Class:0x\h+>\z/
+/\A#<Class:#<#{klass}:0x\h+>>\z/
+/\A#<Class:#<#<Class:0x\h+>:0x\h+>>\z/
+/\A#<Class:#<ModuleSpecs::NamedClass:0x\h+>>\z/
+/\A#<Class:#<#{Regexp.escape klass.to_s}:0x\h+>>\z/
+/\A#<Module:0x[0-9a-f]+>::N\z/
+/\A#<Module:0x\h+>::N\z/
+/\A#<Module:0x\h+>::Child\z/
+/\bfoo\b/
+/\bModuleSpecs::InstanceMeth\b/
+/\bModuleSpecs::InstanceMeth\b/
+/\bfoo\b/
+/\bModuleSpecs::InstanceMeth\b/
+/\bbar\b/
+/\bModuleSpecs::InstanceMethMod\b/
+/\bModuleSpecs::InstanceMethChild\b/
+/\bModuleSpecs::InstanceMethChild\b/
+/#{__FILE__}/
+/#{__FILE__}/
+/#{__FILE__}/
+/#{__FILE__}/
+/\bUnboundMethod\b/
+/\#bar/
+/MethodSpecs::MyMod/
+/MethodSpecs::MySub/
+/MethodSpecs::MyMod/
+/\bMethod\b/
+/\#bar/
+/MethodSpecs::MyMod/
+/MethodSpecs::MySub/
+/^\[#<MockObject:0x[0-9a-f]+>\]$/
+/^\[#<MockObject:0x[0-9a-f]+>\]$/
+/set last (.*)/
+/set last (.*)/
+/Invalid argument|Signal already used by VM or OS/
+/can't trap reserved signal|Signal already used by VM or OS/
+/undefined local variable or method `not_defined'/
+/uninitialized constant NotDefined/
+/exception_spec/
+/private method `a_private_method' called for /
+/undefined method.+\bbar\b/
+/undefined method.+\bbar\b/
+/undefined method.+\bbar\b/
+/^undefined method `foo' for /
+/^undefined method `foo' for /
+/common\.rb/
+/:7:in /
+/in `backtrace'/
+/backtrace_spec\.rb/
+/:6(:in )?/
+/^.+:\d+:in `[^`]+'$/
+/backtrace_spec/
+/backtrace_spec/
+/backtrace_locations_spec/
+/a.rb:1.*b.rb:2/
+/b.rb:2.*a.rb:1/
+/@ not_a_string - foo/
+/Error .*occurred/
+/Unknown error/
+/message/
+/^#<Object:0x[0-9a-f]+>$/
+/Object/
+/_pub\z/
+/_pro\z/
+/EvalBindingProcA$/
+/EvalBindingA$/
+/#{expected}:1:.+/
+/#{expected_file}:-100:.+/
+/Object/
+/regexp/
+/deprecated Object#=~ is called on Object/
+/\A\d+\z/
+/_pri\z/
+/\b#{feature}\.(rb|so|jar)$/
+/^(a*)*$/
+/c(.)t/
+/c(.)t/
+/(?<test>[A-Z]+.*)/
+/(?<test>[A-Z]+.*)/
+/(?<test>[A-Z]+.*)/
+/(?<test>[A-Z]+.*)/
+/(?<test>[A-Z]+.*)/
+/(.)(.)(.)/
+/(.)(.)(.)/
+/LoadError/
+/LoadError/
+/\{.*"foo"=>"bar".*\}/
+/^\{:a=>#<MockObject:0x[0-9a-f]+>\}$/
+/^\{:a=>#<MockObject:0x[0-9a-f]+>\}$/
+/#<Encoding:#{enc.name}>/
+/#<Encoding:#{enc.name} \(dummy\)>/
+/`sleep'/
+/\A(singleton class|<singleton class>)\z/
+/^#<Thread:([^ ]*?) #{Regexp.escape __FILE__}:#{line} \w+>$/
+/\A\#<ObjectSpace::WeakMap:0x\h+>\z/
+/\A\#<ObjectSpace::WeakMap:0x\h+: \#<BasicObject:0x\h+> => \#<BasicObject:0x\h+>>\z/
+/\A\#<ObjectSpace::WeakMap:0x\h+: \#<BasicObject:0x\h+> => \#<BasicObject:0x\h+>>\z/
+/hello#{newline}/
+/#{__FILE__}/
+/#{__FILE__}/
+/\bUnboundMethod\b/
+/\bUnboundMethod\b/
+/\bfrom_mod\b/
+/\bUnboundMethodSpecs::Mod\b/
+/\bUnboundMethodSpecs::Methods\b/
+/^#<Proc:([^ ]*?) #{Regexp.escape __FILE__}:#{__LINE__ }>$/
+/^#<Proc:([^ ]*?) #{Regexp.escape __FILE__}:#{__LINE__ } \(lambda\)>$/
+/^#<Proc:([^ ]*?) #{Regexp.escape __FILE__}:#{__LINE__ }>$/
+/^#<Proc:([^ ]*?) #{Regexp.escape __FILE__}:#{__LINE__ - 3} \(lambda\)>$/
+/^#<Proc:([^ ]*?) \(lambda\)>$/
+/is deprecated/
+/is experimental/
+/Object/
+/a message/
+/(c|a)(t|z)/
+/(c|a)(t|z)/
+/(f)oo/
+/(b)ar/
+/hello/
+/(bar)/
+/(bar)/
+/(bar)/
+/(f(o)o)/
+/(a)|(b)/
+/(f)(o)(o)/
+/warning: argument of top-level return is ignored/
+/begin_file\.rb$/
+/class or module required for rescue clause/
+/class or module required for rescue clause/
+/invalid multibyte char/
+/invalid multibyte char/
+/warning: END in method; use at_exit/
+/regexp/
+/(?<matched>foo)(?<unmatched>bar)?/
+/regexp/
+/(?<matched>str)(?<unmatched>lit)?/
+/regexp/
+/(?<matched>foo)(?<unmatched>bar)?/
+/z(z)z/
+/s(-)m(.)/
+/z(z)z/
+/s(-)m(.)/
+/\A[[:space:]]*\z/
+/(1)(2)(3)(4)(5)(6)(7)(8)(9)(0)/
+/(o+)/
+/\10()()()()()()()()()()/
+/^[^f]/
+/($^)($^)/
+/[^o]$/
+/($\Z)($\Z)/
+/(\z\Z)(\z\Z)/
+/(\Z)/
+/($\z)($\z)/
+/(\z)/
+/This is a warning/
+/This is a warning/
+/#{__FILE__}/
+/(?:\A|\s)--jobserver-(?:auth|fds)=(\d+),(\d+)/
+/^#<Proc:([^ :@]*?)>$/
+/hack/
+/hack/
+/^From /
+/^(?<attr>\S+?):\s*(?<value>.*)/
+/^From /
+/^-(\d+)$/
+/^begin\s*(\d*)\s*(\S*)/
+/^end/
+/[a-z]/
+/,\s*$/
+/^\s*(class|module|def|if|unless|case|while|until|for|begin)\b[^_]/
+/^\s*end\b[^_]/
+/\{\s*(\|.*\|)?\s*$/
+/^\s*\}/
+/\.(Z|gz)$/
+/^(.*):([0-9]+)$/
+/^\[(.*)\]$/
+/^((void|VALUE|int|char *\*|ID|struct \w+ *\*|st_table *\*) *)?\n(\w+)\(.*\)\n\s*((.+;\n)*)\{/
+/(([^*]+) *\** *\w+),/
+/^http:/
+/^http:/
+/^http:/
+/^http:/
+/^[\da-f]+\.r{0,1}\d+$/
+/\AURI:(.*)\z/
+/CA:(TRUE|FALSE), pathlen:(\d+)/
+/(ruby.*?\.tar\.gz)/
+/^_?(rb_w32_\w+)(?:@\d+)?$/
+/^#define (\w+)\((.*?)\)\s+(?:\(void\))?(rb_w32_\w+)\((.*?)\)\s*$/
+/^[[:xdigit:]]+ 0+ UNDEF /
+/External/
+/(?:_local_stdio_printf_options|v(f|sn?)printf(_s)?_l)\Z/
+/^[@_]/
+/^_?#{PrivateNames}/
+/@.*@/
+/mingw/
+/(.+)[\!\?]\z/
+/\Arequire(?:_relative)\z/
+/\A#!/
+/^304 /
+/mswin|bccwin|mingw/
+/^(?:\*|\+)(.+)$/
+/^(?:&gt;|\*)?([0-9A-F\+]+)$/
+/\A(\d+)?\z/
+/\A(\d+)\z/
+/\A(\d+)?(?: *by (\h+))?(?:\s*-- +(.*))?\z/
+/revision="(?<rev>\d+)/
+/^commit (?<rev>\h{40})$/
+/\A(\d+)?\z/
+/\A(\d+)?\z/
+/\A\d+\z/
+/mingw|mswin/
+/\.dll\z/
+/\A(\w+)=(.*)/
+/\[Backport #(\d*)\]/
+/\(#(\d*)\)/
+/^0x([a-z0-9]+),/
+/[\n ]\z/
+/[\n ]\z/
+/^(.*)\(([0-9])\)$/
+/\A\./
+/\n\z/
+/\n\z/
+/\A--([-\w]+)(?:=(.*))?\z/
+/[\da-f]{16} /
+/\A\h+\z/
+/mswin/
+/universal.*darwin/
+/^program_transform_name$/
+/darwin/
+/= "no"$/
+/(\w+)\t([\d\.]+)/
+/benchmark summary/
+/gperf/
+/LICENSE\.md/
+/nothing\ to\ commit/
+/^CONFLICT/
+/pre|beta/
+/^# Total (?:code points|elements): /
+/^([0-9a-fA-F]+)(?:\.\.([0-9a-fA-F]+))?\s*;\s*(\w+)/
+/^(\w+)\s*; (\w+)/
+/^(sc|gc)\s*; (\w+)\s*; (\w+)(?:\s*; (\w+))?/
+/^# Total code points: /
+/^([0-9a-fA-F]+)(?:\.\.([0-9a-fA-F]+))?\s*;\s*(\d+\.\d+)/
+/^# Total code points: /
+/^([0-9a-fA-F]+)(?:\.\.([0-9a-fA-F]+))?\s*;\s*(\w+)/
+/^([0-9a-fA-F]+)\.\.([0-9a-fA-F]+);\s*(.*)/
+/^emoji/
+/ANSI-C code produced by gperf/
+/\A-\S*n/
+/^%token/
+/darwin/
+/\A[^-][^=]*\Z/
+/\A-[OW]/
+/emscripten/
+/ruby/
+/mswin|mingw|bccwin/
+/\Adoc\b/
+/^\s*(?:#|$)/
+/^(\S+)\s+(\S+).*/
+/\A\s*\(empset\)\s*\z/
+/\A\s*\(empstr\)\s*\z/
+/\A\s*(#{HEX2}+)\s*\z/
+/\A\s*((#{HEX2}|\{#{HEX2}(?:-#{HEX2})?(,#{HEX2}(?:-#{HEX2})?)*\})+(\s+|\z))*\z/
+/\bUCS@(BMP|SMP|SIP|TIP|SSP)\b/
+/^BEGIN_MAP/
+/^\s*(?:#|$)/
+/^END_MAP/
+/^<U([0-9a-fA-F]+)>\s*([\+0-9a-fA-Fx\\]+)\s*\|(\d)/
+/^([<U0-9a-fA-F>+]+)\s*([\+0-9a-fA-Fx\\]+)\s*\|(\d)/
+/(NODE_.+),/
+/^(\w+)\s*=\s*(.*)/
+/^!\s*(?:chdir:\s*([^|\s]+)\|\s*)?(.*)/
+/singleton/
+/\[start\] (\w+)/
+/\[start\] (\w+)/
+/\[length = (\d+)\]/
+/\A(Feature|Bug)\s+#\d+\z/
+/-(?:preview|rc)/
+/^(?:preview|rc)/
+/^\{% assign release = site.data.releases \| where: "version", "([^"]+)" \| first %\}/
+/\A(\d+)\.(\d+)\.(\d+)(?:-(?:preview|rc)\d+)?\z/
+/^preview:\n\n(?:  .*\n)*  - #{Regexp.escape(xy)}\./
+/^\{% assign release = site.data.releases \| where: "version", "([^"]+)" \| first %\}/
+/darwin/
+/\A(\d+)-(\d+)-(\d+)\D(\d+):(\d+):(\d+(?:\.\d+)?)\s*(?:Z|([-+]\d\d)(\d\d))\z/
+/[^\x00-\x7f]/
+/^ *git-svn-id: .*@(\d+) .*\n+\z/
+/\A\e\[.*m\z/
+/mswin|mingw/
+/darwin/
+/darwin/
+/\AProcess:\s+#{cmd} \[#{pid}\]$/
+/^ *"pid" *: *#{pid},/
+/mswin|mingw/
+/\n[^\n]/
+/\Anot_/
+/mswin|mingw/
+/^Basic\s+(.*)/
+/^(\d+)\.(\d+)$/
+/\A(#{CRLF}|#{LF})\z/
+/^[^=]+;/
+/\bchunked\b/
+/\Aclose\z/
+/\Akeep-alive\z/
+/^content-type$/
+/^content-length$/
+/\A(#{CRLF}|#{LF})\z/
+/^([0-9a-fA-F]+)(?:;(\S+))?/
+/\A(\[[0-9a-fA-F:]+\])(?::(\d+))?\z/
+/\.\.(/
+/\.(\w+)$/
+/\.(\w+)\.[\w\-]+$/
+/^bytes=(.*)/
+/\A"(.*)"\Z/
+/\s+name="(.*?)"/
+/\s+filename="(.*?)"/
+/^SSL_CLIENT_CERT_CHAIN_\d+$/
+/[\r\n]/
+/mswin|bccwin|mingw/
+/mswin|bccwin|mingw/
+/^(\d+)/
+/~([^/
+/\.(\w+)\z/
+/\.(\w+)\.([\w\-]+)\z/
+/[. ]+\z/
+/::\$DATA\z/
+/-sess$/
+/#(\s*)pragma RubyVM reset source\n/
+/[*?\[{]/
+/\A\d/
+/\A\d/
+/mswin|mingw|cygwin/
+/mswin|cygwin|mingw|bccwin/
+/\.\z/
+/\A::(ffff:)?([\da-f]{1,4}):([\da-f]{1,4})\z/
+/\A\[(.*)\]\z/
+/\A(.*)(%\w+)\z/
+/(.*?):(\d+).*?$/
+/gemcutter-0\.[0-3]/
+/^--\[no-\](.+)$/
+/\A-./
+/^(.+?):(\d+)(?::in `.*')?/
+/buff/
+/buff/
+/\A([+-])(\d\d)(:?)(\d\d)(?:\3(\d\d))?\z/
+/\Arb?(?:\Z|:([^:]+))/
+/[\r\n]/
+/[\r\n]/
+/linux/
+/#{SEPARATOR_PAT}+\z/
+/\A(--[^=]+)/
+/=(.*)/
+/=(.*)/
+/=(.*)/
+/\A(-(.))(.*)/
+/mswin|mingw|bccwin|wince/
+/warning/
+/\)\z/
+/\A--(?:top(?:src)?|src|cur)dir(?=\z|=)/
+/mswin/
+/mingw/
+/cygwin/
+/netbsd/
+/haiku/
+/solaris/
+/universal/
+/\A\w/
+/\Acheck/
+/-l([^ ]+)/
+/\A\$[\(\{]/
+/.prefix$/
+/^abs_/
+/^(?:src|top(?:_src)?|build|hdr)dir$/
+/dir$/
+/^RUBY.*NAME/
+/\$\(target_prefix\)\z/
+/\A\t/
+/\A(?!\s*\w+\s*=)[$\w][^#]*:/
+/\A\s*\$\(RM|COPY\)/
+/(?:^|[^\\])(?:\\\\)*\\$/
+/^[[:upper:]]/
+/icc\z/
+/warnflags/
+/nmake/
+/\A(extconf|makefile).rb\z/
+/\Ablock_given\?\z|\Aiterator\?\z|\A__.*__\z/
+/\A@delegate_/
+/\A__(?:send|id)__\z/
+/\A__(?:send|id)__\z/
+/\Adrbunix:(.*?)(\?(.*))?\z/
+/\Adrb([a-z0-9]+):/
+/`__send__'$/
+/(?<type>_client|_server)\z/
+/charset[\t\n\f\r ]*=(?:"([^"]*)"|'([^']*)'|["']|\z|([^\t\n\f\r ;]+))/
+/\Abytes=((?:,[ \t]*)*(?:\d+-\d*|-\d+)(?:[ \t]*,(?:[ \t]*\d+-\d*|-\d+)?)*)\z/
+/(?:\A|[^\-\w])chunked(?![\-\w])/
+/[\r\n]/
+/[ \t]*<%-/
+/[ \t]*<%-/
+/mswin|mingw|cygwin/
+/^:(["'])(.*)\1/
+/^(?:tag:|x-private)/
+/\n(?!\Z)/
+/^[^[:word:]][^"]*$/
+/\A0[0-7]*[89]/
+/^(.{0,#{wrap}})[ \n]/
+/\.gem$/
+/\.gem$/
+/^rubygems-\d/
+/#{Gem.path_separator}\z/
+/[ @](.*:\d+)/
+/[ @](.*:\d+)/
+/\A\d+\z/
+/(?:\R|[<>])/
+/\A#{PREFIX}/
+/^--config-file=(.*)/
+/^--config-file$/
+/mswin(?:32|64)$/
+/^\d+(\.\d+)?$/
+/^[a-z]$/
+/\A\s*\Z/
+/[a-zA-Z]/
+/^\d+$/
+/\A(.*):(#{Gem::Requirement::PATTERN_RAW})\z/
+/^#{name}/
+/\.gem$/
+/\A[0-7]*\z/
+/\A[\x80\xff]/
+/\A(.*)(i)?\z/
+/\A.+@.+\z/
+/\.gem$/
+/^#{selected.name}$/
+/Ext::(.*)Builder/
+/with-make-prog\=(\w+)/
+/mkrf_conf/
+/^--\[no-\](.+)$/
+/\A-./
+/\A\w[-\w]*\z/
+/\A\#/
+/\A----/
+/<<[-~]?(['"`])\w+\1/
+/(%*)%I/
+/#|\./
+/^\s*$/
+/^\s*$/
+/^\s+$/
+/mswin|mingw/
+/meets end of file|unexpected end-of-input/
+/\A(['"])([^'"]+)\Z/
+/\A(?:::)?RubyVM/
+/mswin|msys|mingw|cygwin|bccwin|wince|emc/
+/\A\w[-\w]*\z/
+/\A"(.*)"\z/
+/\A"(.*)"\z/
+/"(.*)"/
+/mswin|mingw/
+/(msys-|cygwin-).*-pty/
+/[0-9]/
+/[A-Z]/
+/[a-z]/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\p{Word}/
+/\P{Word}/
+/\P{Word}/
+/\p{Word}/
+/\P{Word}/
+/\w|\s/
+/[\w\s]/
+/[\w\s]/
+/^([\w\*\s]+)\[(\d+)\]$/
+/^(.+?):(\d+)/
+/^(.+?):(\d+)/
+/[\r\n]/
+/(\r?\n)\z/
+/\A127\.|\A::1\z/
+/\A(?:[^@,;]+@[^@,;]+(?:\z|[,;]))*\z/
+/_content\z/
+/_new\z/
+/_add\z/
+/\A\s/
+/(?<foo>bar)/
+/\A\w/
+/\w\z/
+/^PASS /
+/[\r\n]/
+/[\r\n]/
+/^([^\[]+)(?:\[(.*)\])$/
+/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/
+/^\d+$/
+/^history/
+/^(\w+)=(.*)$/
+/^#{prefix}:/
+/^rake:/
+/^(\^+)/
+/^ *$/
+/[\r\n]/
+/\{(\d+)\}\r\n/
+/^"(.*)"$/
+/^auth-(?:conf|int)$/
+/rspauth=/
+/\A\+OK/
+/\A\+OK/
+/(?<number>\d+)/
+/(?<number>\d+)/
+/\$(?<dollars>\d+)\.(?<cents>\d+)/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/ab\Kc/
+/(?<=ab)c/
+/(b|a)/
+/(b|a+)/
+/(b|a+)*/
+/(b|a+)*c/
+/(b|a+)*c/
+/(?>b|a+)*c/
+/(b|a+)*c/
+/(b|a+)*c/
+/c(.)t/
+/c(.)t/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/^a*b?a*$/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<foo>\w+)\s*=\s*(?<foo>\w+)/
+/(?<foo>\w+)\s*=\s*#{r}/
+/\A\d+\z/
+/-r (#{Regexp.escape(__dir__)}\S+)/
+/\ARUBY_EVENT_/
+/\A(.+?)\b(.+)/
+/\s+into:\s*(.+)/
+/([^\s]+)(?:\s+(.+))?/
+/\ADEBUGGER__::(([A-Z][a-z]+?)[A-Z][a-z]+)/
+/RUBY/
+/\A\s*,(.+)\z/
+/\b([_a-zA-Z]\w*[!\?]?)\z/
+/\A\s*[a-z]*\z/
+/(?:\+xml|^xml)$/
+/\A\s*\z/
+/\A(?:yes|no)\z/
+/\.([^.]+)$/
+/\\A[a-z][a-z0-9+.\\-]*:/
+/^(atom|rss)?(\d+\.\d+)?(?::(.+))?$/
+/\Axmlns(?:\z|:)/
+/#{test}(.*)/
+/SYSTEM|PUBLIC/
+/^xmlns:/
+/-or-self$/
+/\AUTF-16(?:BE|LE)\z/
+/^xmlns:(.*)/
+/\AUTF-16\z/
+/^\s*\)/
+/^\s*( or )/
+/^\s*( and )/
+/^\s*(!?=)\s*/
+/^\s*([<>]=?)\s*/
+/^\s*(\+|-)\s*/
+/^\s*(\*| div | mod )\s*/
+/^(\-*)/
+/^\s*(\|)\s*/
+/PUBLIC|SYSTEM/
+/PUBLIC|SYSTEM/
+/^xmlns(:|$)/
+/(?:::)(\w)\w+$/
+/(?:::)(\w+)$/
+/\A\*\[(.*)\]\z/
+/:(\d+)$/
+/\.\w*$/
+/\AContent-length: (\d+)\r\n\z/
+/(?<number>\d+)/
+/(?<number>\d+)/
+/\$(?<dollars>\d+)\.(?<cents>\d+)/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/\A(?<paren>\(\g<paren>*\))*\z/
+/ab\Kc/
+/(?<=ab)c/
+/(b|a)/
+/(b|a+)/
+/(b|a+)*/
+/(b|a+)*c/
+/(b|a+)*c/
+/(?>b|a+)*c/
+/(b|a+)*c/
+/(b|a+)*c/
+/c(.)t/
+/c(.)t/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/^a*b?a*$/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<lhs>\w+)\s*=\s*(?<rhs>\w+)/
+/(?<foo>\w+)\s*=\s*(?<foo>\w+)/
+/(?<foo>\w+)\s*=\s*#{r}/
+/\A\d+\z/
+/-r (#{Regexp.escape(__dir__)}\S+)/
+/\ARUBY_EVENT_/
+/\A(.+?)\b(.+)/
+/\s+into:\s*(.+)/
+/([^\s]+)(?:\s+(.+))?/
+/\ADEBUGGER__::(([A-Z][a-z]+?)[A-Z][a-z]+)/
+/RUBY/
+/\A\s*,(.+)\z/
+/\b([_a-zA-Z]\w*[!\?]?)\z/
+/\A\s*[a-z]*\z/

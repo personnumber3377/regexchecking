@@ -1,0 +1,13 @@
+\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00=Z
+
+
+/[^-][^=]*\Z/
+
+
+Here is the order: 2nd
+
+
+'\x00'.repeat(54773) + '=Z'
+
+
+/home/cyberhacker/Asioita/Hakkerointi/Rubydatetime/ruby/tool/rbinstall.rb

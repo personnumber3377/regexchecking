@@ -1,0 +1,13 @@
+ptymsys-wptymsys-wptymsys-wptymsys-wptymsys-wptymsys-wptymsys-wptymsys-wptymsys-wptymsys-wpty
+
+
+/(msys-|cygwin-).*-pty/
+
+
+Here is the order: 2nd
+
+
+'ptymsys-w'.repeat(18258) + 'pty'
+
+
+/home/cyberhacker/Asioita/Hakkerointi/Rubydatetime/ruby/install/lib/ruby/3.3.0+0/reline/windows.rb

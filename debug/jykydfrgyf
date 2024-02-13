@@ -1,4 +1,0 @@
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n,\t\t\t\t\t\t\t\t\t\t\x00\n
-
-
-/\s*((?:[^\\,]|\\.)*?)\s*(?:,\s*(.*))?$/

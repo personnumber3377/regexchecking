@@ -1,0 +1,13 @@
+*[*[*[*[*[*[*[*[*[*[\n*[]
+
+
+/\*\[(.*)\]/
+
+
+Here is the order: 2nd
+
+
+'*['.repeat(38730) + '\n*[]'
+
+
+/home/cyberhacker/Asioita/Hakkerointi/Rubydatetime/ruby/.bundle/gems/typeprof-0.21.7/lib/typeprof/container-type.rb

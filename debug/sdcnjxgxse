@@ -1,0 +1,13 @@
+AAAAAAAAAA\x000\t.
+
+
+/(\w+)\t([\d\.]+)/
+
+
+Here is the order: 2nd
+
+
+'A'.repeat(54773) + '\x000\t.'
+
+
+/home/cyberhacker/Asioita/Hakkerointi/Rubydatetime/ruby/tool/eval.rb
